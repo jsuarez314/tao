@@ -1,0 +1,977 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   38 / width of table in bytes                        NAXIS2  =                   26 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    7 / number of fields in each row                   TTYPE1  = 'HDU_Ext '           / label for field   1                            TFORM1  = '4A      '           / data format of field: ASCII Character          TTYPE2  = 'Sequence'           / label for field   2                            TFORM2  = '2A      '           / data format of field: ASCII Character          TTYPE3  = 'Date    '           / label for field   3                            TFORM3  = '7A      '           / data format of field: ASCII Character          TTYPE4  = 'MJD     '           / label for field   4                            TFORM4  = '11A     '           / data format of field: ASCII Character          TTYPE5  = 'Field_ID'           / label for field   5                            TFORM5  = '6A      '           / data format of field: ASCII Character          TTYPE6  = 'Obs_In_Seq'         / label for field   6                            TFORM6  = '4A      '           / data format of field: ASCII Character          TTYPE7  = 'Cutout  '           / label for field   7                            TFORM7  = '4A      '           / data format of field: ASCII Character          CRTS_ID = 'CSS140602:174959+224105'                                             HIERARCH RA_(J2000) = 267.49456                                                 HIERARCH DEC_(J2000) = 22.68471                                                 N_IMAGES=                   26                                                  UT_DATE =          20140602.29                                                  MAG     =                16.12                                                  HIERARCH CSS_IMAGES = 1406021230884104620                                       SDSS    = 'no      '                                                            OTHERS  =                10462                                                  FOLLOWED= 'no      '                                                            LAST    = '2016-10-03'                                                          LC      =                10462                                                  FC      = 'yes     '                                                            CLASS   = 'HPM LHS_3332'                                                        END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2   0110JUN1255359.31352N23088000111013   0110JUN1255359.31924N23088000211014   0110JUN1255359.32502N23088000311015   0110JUN1255359.33083N23088000411016   0110JUN1255359.33662N23088000511017   0111JUN2355359.33644N23088000110018   0111JUN2355359.33644N23088000210009   0111JUN2355359.33644N230880003100110  0112JUN1756095.34619N230880001110111  0112JUN1756095.35298N230880002110112  0112JUN1756095.35978N230880003110113  0112JUN1756095.36648N230880004110114  0112JUN1756095.37330N230880005110115  0112MAY0156048.37426N230880001110216  0112MAY0156048.37426N230880001120217  0112MAY0156048.38218N230880002110218  0112MAY0156048.38218N230880002120219  0112MAY0156048.39014N230880003110220  0112MAY0156048.39808N230880004120221  0112MAY0156048.40610N230880005120222  0112MAY1856065.44541N230880001110123  0112MAY1856065.45108N230880002110024  0112MAY1856065.45672N230880003110125  0112MAY1856065.46243N230880004110026  0112MAY1856065.46243N230880004110127  0112MAY1856065.46808N2308800051100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4058 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       H   L   @   ”   >   Ô   =     >  O   <     <  É   ;     :  @   9  z   :  ³   <  í   =  )   =  f   :  £   <  Ý   <     @  U   B  •   ?  ×   <     =  R   ;     9  Ê   :     :  =   <  w   A  ³   J  ô   O  >   R     R  ß   M  1   M  ~   L  Ë   D  	   A  	[   <  	œ   <  	Ø   :  
+   <  
+N   <  
+Š   <  
+Æ   <     ;  >   :  y   >  ³   ?  ñ   B  0   G  r   F  ¹   A  ÿ   <  @   <  |   =  ¸   ;  õ   ?  0   =  o   ?  ¬   :  ë   <  %   :  a   ?  ›…h ÌÀn£H#:ŠKÔ@TBx¼/f^ÅCÃ
+Šçxž Š"ˆî(…%	Ž ‡`'ˆ"ˆ¢(›±‡€€ D  ~ŸìxN(„ÿh x^ïã0N¢˜­QsúÁeô§&W'ÏÔ xœ¢ÉO‰À#µ
+|¢_(”IíÜ„` xœ0üy=Žð…hÌ=0
+Ó¶Q¢†Pj2P#‚¤ù˜L`žT(Úz™î¼S€ŒŸ?B‚~ˆ¹Ù ^Ð 8 1…tø  …hé¦§¹@Œp
+ 
+Æâ$ù˜§x^>€¼ÃÔãˆºwƒs¤ùÁñzƒð(O*w…âåæÓÁy€…h ÍE0'0¹:uÐ;/ÉCÄäª4‚dê²N (`ìîÔ1ØáŒÞA¢rÀŒÃäú@¡:„ð¼/…"h v¡‰|†ê}¸IóNÉC¸“§QR€ `ÀíE0h‰†piÁ»dúAJw@¡:u;0…hÌæ`^¢Dð@¡:ˆ+:Š`Ñ9±{Âòe Ð1¨Ý§¨Àn¢ ƒDæü@¢
+“¨‚ê Nâp„õhô€Á<‰ÌÔ'0/®1â„0h^.N$0e¡ûÁ¹Ôê D'Oæ	àd7êÁ„ù¨…hÌÔ'P¡ºsù˜'OZ¨ÎÐ'‚˜@Ò§ÑC3P`_™x‘Az„p@`-0N¢ñ"x 8„õh €½Bu	àO¡|
+Dù§bŸ3Ð(/¦ RFË… 6`¸ 7ÀÁ0@¼s€áxB …h N¢•	àba™y‚} ÔÁÚwŠ—²B}grŸCpg
+ ƒDú(~œH •;È2QšrU@…h ?ÉÌé0x^>fAšŒÓÁ( P#Q¡{6O¤˜;0Nžj¨Á;Äõ'Î”;QRw …1hð(¥FiþN$/0/ÑFª§æ¢’ñ"u	Ì±
+„ê3Pœp˜'‚'V£E&s`Î P …	h@ž•Ç ¤pî Ñ;¤êéµâüÓ¨N`®N8P#P>†ð¨N‘;Á¹1€ÜÃX3‚’ð@œ…h NœšÔRŸBð‰:x	 ˜häêÔC´ìˆ¾”ày ÜqR‡j
+`û‚| P9†iÀ„õh Oô¨b¡Ü¨QeæÔfau
+Ôf¡@t0_Eá `Æ‹¦\ˆ \v«áÌ …h Ð¼"Oœ†æ1PìÔ<9zƒ@$/PŠ“ÁÐ'Bw…õ(N¡
+sÿ(v`¤½äA¢€„ÿh3/Iô/©:‚ú@£8Z €¼ÂpAœ	Ô4ª /cƒéÂÂú“¨O2€üqò|ÌÁ¤ v …x	äÀ°ö€ðþñžuÿ™ñgŸ’~	êÔ.çÑ¡‡f¨N`#?O¡x‘;³`ÎTh¢¤éÌ3Ú€…ˆ	Apy ¯éý?Šxg¾¯Æ}F,ED„íD»$0Í<hœ@Ÿ8'Ð¾ãp'ÍEIàƒ3iÀ…x	`9Ü ¦#±¨SÑM=BXàqÑ}ÔTà6æ¨Ñ;µ	 v¢ú'*Q™y4§:/PŸ3 …h4€|7 Œnò»0‚¦3
+S¨‚éà:<„¨v£A¸Òj¨ÍD©ôƒè3PK	ó0Î …(hÌ(ç)Ì18 ào§ÑEIóN§0gê409NìpR`^£BüÔr`ž	à€¼q¦5 …h :„ïÅÉÓ¨¦æ‚pþ
+Tf¢¡¸‘>p(/lh`L7v¢hÇàÍ=Ð(:…@A{(3P…XAH˜."bÂÐ„0^0‚0¡x.]£P¡G°fŸ¨ /Ò"ySèœÀ½âq!{±Ã'…(h Ì½D(¥:…&ð
+Žÿ ‚
+“¼NBº”0`ÀV
+h>b
+A3L&\Ä0¤ ™Œ‚.…]X@	—È 7ÂÑ€ùÐBtÀ|ÅË¦`r.Ò¨P_š„ê˜'0v^ñBµ¨Oˆ*O‹Ç	À…qhÄiþƒHÀ ¼é<
+5€À¾¥	ÓÎ£DâBòõ‰9„§€psiiËÔAˆ$êÉA€Ü…?h §ù>,/x`r£DúÀ$OJtæÌ NíFiÝ*3ÔO!;üÑŸDéŽõ4{PP ) ÀÀÃ	à…h ÍAÊ‡fÌp|£Dï`'¥DÀ£5§¨¶P‰àR'$ø*(…"yB'‰âx’'"ˆNP¼À*  (0|ôgy>O…5hÝ˜hŸ5àÐÃÔú('á{$ï | +0ù@ QVl'Ê|ïFNðœñ JìOÅO2Dðô¡  Ô  ü#  Pà[(c€ …x*@§“:üŠº*gàŸìÀ‹ŸâÙßÜÀ   (R©þ €$øžž#¸ž(€#(ž ‰âèžŠ!êƒn Q@ XçN/Óà„ùˆÊŠzyLýMúŒX
+ˆŠzŒüjyE—¾|`  Ã@eìrxž)'”Iç’ˆí>)(†Ê$ð
+Õãà` Í R Ç€!æÆï'€ „ùˆÊx
+‰LøM
+z‹,úˆz}þêy5mG¾‡p>  ð '?D<¥=EBÏâvN¢jž£B)  Š9À#ÀŸ(}à  …,x	õ3ÉP©ž
+zó¨h³¦™ôh¤ïò   ˜#Ò=“âxž(Š!8žEž!8ž1€!H¢
+€!8ªÆ@@@¼Z§›bxR'…h Ñ?Åï˜@íD	ÔÛhÚ„ãŒ†ïÞƒzƒ`'“âˆî(‚¢xò'Œ`	’w– ò –¶ƒx ¤Gƒ+Tô¬O
+Dà„úX	ÂáÂé˜:`¸ œ‰xR	Âa²„£'‰Óã°=(ŠIæ5	D¢ŒŒ
+àpG pSØù•>Ox…h@Š P7QcÊD˜'…<
+4ƒ2øIThSÓûÉèEgÀ@DÔ]ÔOgÔTc|À29 sˆôþ,…8…@hÓ¨PŸDú(Áðã8§xŸØ3P™Bx¨‚Âì†ðA¢x{„ÀíFj ðàNø4Bp…h /P`7ÑF‰Ì ¥Feè“¼NÊÆáòx v8/·0PŸÔåæ'/Ux3ƒ5(v``70€G	À…h¼<¨€Á<Ó
+ÀíA*‡Ctéà²Dêz`#ƒ5Ô'Ñ>fBˆ'ƒHf(…h;0/âxàôÂ`Ñ=IÄùt
+¨/y+QvEï Í@ŒpÅ8‘;³j¨¨0/Òh8…h v Àn8®â}haY{´ù˜;Q"u
+Áš†µAz‡j…èÔgôœHœäÃDúÁ¢|Ç
+ 8…'hÞ'BuA Ü,Q¤ËóPî‰äP^£è3PÖ§P F£H$Nð¾“ÚŸEâüÆâ('ÑAx  …;hÔ@žà\Bu(Oâ}é	ÍÞÔ(i v¡äàFarTæÔ(d`œo”x3 …h Q ÜÃ8Ž§‚VÚ!z„ë ÌÀZ8/PÅ0<N#0Î@’x \ž@F¥æ	ÔA˜à…hè¢˜3P¹>pTÜ$ú@ñ;°(ZÚ‚ø(aÜ(N¡:†Ð'Oê–è^ÈÁ< Nž•À„ÿx)èFO§¢6zp%h¨ŸKEDúšÁhÉnê=èephž(mtõ(v¡\ d˜@Àž”ù‚ „õxÔ`gxêžÉžNŒð*ÀÑŸæ†@°Zãz~ŒúÍ<q"w(PöIÄ+Ù…&'1Na(…ˆ
+‰8	Ý
+zØ	J‹ˆ¬üú‹Ê‚6è?ÁNï¨÷Ð¨eiàN$iª„åþ¨Î;‚“	Ô¨€¿äï …Dˆzˆ¨Ï}	ìúzˆª‰:{-°@@=À²ÿŽ¢žÿè§¡p  ÀMÓóÊ¢øà^ÑŸDõ ]Ñ¢ …xô@»A=‘Þ‡ô]ÑS?%p@ À1¾¦}Þ†z™Ñ€  @€ }|ú.À€ ¯š‡ôgÑî§ˆ	à…x*g½Ÿ:„õ3òÏ˜
+ïhP@ÁOE8ô=u5B@lwz$è¦ŸmCÞ‰Iê>g÷¢ô …0hæ¡Š‚óê3PJ¢>/0OJƒ'§ÎÔ0€¿8@n9N#1PîàÍEP'ƒ5'@¢ …h v£äù˜zâtéÔAJˆh70ƒ%éÙ@Cau(P_
+éP ¿h¨O
+ã…ï x @…h ÍCï ©>j¨/0øn pŽàtžçP¨màPž¥	à…F…äÉÔí
+À¡<„åâE €0…h N£äð(bB‡f	Ì	`ÌÂðä£C‹ô/gæÌ>/>P(ƒäð(K„åê4‚õ(ÁÀ…&h ?ÉàOðàn F` ¼êf	Ôæ“¼Áû²öÜÃH)/'{{
+LÔ@ŸH‚ºˆ‰ …hgs…åf'€n`¡ú‡f@œÁìÀ^Ð	áùzƒõ(õ@Va4˜;PìÁŠuA …hf^a ½¨:…'Ð¼êðƒõ@_è€ ðžøß¢Æz™ùgøŸº8óÔPYÑC:È …X0\pÁsðPºpPºNBLB‚pu`41Ý>ÈôržNŒú*@Î¡ÅCÞzz*g…h@£A¼
+óQ¡~Š7Ùƒ Q’s	`Ò‚ h€ní@ÎŠ*/N`R¢ù˜(/úÔf F …h ÍG¥ï¢ƒH P#Ä	à:/PŸÃø*N¢P¡@ §N^ÚŒàÍDpA°hŸ5'ª …X@lÆ ¡zÁH@Âp\‚‡Áû€ ÑpB£B€ :Üôû%úz*@÷¡MC:‚,
+z)èøïÊ½                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4061 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       F   L   >   ’   <   Ð   =     ?  I   =  ˆ   :  Å   ;  ÿ   ;  :   ;  u   ;  °   <  ë   <  '   ;  c   <  ž   <  Ú   <     ?  R   C  ‘   @  Ô   >     ;  R   ;     :  È   ;     <  =   ;  y   ?  ´   K  ó   P  >   R  Ž   R  à   L  2   M  ~   I  Ë   F  	   A  	Z   @  	›   <  	Û   ;  
+   :  
+R   9  
+Œ   ;  
+Å   ;      ;  ;   :  v   =  °   @  í   A  -   I  n   G  ·   A  þ   ?  ?   =  ~   ;  »   <  ö   =  2   =  o   ?  ¬   >  ë   ;  )   :  d   ?  ž…GhÁsÔ@¡>ŠÁ¡y‚‡iíP$/y‚ýL*(‰å˜‰âéB;”#)>‰áèž€&HP²>£(Ú à	ü %ð‘øø'…6h3O'x^òóôê O‰`y'yÆSçpB)(€@"rxž©'‰À!2Š…C¸ðÐps'Ÿ‚À …^hóQ¨w†AÄ	Ó§PD¦à—˜N¡ê@öŸQCÞ…ú™ôgÙŸÚ‚6x	Š Pðg9§íP…@h;0/Nt_ˆŠ$ÓÁ{Äè”@¡<'°Á“¨¨v ½A‚€­BsàÀ.ƒ5 Qwj'…@hguÀBuEeê €¿1ÁªˆŽ v¡  aÀ…iôN`žú'€Á¼Aô1Ã¸ N¡Ú…©À…hhõA¢u
+¨wŠ8/xŸåu˜@7:‚ üÓóçù¡>Ô`@àhÏË?¸^ …ThûŠÔ'y‰ïƒ5¨/Q,	ý0O èÁÌñ=ã;#¾ˆ	ú=¨Y‚|àhÐUxcOrÎ…TX@F
+„ËÀÄ ÁqÀûÐŠÀ>cP„Ñ8Ž»ƒC…	ùP¡<	ô0¨Q)ƒ³° …,h ú¨Í<
+ ƒ„ù˜1ƒ1Á¬
+û à½ñ{	»Ú ÒÔ(Ÿ'<
+3€Á9yƒ"üÌA …OhÌ3ŒÓ¨< N Á9zˆ N£5'ŽÁ“À£Ôðæ	àÒê*0¨O o™€…chç…ëè¢˜J_„ê¨‚ê3N'¨hô0OåéÂ!º…	àQ¸':/x¢üÔg …OX1 áÌ) ‰u Â
+0\¹ˆ+Îh†IÞ'bœÀ¼Á;Qòxh_¢€…ch»N¡Cu	Ì3O¤†ù˜f¡9€A€ÝBqÂt¦À'ÎSèœ™:ˆ˜'Ü(¥B¾†Ô;P…JhÔ¡ÜÉÓ˜'ƒ4÷(Ñ;fuæ¡Ù8/‚$jÓ¼N¡Ay€B8vaštê>O@…6hTŸ3˜@íEÉóQLÌÇÔfŸH,0bø ƒ8Ç	Ó@í@ào§yÁ¹‚v*À./…@hú8N …C³á:tIÔAì
+Ç—¼/x^ÒxÜ+Nñ?ÉÄƒu'‚“¼O¢“¼NÄp…@hú8/PB8ÎÓÀ¡¼ /Q¢q ~$ƒ2ð½´Pð¿E§ÍC'‚`N£Dù¨¥C±Ã …5h@a™ƒ÷…ù¨/(N7%0/P`7Qgå?Ðf F¢	à0Ã„îÌ3Pžj PFp,/…IxÔÀÈìiôô@Ñ+<÷TôhÎ ŸžH´2tÿ@ñ;±Áz„ðA:wf§Qµ(€nðÀ® …?ˆ€ØÐx€[yôúpPuºu	ýØE)Ìô€H¼/Á¿j3Nò W‰Ä…ù˜7P…Sx3‰ € ° Îp3À¦ Š¡ï<¨3À¡AÝB}¥/PÅDi¸¼QÚ€¬qœ	ÌàÑ>…âH8N…]hÀ8€€€½:}ÌzœÂÓÁµ@Äp_H83PœÃ4ð@ìpœÀ¶ËÇ	Ô(V8
+àÐ½Br …IhŽ¼€æ	Ý˜'PJ q <f¢>O
+àgf À½Úˆ ÑBxÀì§P¡Z‡f8 QÄ …Ih PâT;‚'úç±ÀA)†iã0hÀ`$N#<¨Ð¼É>pAÅÓ¨ƒ8 N@œ…5h N£Dì”f^^3ƒÕf_œ(v¡‘~‰Ò@Ê˜f7ÒóÔ;€É;¸¼O‚„ði„÷¨…Ph¨O†0@Ä¾JÁJˆ­;N¡>j, OQ„
+àN`ra™€åF¨Ñ?Ð	Ó¨ÎT …dh	Æåê	‹àƒè Pz¡áÃ‚ôëS…‰Ó¨vœòN8‚º~ ‚
+`ÎTg	Ä‰þ/y„ù˜5P…nh<ÝÀÉ>j)PíGEú1PíD°;0€½âv‰ÛE§Í?<Oô	Ôk3Î 0:‡J …nhàx_ê‡j)P#PEp|Ÿ5`Ò Ñ;DïñÝG½à|Ï&þ“ô@ö¡¢% @€X¸	eô- …Fh Ð¼ÂSÁ"÷‰Äð@LázÂ÷‰ôPíABz‰âˆÆP€ 	Î Š îP”"Š^(Š 	>(„å{h"@- $@*p:·/BÄà…2h x^8€ZœÂ
+ Í;‚ó¨y…ïZŒÔ ‹„ñÞ,Åï "¤O‰ñB	À	A	â<'€ Bˆ) '5¸j@%€h	Ž“ž’Âp…dxõ4,À©žì<g§Ÿ”™âgŠôúf @  
+òÏ¿]Š#¸ž€#¸”"‰>‰ç‰Þ€ 	Búø l“€@e_œÅ …(ˆ
+ˆºŒh	:{,ý
+yz‹º¬ù:ŠÊŽHxÃ  j  ‚A; )î¯)(›Óç¥>ñ £Ê)÷‰ÜQ ™|`€ÀÜmß¸ÉÀ…1x$¨'è‡æ†83ÿPÏ£ÞŠp%(SÐ²¡ð    $0áÿÊÓå‹¼QO™Iì”ø¼¢y ¬Ô „ÀÁ€8£Îdîó9@…Ex8ÀŸ$
+µz+ÀÏ¢žvHªôT ÀAØøì'€@ T¢w œ]ìôOÈ} `  2  Ô£“Ìå …OhT:t''‚#/€Â5Àa0'PÐÂvuLŸ'‰Ô zÔžw(ˆIàì‘ s 3  §¼ 9 CÝùEn …'h'<p@D	Áœ@Fƒqt@Æ	ÚA1HAO»ÎàyEQ“â.òˆÊ(ø*Ø I	x"7þùEn …Th ‚àÜÂç*4Qº„éÌ ?°gÒ|Ó‰†ñÉQ §÷ÏÐ§Ï¼€”ÏÌ€Ð÷€¨¼€+À8d½>|ý@…Th ‚p8  `ð92|Ô`¢ºˆ OT@É;µ¨lÔ €	Ô@¢…ùÁ(Ff0¸3N70ý@…@hf n¡!†ƒT@¡ø €¿2ð±8µD‹Þö˜T¡:x;ƒ8¨/0:sà0N>j'…@hÔ@œh^ñ@µD	Ä'ƒ8'õBx>ƒDû@ÎÁ µ:„ð—¼ƒ8¨€¼ÁBˆ3/D	Þ'¡8…JhÅÉÓ˜;NaP'‚þO¢xÔ'ƒèö(lËÞA`Pž•Aúsÿ”@_i†iÎ‹Þ@”À…JX@DÄ ¡sÔ!Æ€KBó.`>s˜gfÀœêõ'Î
+ ÃdðAÔûD`…Jh ¦;QšvIà€D H_èÞ';(¨±;i	ôŠˆL4/$P_ €GÉÝ¨&‚ã¥ …"h)0Á¢ŒÆçJAªw…ì”§p8à–	ìPÎàPÙ…*¨Àò
+ÔAÐh`RÚ <C€…hR¡â‚X4OJâˆ—‰¨/IŠàNadšu
+Ášˆ €½â†jÔ;P$Qj}þPíBõ …Ehü£DþÀñ90ÜHžˆ˜;Nap‰Ó—§‚È5
+è_¢…ê v¢´æ	Þ'ÑCUAJ|ÔNœ…Ox9g¹==C“¿Ìèæ
+yà('¨k0FpgOOÑBÁH‚á @nàáxR,5ðà|…Ox.çPÐAPÐŸË=MÓê<à<@L0pg/ÀÐ¯¡ž@˜gˆ˜	Ëà­<
+f	Ì‹ÞÕ˜ …fxýçùFp%gÐŸyC>z*h= €° 1€¾sÎ´/©Ff;/ø½<A¢w† ÌÀ‰C´þÁ …fˆ
+y:‹¸
+ŠŽ=¯}˜
+yM	JuÐ àÀ0úÎ¡ ì‰÷tT0Ð ¦ÿþu°*h÷‘=?½ª ³€…fx	ð4gíâUõ0>g‚X  @ î ®ï&w©¡µCB€`€® ;Œ¹þ@ó¢œ3ÀV€ïCƒ¶p…Rh /Q(/”@L^íBˆ¨ 8 n¼èÔ=Lò @Pà°7ƒ;nzŠsÓC<Ð @ã¢™‚p…Mh Ð¼Á:‚÷˜hÙ†jã„ðZ`—§ÌÂA» w…’€¬¿2ñÄLj	Tf /;Qœ‚òE …%h y„åæÔ@#Q¤À¡<˜i Ý8’A»»0PŸ¥és ¤Ã5'Ñ>	Þ'Òàð
+ …CXN
+@¹ˆˆ >„ \ƒEáË˜&3µ	àPžÑÀÝ:ˆ(Å:u@ìÃtê Ñ:…  …Chg'N¡:„ê N`^`<§Na„ã‚¸Ú„ð@£¤åêÓ¨ÅAz†Eï ~¡A†iÓ¨` …\h öæ8§xD¨ÒðhRÀ (5/bôï ‰Ô˜@^'?0Ð¿E@¶ °¼½F‰È …Hh %0Ñ;ÅéÂÁº‚öÉÞ@ž‰âO¢ˆ'[§ÀüN ¾ x7àÁÜ¨w È¿H O¢r …Hhz`#ƒCj4˜¶/ÍCÈ¨Æ Q„)ßæw€@ 3M=ÝCÞ…uLôôTÏO9>¤)Àˆ …Hh{;0Í>jÌ./x£2÷‰ß¨0/D¨v7 €.àÖŸ=Þô1èù£Þ†˜3À¦žøž…MXÔÂ
+1Ìx<À&@¸X¼ ÄB}  nR^¡<'ƒƒéÞ¨‚DêÌ4ƒ„à…aXv
+„1&`ì!‚päK˜ƒ ƒ§ '—¨O	à /0‰ÌäPFfà½@…Mh ¥>Š3O¡€F-ƒ30f8¨P^L_r›Æ‡€ ó§çÏSB\ôh¦¡Ý=BàXÎ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4007 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       G   M   ?   ”   ;   Ó   <     <  J   <  †   9  Â   <  û   9  7   :  p   9  ª   <  ã   :     <  Y   :  •   ;  Ï   =  
+   <  G   A  ƒ   =  Ä   <     ;  =   =  x   :  µ   ;  ï   ;  *   >  e   ?  £   G  â   L  )   P  u   Q  Å   J     L  `   K  ¬   E  ÷   D  	<   =  	€   ;  	½   ;  	ø   :  
+3   <  
+m   ;  
+©   :  
+ä   :     8  X   ;     ?  Ë   ?  
+   F  I   F     @  Õ   <     ;  Q   =  Œ   ;  É   :     :  >   <  x   ?  ´   ;  ó   ;  .   >  i„åh§N£H 0§xŸ…'C´ê¨&/Ñ:‘Å@<=ÉñDIB‘<Äò„W @=Vœ| ÀW M€$s'ÙâØœ…!hüžâBó¨v£„éÔ'PíBˆ4PÆBžt|žQ'Ê'’‹l¢ ÓåMâÉP)À¼ Ô€Ì9ãÁe …h ù>iÔAœŸ¨‚ N¡Ü
+Àœ’ÑNt÷yêgøïSD=ï@x€B€à’òþx …h ¥FƒqÁx’ê†Æéà‚éˆ*: hÉ†æ	Æ‰Ý¨v£E
+Ó¼‚˜ ‘†pR¨O$ …h ¦ Àa…
+Þ^¡:ˆÀ À¼¼ê¸ ð3À'9ƒDéðgˆê 0b£5Aœ§•¨…h ¦àÒð(Q†ð'Na¸ DA€	 `Ú 	ÁI~j#‚¨ÀÝD¨ÍE0;‚”áayXà…hÒaœL3ƒ84/øÀF8Á¤§P •Fj€(h œä¿80N¡91x‘;U'd`žª OôÔl …#XÌÁ8'Á@l¾ ¤2`¹‡L&`0a”Ø—é„ð'úZžÀœÁjsââ÷‰ñP„ûh	`‚T'ƒDúÀa3‚˜@È½Bvƒ†
+Ô&—ˆ /0©Fj§Ñ?ÉÌÊ P^È½D†à…7hÉL ‚Ôê xœH_ìÁ¡y1†eõŽØ¡S/˜)ÁðÑ„ËôÂ…Þ/‚v ‰p…#h* Qj‚ôÿ(Í@ŒÃ5'Î O ‘:x'´PF‰Ò'w(3N Ü(P_tzT@^Pœ…X1íã†€Ù"éÁHB	˜/àƒ;PC±Áš‡…õA¢| x^Lž.‚T@^8…h öÅCphž¤ð'Ò“'v8/Na„åã„ì¢ÀŸtã„þ¨wˆ¨ù>j.O˜àæäf …h ªý(xŸÕ	Ó¼/ÑE)ôQtæ	Ô(O9ƒÀìp>
+§õCÈ7ƒ5#‡j9Nñ;	û€…h õA€ÜÑ>‰óQœ
+L¨&/P^™@ŒpJ¡ÙƒÕíE0'QòŒËôQšŽàÐ¿åÇ	Ó˜R^8Or€…h ©:„ëfŸ5˜ÀðnMBŸDçIÞ@õChž“éþO¤Ô;wp|ž(/‰‚u†à…5hÔŸ5'P_‡jAœ‹Þ@õ>';¤ì¡=JÁñxà½ä'(Os¢÷‰àQy1yyô …!hz£4ä	Ææ
+æ >/Áì@üDœH_Jˆä”'dAy4@îÓ¨OT—Ž /ú%à…x8ŽÀ?ùÓäèöñK=<ú 'è¾¡Ÿ=Hô_€¦…‹ÀÂp„`8]Bó1åÓ1£	˜d¸…&x  & À àåøsÓÑUá>x4HE4ø$@e	éP¡;³ø>/xŸð(‚Þ(õF‰Û'…&x€ ‡€àÎïŠƒˆ0 @©BDp3çÑ~—¦.œ!¨B‹§N	Â¦‡Œ …h* P  ¼o`x1y„Á¡}gÄê° /d8
+ÔipUx¨x^¢àÐÁ:qhã8'…*hü`$/˜æê¨*áyÈàFœ©Fp;Q…êò&]è&_0ä‹˜/£0#ÉsÐ€…h“A™€ja|
+¨Z`@rÚ‰S¼ƒ4ê PÐ'øÀH7b^ñC@j8¨©BtäÐÁHá:}Ì „øh@_*¨/Qš‰L'©>eåJ3O(±;@¢˜…ô—˜AI~Š'QÉƒµÀ¢0<ú€… h±0/€™:„ð(xl	êPîCw‰Ô@¡9àÝ”(¤ÀG¹…0h²u|_¢`Nañ~p8P…Chà0èD'Ñ:1Ã¸‰àPkˆ=9€…Chž•
+Ô(Œ'l9‡ª ƒDéÌÔh¡©€…ChrôéôQÇ4æ‰Þ;N¡A¬
+ ˜AäìíAÊƒéÔ''lAyÒuï@awjEà…Mh ÀìÀ¾;Dq$Çú†Éà‘y‚t¦M?–z gE7„ê8è©‘à"økÎ¬ž…%hôƒH@#Pòð^ Fašu
+.N¢Sª‚b”ù”ž)(§Þ.õ
+,¢É'´ÉêLž)Pî7 K  ¾Í·¸ÓÀ…7h /‚=Qœó‚A‡pH¡âtæÇ‚
+ŽéøÆ(„äøîx…$øò(¨)ù†(€"xò'ŽìŒ8Ž b€€@ -ð–A÷\ž…x3§¼@•£Úƒ…Dý:)ÀÎñNMÍ	åÿ€Ð % p¥v³ê˜ž“áH¢;”!8¢(“æâ(‰ã¸¢ž5çÐˆÀbà|oœäð…-ˆø
+x
+‹*{¿Š}	:yZx	:Š?
+z€  i  ëƒŽ†Óàx¤¡ “Ê$òyT) ±è$ú1¨À iÀð×±øz€…x
+ú3ÊÏïFˆôRÏ¢=4cÑDæ  À  ”  OƒÝ+O)ŸQOQO)¡wñ !ƒ`F€3Àï
+üýý …
+hh_„éÌ ¥8X^™>‰Ó˜fœªÔ;0xÀ PIk÷Óå8Æñc€Iê¸(€E … f  
+àð>ô®O“€…
+hgu	Ô(/ùFpBŸE	Ì3•h7Ò"ú˜à¢'˜åÆ(Žà¢ „à‚ € R ž4ðÐø
+|®iù\ODà…
+XL¹p@pºpz	‚ Œ.`¸!`¤„ É‰‰Ô,’Š|ž;O“Ê 	E>(¼SågÀ)€H//ôû¼b …hè¢ñ"wf`ÎÆ5	Ô˜Àòf¶OjÊ„ý<T>†|G¼ƒÞ €0 à÷O§éð  …h Ñ>‰Ä‰Ý¨‚ÇLjÀìp˜iÄù§’P¢¨ ORtê¨v`–{€ƒà8j7'5P…?h §xŸEÔ(ƒ5Ašwp<OYƒ³j4NŽP¢¢õ	ýP8‘>pE	ê0Î
+@ +PJŸEª …h§0˜A	Ä‰óQ
+‡iô€H^Îõ	ÔŠ bø OÑ|
+ÀœÃú@ÄÂ@^8Áœ'…h@^òÌ¼OšˆS‰ç…þ'/PAƒx<A@^¡áy„Tg1zˆ	`0OTÀ| …hÅÅú¨Î˜kˆúA
+ˆz`7‚CÐoŒÔ'Pž v¡x²0/€p7Ay‚u À…h ¦ &Oœ
+ va©‚‚úSæ^\ž@œÂBöxžï¨OÅú'(P^¢¨Á‚ñÀÜÁBq@ …X@+ÈdÀÙ…©óá(_FÌ|déÄù‚u	à0ö /0/©@âåúAw‰Å€…h	`Î
+TfŸDú@êæ&ËÆÅú'dŸEÀÐ(Îê ¨0ªéÐA“¨‚÷…æ	ôN@ „úX ÂeÔ0¨}3
+A3N˜„0™sà]¨2‚ý yÙ„	ØŽÁ'd¡Azˆ˜{p%0…6hæ£4â"÷j30Í?ŠÁRˆ ø
+ Æð(è½ 0w³
+à?Ê3/€Âþ¨‚ðiÑ~%0…x
+ú3ÒÏAE8 {P“ž… °LÂº}LèYÙáz„ã€ü‘< ‚¡¾p;0?Åê 0ƒ4çIóQ‰x…6xôgÑKFtúš*'ÜPc{:ƒÂÐ&pã{»V†Îê €‘Bsj|àw…À¢iêO¢wÆ …Yˆ<D¤]D~…<¥<ä>…D Ïpx)óéð >Œéï@Ü`c{x%@§¢N†5
+zô]€ž¡Ò …xóè©æ} g©=‘ÝCFup € Øàx3§çš úô@P ‡ `/’ôg*½³ÔS>`hOè …1x	ÿ3ÓÑs== {ÏsFŒð41‰ \ÁíßÜ'vÐpžÁ€ š àOšw‰é‚ô§xâ} ¦ N…	h Ñ8oâ¨ƒ4þ'D
+3Q áàÜ+Q¤¨lÓ˜˜Œ ^7xâv0'Qòw‰óQ¡{Ç¨…hfBÓ¼PÅ>1P¢àÑ:(@rœÁ8¡;@¡Ü˜¨ÍA*xKô‚“	ÏàÒ
+ € €…hæ8À ^£5§Îdê wŠé2rñÃtì¡FpgÊ3P-PFÐi'¾ ö 
+  …hæavæþ¨Ò
+ PŸ5§'v ä'PŒ½ž'ypK±ÁÌ
+Å‰þÚ„fAê‚ð@ 0„òXR1ˆBS	ÁØÇ¦`0¡p¡ 'Í;ÃÀñ; QÓüa¢r³ðTA†æ „òh O†°;0vD'‚æ§D£840Ñ:ÓÌ	‡=ðg°f Vaœ“¼OÌ
+ ¦Lœ…X@¹ˆÀ”‚…á ±rð„’.¤€ ^¡ö00 p$ ÜËó/eŠ,/ÒT;Oq‚x>‚ó(…h x:Œ“ÁÂõ
+¨wŠ4Nˆ¼H_¡xàzÔ4
+@ÑP	â»½MSÞ3ÇN2~ˆ³û{EM¹À…h ÑAz‡ªô:†*4ÚŒÔK…ï N8Z“Ž‡á8Ü,OL'A¸>0/‚å@r£Dý'…"h ÍF‰Êày‚ý 8¨Pr£8(¨‚Ô'0aÒƒº¾@Ÿ5˜(%Na	Ô@ŸDÿ¨„æh4O¢‚¸4€À¿0@¨N¢•Ü£5	àÑ:ˆ¤8h"9.}ì@Ñ¡Fx´gÑ?Ì÷ô                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4040 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                P       K   P   F   ›   >   á   =     =  \   =  ™   <  Ö   <     <  N   9  Š   ;  Ã   9  þ   <  7   :  s   :  ­   :  ç   :  !   ;  [   ?  –   @  Õ   @     <  U   ;  ‘   ;  Ì   :     :  A   ;  {   =  ¶   A  ó   H  4   N  |   P  Ê   Q     K  k   K  ¶   I  	   F  	J   B  	   >  	Ò   =  
+   9  
+M   9  
+†   =  
+¿   <  
+ü   :  8   ;  r   ;  ­   ;  è   @  #   B  c   F  ¥   D  ë   A  /   <  p   ;  ¬   <  ç   <  #   ;  _   ;  š   >  Õ   >     <  Q   ;  „Âh3LŸDÿA	Tfœ˜¼Hž¤ð(Ð¼H µ<
+\ ‡pž$Bx	â4'Š¢(À'  '…><GŠ©úD¼ . <Æ‡@ù?	À„åh¨I	þ‚ï €¿å	Ô|ŸH˜@`”½Ax’¢xN(åRwŒ R(Šbx …"yBO‘§ŠÑhTèê oàø£õ9Þ„Ñh4Q	Ó‹ N¡Ìô§N8b¡Ù‡Æ	à-D&ñ‹“Æà¹D*d“Àd÷}îQ'€Q¤ûE TðÀ{Á/ø¹DL„ïh /p£3 †b8;ÀÉC¸>O¤'N pú*'¡çùL4À¢ž.¨|P‡ +‚Øp…hÁ€ÜI0;0Øqs˜3€•CÂñpÝä(/P`Ê3/#Pò
+`€¼¸½B}èaì % €n+N^^`„ühiÎ 9‚x @ašrX4Z„ðh¢&/xŒ8ÀŸH§&N`7L ¼qê}‘'Òbø°h^ „üh¨%Bsê žj*Ü¨‚‰ÓÀmf Œ8xîà/|žé“¨OR}Z Faô
+5/ÐÀ¼„òh¨ôÃ2÷g‰ôNÊ	÷0˜@^`že
+8 8:ˆ>ƒDù¨ƒÕAjsú”<NÖÌ€…hiÁP¤A™…‰ÞÙA‡æÁz…S¨
+88Bˆ>ƒ4î Naê‡pt naRw‰í/Ò „èh30bœÁ;³à#0;(Ì¨Í:„ðn8áÛ'0Úw@^ú ÔA¤ w"ó§Î€„üh3Šˆ¼/ûBLÁ2|Ô'Qƒôð3Råà™…!À€Ùx@rÁHh€À:]H&„èh@sÂýf`Gz F`D:ˆŽßÀ¡D9|@ìÀÀ?$ƒ5¨‚àÍE0h`˜h_ „üh3ŒA¢w˜h_RŒà=P¡DqÁ~ð(Q(˜'‚@ž Í>ŠÀüÃDäÅï ¶ N…hp˜'Q„ê§Ò	àPnjÁ¡xè¿3Ú N`^DÅEêÔä§BxR¡< „ëh4ƒ’õ‚õ(BŸ8ê”A¢tðh`[f±zƒð@œÂpt_Š”géÔ˜'GÉàà„ëh Or‚õA¤( P_š‡fÔgÂýÄ`¢˜.`¼/—1áÂð06`€Œ˜„Ãh¨0§€IX@íFNŸH4ƒ5Xh¥à\Ä0„/ @D¼ (\ÁtÌ€X>¤ „áh4ƒ•(/Øãtï@^ìp+äÓ¨0J¢õ4¨õ:…5'ê	óâ|`Pœè¾¨‚€„áh4²"rò÷‰ß¨Ðpœ½ÚŽàÒÓ˜Au	Ù4Ôz¢ï§Ql
+‰÷‰ß@AÑz„õ(‚`„õx %@	üÄzp!ÀÑzyÒ Sw&g§¢´ú.´Ì)PìÃ4ð@D7F'ô'dŸH£‚óÀ„áˆè6xàãc¢ô à)à *8ê!à/*8ê$éï 4=ì–	Ã&‚eá‹˜.˜ ‚Ð0071 „ÿxà x€/ƒ;¼÷ |Ï£<õ3¨'ÀÑïFˆô"²„æ
+Ôf`¨ÍFeê &Oœ'Î /0[	Ç „×h€ááx§N¢¸'AzÁ	Þ'P_˜ãÖO„iÄ…ìT;Qœ
+ b£8“»Qé‚rùL¨N„õh¨$ƒBñ ßEê'Q~j—À£H NìÁ“'ÒÌÁQ~‰Ì =&§ª
+L˜¨‚`„áh4QäàÑ>j	Ô@¡A‚rýÁuÌ»0%eÄf^Êj¨OôÔz`^¢“ËÑ'0Ø„ëh4L	Ô<ƒ8?àÜq„ð'Ñ:sÓ“@î
+™9‚r%siÄ‰ôÜ˜¨xŸ8>O¤(Î „ÿh4/†	óƒCàv¢ P8‘:sjÀìÀ•”(ND<¨v£H4/&‚âDù—“(ÐÀ­>ph…'h /t^#'O¤¨Ð¿Dã…óO âÿAšzš.˜é‰ôN¢
+`0‰ê*PðÀ­>p@…;h €Á¢x¼‚´âB÷Š Nñ@V¡BqÀßè¨õ QHà¾Ä‰ôOÁ‡'N†8ŒÂ „ýh4€R£5§P¡Š} Òü¢ú@œp_Äì¢¢S?yO)QOQQÇ¡³¡w¡ƒñÆ F h2¼5Ëú{„éX'L(]CÌdºNä¹‚àRÌŽ™<N»ÄåIE>QV“Ï)ð˜RŸ6”Dô 4 ÐP 'à.7÷}H„éhŸ¼NFf§N£H3Oò‚óÇ§N¡ààTÎòdŸ1ÊÜÊÔñÉðL	Åt	Þ  ¾ ˜ ì ãÅ¿ŸÁ@„éxç@ùžj9Þ41ÀùŸŽŒêš*;ÀÐ   u,ò›Ùà8€!8'€$(¢'€#B<‰æ™Bd¼€ô v…`Û~F÷|:„øˆ¸
+ÊŠx¿Šx¬úŠzŒûÈ
+ŠyJ‰í
+„ü f À 0¤8ÚÏ{€E)ð¨N”Iå(Þ¡”T‚ˆ <À$r_O¢€„øxàDÑ¢½	ê“àhÑÜ=¼qP€Ÿ¡à  <  ™/ŸÉŸ)qOOOµoñðt °Ðd!Óùñ@„Ðh QÂ}¨Oš“Áˆ4/Ay2‡j`€, 	¥@ày=BY¼IàžQ€J$ñ‹Æ0ü M  ¡€<	©“Óã „øh§áCµ'ÅÉà‚3‚†ÉóO™†fÌw °IäðLž œSàxT¡'´JÁH g à0 ç5mîð
+(„æh'æÔ`î§¦;Qœ œpÕBu&Ÿ ¼M¥9<N(€Mà9DÊO ”@*Â`° SÀÛ™üüî¡c„úh3PC‰Ù@#0°½â‚büÔhÜ”'N*N¡>‘P®÷ã§“Ð÷€˜€¼§²§¨¨÷P^<È$5Ëtüž„˜…hc‚ïÔ£4ó§‰ýP^£Hj	G¨C ?xÐ<‚âüÔ˜;QzˆÉ“æ¡9„ €,ƒ0ü#O} „ðh3Orq"Tf¡zŒÔ2NC¸4ORŒÇÌBñ#@#´¨Oµ
+ /ønñ9„	Á 3—ø: „ÿhÁt(NB}”APg©Çz^ À¥Ay‚….™vAP¸!pPº`€Ü5 \Ä á „ëX)`\Ä˜.±ˆCP€T¸ „ D¸!ì¡ÚŽ`PŸDê +0x7Î	L˜¨‚
+ O à„¹h	åPFpAU(@œoé†iý€Á9(²„êT'P nÞ ½CÂñ"z`x7P¡BrBüÇ@„õh PjœpŸBõ%P¡E&	Ó’˜Ô2/CX Q›'EÉàN`ŸCõ'x^ñ?Æ5	Ô'PÌÁÚ „ýh O!‚xÔ@R‚ñÂtêò£5§Ò;0NÊ¨f£HÔf¡ŠˆÔD(‚ê Né<
+€„éh Ni‚ñÂrôê”¨:„÷(ÍCµ@¾!zvQ¢†iÞ@>Š)N¡?ª@Œpžê¨Ôn`œH„Õh4QÂ„ð¨P^úàÍ;È%ƒHÅËÈÔ;ãAšv	Ô˜AšŠKóPÉ:u'P7<©ƒ3à„éh'á:ˆÔA0gj4xÀ,ŒÀ^Ó¼/Ñ`¡qæ \LÆCêÑ€ù†!Ì(^0N „óxôOS:6vDøP=ÀEÑRlï
+À€ÆÚÝÔô2„éèNñ;%	Ç ¤À¼ÀGŠ¨vøáÙ}j¨Ð…/xú;À§¢NŠpT)ÀZw©¶x`' pd ŽØ¡=á“À78Q â¤åê`Of§X7@Üc„ê€…ˆ
+zxú‰8¨ÌùjŒúŒZŠˆZ‹ÏÔ€ 9/QŸPùà@á¡àpá¼5ˆë: @:‚^Š)ç÷¢ä „ýx3ØÏñ?”5
+Ùàh»¢º*<h„ ðowwPÐùà@ðð /<1>ˆ	ð3À|ÏíCÞzš%¨@Pw„ßxÞàSPãžœDÿ$çù¡91@ÀÂ¹=>¦vGO§¢îƒ à`
+âÞt½ @ÏQCÞ‰èÙê@£¢‚x„óh3N8/Î“æ`Î…ÿ'ÑEÉÞA ã4âx4P±ƒÄþ¨00Â´ò'0‚îÌ4Oœ¨Î”‚ „ßh4N¡<
+>O¡yÂ‡j=Q~L¨Í;ÄééÆ/ÒUDùÀEåïifAyÑx‘>0( €„óh¨Az”àýCµ”'QÉx‘>‰ÞÆ‰ôƒ6ƒ8'ÑFp@œ‚ÓéhAxD_¢}   „ßh30N`^ŸCéÓAy2Œàn¡Ú;Qx”hŸ5'd^ nÙ8¾¨3P¡Bx=Qœ˜' „ßh4<
+</B’ñÁÉÞ'ÍF‰Þ''/Í“»hŸDõÀ¡²} ˜h:ƒú”g'f…h§ÑBuÞÝ'ÒLàXŸB÷†3†	Ó§dù‚ÄÆì`O%Aêw‰ô‚©Ô@‚à0„éhÞ'CÂý:O™}F@;Â÷f`¬Á:uŸá€pL+TàEÑÜÿ3ÔB.ˆ
+
+ð*'è„ÿh3PR£Dÿ@A¢Š wÂó3Nð½ˆÀÊ J #q	Ô!Q5ÇÔfD	Ôrž€„ÿh¨BœHž˜ Q5 Î P_¢}¨€n¡”<€J±¾eð'\¡A~iÄ‰äNñ<	ÓÜ¡:Š@„ëX@À:Ã&¨—Ô `Á²æ—1È‚laqP Ì¼+˜'™:…5	ÌÁœ‚ý Z`ž@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4016 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       G   L   @   “   =   Ó   <     <  L   =  ˆ   <  Å   :     9  ;   :  t   ;  ®   <  é   :  %   8  _   <  —   <  Ó   <     >  K   B  ‰   ?  Ë   <  
+   :  F   ;  €   <  »   :  ÷   ;  1   9  l   @  ¥   H  å   M  -   O  z   P  É   J     K  c   J  ®   F  ø   B  	>   >  	€   <  	¾   <  	ú   ;  
+6   :  
+q   ;  
+«   :  
+æ   :      <  Z   <  –   <  Ò   @     E  N   E  “   A  Ø   <     ;  U   ;     =  Ë   <     :  D   @  ~   =  ¾   ;  û   <  6   >  r„Õh yõ@D	ê0w$úAé†eï	õ/0‚¥©Þ(“àé>Œ‰à¢‰áYBcŠ ˜¢Š(NAr  &@Ø sà\z¨“À„Ëhh^Yµ@ñ?°ü^ ÀåF<Q¢sú&= ±ÓäR‹â'(“Éå2‰E?-wÆ]ëœ…ð Â`\Xnòy@…hù˜˜fŸH4N@ž“ó*3ƒ5§…CÅ&4üYêgdÏŸFœð$ç¦ñ3A0 .@¸Ï.êÀ…hï —¨€ÁÜÄêó/Í9‚ŒÓ§'Or…
+—°/'0Üê b¢ó(0€æ7/Qš€„éh¼€¤ÁBug $N7ƒ83P o¢ˆÀ¢å†€¼F_D§QfËÔRBuÉÔ@`^ðn`7(„ýh /0™8@X9…êÀ>ŠÀñD	ó´``ðüoâ|Ô<¨‚H3‚”ê!ƒDâHÁœ@„ýh ‚	“èŸE	à ‰ PœF£Bñ"sùÁq€X^òõjŽiÔ#ƒ8>P<Ð<O¤ÀìÀF`„éhh_ÒºÁz„òA'P^MÄôÁ¡E Ü+01Qœ‰ ‘>RœÁ>æÔ1;Pžf „éhéJ¨P_y €Ã4éÌÀðoôah¡¨À™C³X@FpRœÁ>f¡ŠŒÓ¨Ù€„éX0`‰ˆ„ `™s„‚&ƒÐ€}ƒ.Ù˜'Òu˜Ô#QÀœÃtù˜1PíBx˜ „ýh@7\œpž¨‘:ˆÀ¢)Ä…ì`QtêÙ„SÁPf¡bx c‚ñ} ¥FjÌ €… XÇ!8(^Ì º‚pj	—R€‘„Ë±( §XœÁ=J¨9QS§0¶AÁ»„ï€…hô‚84OwŠ(……ï Î¦ÔÌÌ'ÍC{iÇ‰Ó¨©<	þP nÉBx‹àN ÀF£ï€… h Í9buæ'PÎÔ(//0™F‰à‚'ÍCS¸éÉàNL ¾L§µBƒA‚}€… XA@„À¹Á3xXº†!ð$`lÃ}pHŸHG	Ó‹†æT_†ª áx¿§„ìh@Ÿtæ@ŸH2€n3:rÈ¨õ:…Ì—±‚söê4Qš„éÎ†âBúŒfLÁš‚õ¨ÌÀ„ìh¨Qº„ð(OœA{Âø¤:S¨PÞæAy…éôQ¢x'Òh wâý ÑBtâ¤ù—€… hÁ §Oœæ*ÃÝDj'úIj½B„÷Áš„
+>/G©àQjŒàO‚‚!¾‰À… xã€ˆ8á\æ ï;?ÈóçP{x¢J~Œñ {ÐÊ§P@^$¼‚À=J OjŒÌàP£¤ù§…xÉ`°
+ c Æüð4}¡=kE8sÀOnÎ¡/EHJa ß¨(/PœÀF£H=/AÒq!{ÄïçiÀ„Ýx	‚@	† {å÷}é'¼@ExcPë¡>
+ÒôTOfPf¢Ø':ˆ4P#‚¨‚ •Ff£5àÌp„ñh‰ 0€	ÃüÓ¨J|Ì*Ù‚óÿ@íDŠf¢æ´\pºPp.ñxBÐ€„æ© „Ýhh À½A{µ@™>A™z'ú¬Nð½™(N¢Ôú'ÌÁÜÓ‹“—˜Mp</€Á:Œà„çhi"ø ¥>='Pòj§v¡’|Ì
+à€Á½N$P®u	àO¢„ê ‚ë‹ÔÀBˆà„çh‰ý0‚•ÄIàQ¤1Âù¨%Nò	 0/j”f8Œ?PœÁ:u'@ÜÂÂôðR`¡<@ „ñh x^É>j=9†IÔ(Otë‹Ô@Ê¼NÕAš‡êà0NaœÓ˜AšƒÓê	Tij4€…h4ýQ¢`QÕàP b`ž
+ ?h™A¢| Oð	ñ"s÷‰ú/P¢¥Á¢|Ì …X€|*a8f±áà„<]2à„.ø œ‰†pStð@ Áš} v8O‰Þ(d8Ì½Ús …h§€”p#€\_~ ÐÀ½DçÉÝ¨O ‘?æÌŒ
+p/@Ï¡=C:‡=Óêh¦Š‚@%A0	àcwÏ …h Î)Þ'ù;Äë»'Ú‰`'Ñ8½‚tæ€@$ð©<RO€DåŠ|Ox»Ê$÷ˆ˜ô Ä@ü7|]<„Ôh4/ù>Š)N$š'ÍBˆ3•A¢‡‰Ý˜~8€T‹OÀDÛÇ‘<) G‘<±'À<Ÿ<IñD(eÀH Æp Cà¼`ûÜ „Ôx>gÑžœP=Àí¤ê@A€¡ Á ¿£è   !©Å|Ÿ(DñÜ
+JäŸDð¤ŸDô–7 ø€`
+P¼ô¡îøœ„èˆ
+‹ºŠŠyH]	8½
+zŽ8è
+zzvÐ   BA	ÎPäòxžQ§Å Ê|òQ€Nå*†Ðè¤³  ôù8„òx4'Ô˜ NPOP÷° (SÑ;   @ ´rÞRRžRRž"Rž¢ž¢kà¬À£ à9Çë½gð„Êh˜gx>€¼Âè@#0€½i„Ô(Nè € 0Q)©žIìu	Ü¢w ‰Þ!ø¤žQ'€T&HÀ® f /BŽ ]ÁÇiñK¸„ÈhÀ(NíCæ
+§x^`¡Ü Í:ƒôâe
+'OžJ'rxœž='ŠIíRyÝBc ŠJ3HÀv `€ð Ó·ksñI@…h Oê4OJu
+'v`>=0v¡D	ÔlD€Y%;¼îQ“ÄåÙ<òŸ€Nï¤`R Ü€+à%âŽ†À"rp„úh¼€f8Í?ª4Nò;/P ÄÁ:„ê /ÙBˆ#=AO¡OOwŸyOQ=QÇQ
+LÀhþ2ÿfï@„æh<€f£5ŽµA¡ƒ²õ
+`Pž	Ì*@Åæ
+ /N$€æ ™:ˆ)Q¢tC€°‡àv^Ä½ä „úhÀ z` ½Bw‰Ô'0OšˆÝ(Ð½âsÀa3‰Ø¨àN¢‰à’|Ô700âtéØÁœ „æh@i„éôN`œÁ8o(w±Á|‹Ì geï1QšˆÌ¨O*‡‰È ‚Ô'PÄÁÜ „ÜhÁ*ÌèŸAÃµÔ˜jžê €ÀµC¸8ARuæAœ(ø¼Ið(/0O¢i„€„ðXAH0¤—.¦aCÃéˆ@¸|0œä	ËÙ'Qˆ /Haš ÎAz‚õ	ôOQ„€…h¼/Á>Š*N¡Bu	Ìø;Ú;0R£Bö9AjÁòxn¡ÜÁ…Ià‚’ø'0 …héê3NÉ:„ê˜'QtïÞ(Í>)PìÁ©N¢j4/†ð(Ý>Sˆ!¼ÿA‰à0„øh ÍA™†j=PŽ˜fœÀ½á~j4Az…Àž&OšÓèž¥@þ=Qšrh3‚”êj4P…hôP’j=N`<—˜</Ä(/@”ÂŠî¡âS˜á©ôPL^ð¼™A|§Ñ@„óh xžh'õFp'â} v¢¤á` ¸3“¨ÍCz`_°(‚ï‰ô9†…ðf8vž4ú€…hÞ'šê*Nòðhá{Å“‰ `8NÜ;ÁÂØB„æ€‚fpA0B.¡r†à„óx '¡@ù¢ì
+p*g¦žLOÑRÐ
+³@`OGÏá˜—À¢e ææfê'ÍD	Ô@îãŒ§P…ˆøØ	JyÝ¸	Jy8Lø	Ý°, ´ølå½D»·'¨hŒð
+† †7»§äŸ=Lõ4@Ï¢Dõô3èÐ„üxþgÝžœ
+‰ì$èÏŠ„3„@	 ZÎl	áã<÷¡â`X0HÐ'œÓÜì‰ü S=CÜ	0)èÉž€„üh;N¹;È3ÙƒAL	Ô<P$ à"N ¬÷¨€½êh§pHÔo¦Ÿ>š‚*ƒ)ÀFO©£"{&€„üh@_Ñ€Üp#ƒH)‚äÅïf¡9Ò€­9\¨hAƒƒ¥åãt
+À.N^¢ôéÇ§Na‚ „èh@`À¡>faIy‚z`Ñ;Äê ©>‰Í v”(‚(Oì	Ô/Nað(½Az†Ià0Ç` „íX10@nó!ð‚àu!˜.b°/Q	öâtæ§|@Þ	Ñæ`KŠŽ   „ÙhÓÇ ¾s'@Üpä	àÍBqÂÓø¼À½FÐh<¨|7Pœp^¡<¦—²ƒDë” …h§0W‰Þ@œÁÚsý ‚c€¬Ã5
+CtéÚïb_¢x P^ª¨/Q%Ô¡Ù‚ …hê Ž‰ô/€ÁÚˆ Î Í>f¨P‰9zv@4Q°~í<'0K‰à‚
+“—ÀÉC¸¨y …h‰ù0N –ùB…	Ù@ oâsõ'ÐÀÁ;²÷¨ððüoÏÆù”à('ÔPOÑM=“>„ýÊô „·X Âpô \x/‚ö`¹q"é‚.¤›Á€p®_ÝäÀ£L3¨S€ï¡‘?æuô•
+z …hÞ(5Q¢”'‚È3OQ€ÜÃø˜1‚'N¡´P 
+ËÃú OP(<'ƒ84/P¢ÔêÀ„óh xj‡j)P ½¡~Š*/‚
+ ü^¡FiÔ'gcÂ Ý9°'Ñ|(ƒ4æïÂÂõ	íQx„óh N¡…	ÔAxÁ<æ	àN¤'OT'QuCÀXìá?çO÷ž–z)èÏ¢îŠ4'ÀÑ‡>ˆ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4060 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       E   M   >   ’   <   Ð   =     ?  I   ?  ˆ   =  Ç   <     <  @   <  |   ;  ¸   ;  ó   :  .   <  h   <  ¤   :  à   >     =  X   A  •   A  Ö   >     ;  U   =     ;  Í   ;     :  C   <  }   ?  ¹   H  ø   N  @   Q  Ž   R  ß   K  1   J  |   K  Æ   G  	   B  	X   <  	š   ;  	Ö   ;  
+   <  
+L   =  
+ˆ   =  
+Å   <     ;  >   8  y   ?  ±   ?  ð   ?  /   G  n   G  µ   A  ü   =  =   =  z   =  ·   <  ô   ;  0   ;  k   >  ¦   @  ä   >  $   =  b   =  Ÿ†–h4OŠËÄ‰óP¡=PA*4/L +2Pœ?ÐÀIQ<'Âq<‰E¼µ Gp5IðÇ<G’„mÜ@´ € nàLµòZ~P†ªh /yê3D@J¡ÚG5
+`ÑGÆqºÆqQ;Oï €€î÷”Ï¨»Ð§§Ð¨¶P€@  ÷ kœûµà†–h á}
+Á :è •F‰ÌL'¦'N2S—¨® &O¡}ª4/	Ó¨æÀ€'z{S˜ †±h=PìÀ„¼ÁAzˆ€ü½:„úÌ OˆçJ4hÁ¢„)à:ˆ ÍAzŠ”@`;Å	ÔÀíBp†h*Pî`Bu	Ç
+ËÔ@¡Ü@B¹‚vJ ñ‹ÎKóP1P¢s¨9Ò‚ø}'Q{ÄéÀ†±h	T'/	”;Nñ<(P#‚'0O¡€AzŠ  ¡Œ  ¼ƒ¨j30/ƒH3QJˆ§0v¢àÑ:p†‰h'Q ¤q¢wiÌ ;È :‚õ˜;N8NÊ  'Ò`xÙ‚xj	“À¡<Ô(Nòƒs †Žh*ƒBõ‰Ì %á|
+ €äÂ§(€½:†JŒ Fœ¼ÀÎ ÍFf§Ò
+ Ð¾¥
+Ä…ê 0p°†¢h*Qœj˜ÀòÀ`Ä¼À½B§€ÀnÉFl¡Úˆ H^ ÀFœH^tŸH*/'€½ä¨Q †¢h)Qš~é(àÀn ¾öF	Ô@`í>‰ÌêP¡“§QrÅx40Çè^'€À•@D
+4ƒ84†¶h§ÑG
+pT¢æð@t^^8‚iôP À•<Btê'N`ìÀ½EP<€Zœp`¨ÍB„îàÐÃ0†´h	`x7$ƒ83Pñ=)ôP#0Ñ:ð(Îë”hÉýP;%À¡Ú„*4/ªª4N¢éÜ˜ † h*/ÑC3Ä‰óOJ‡‰ÝÁ˜àÝD	ÞÀ`R£6Qê…	ýN§QšsdîÌ=‚ý(Ñ:sõ €† h*N¡9"tê ƒ4äÊ¨/P`^;Äîà€Á
+…
+ábð.ñˆLÁ‚ö‚pÌö0¡‚ð./ †´h£º	Ô'/'ùC´æ	ÓÁ:gx&P““'N¢”ã„ïæ	æÙƒ4€Ù>‰ÓÀ ½Áz€†‡h)P¡@åF†
+²O‚õ
+ß(À^—…;cSè£Ø Oò‡j¨y¸4/\£2õê-N †‡h)¨R¡Ü'ÍAÒº‚õ	à|ŸH ƒ870Ñ‹ýQšL “(v¢4ú@$/Ð¾eA	Ôtž †›h	†ád—¨/§QHÔ;N`_w(Pí;óíP(PÅ;Âòh QÞ(P^D^ ½B‚ó”€†¯h¨ À€€¾0'Qðá:|Ó¨/Tä	Óè£x h*B†)Þ@Æ¨'vœÂ‹Ì /P¢“§†£ˆ†@  ¼¸ù÷pz5õµy÷tòõìaRtéÌ“¨PÄÁ<À^8N_†Ià‚4‚˜3†Ëxs‰  2 àwOöžÉNu÷tgÑ.¸Þ)ç¯¢¨P72O N`î
+À ½Ò¹‚x4/øÃ0†™x´h
+ƒxŽ ÇA=kB~r}HÓþh©ž|™ô4¨O ˜n¢býæ£8¨Ñ~jA¢v&À†™h*P^8gyƒ´æ©Ì²/ÒfÔh:ˆÔ@ÅäÉÔ@!@_ô(v¡ÜA˜;N¢ü^ð†Šh4PîÊÁê„ð'N3N¨ÖXàFœ°½C(PœÁDEù§:O™‡¥ú(/ƒ1ÃÓÎ‹à‚”ú †žh4Oœ§0ƒÕð'0ƒA¸‘;¢ôê3Q¢s3öQƒñè£Õ—²0¨Našqð2‚)O †žhîÓºNìqêu
+)Oš…	Ìú˜'äÓ¿ì`îÁ¢z“˜'b¡Ù‚x ƒSÒ£8)Q †²hâ5S‰Ô¡:”f ½D
+ÀœÃH4¸€Á‹Þ@#0sj'PŸäùÀax5ƒE§Î”'†Éh'v7$Qƒ•§IˆãŒÓÅx <æ4T;dæ	Ô'QüAòŒÔc¸ O‚ð@€†Éh4»V:”h¡\
+ @Ai‚x˜Žæ<Ùý¨9¨h:†{ð3À¼ñMÝšàpÐ7ˆùÔ3€†—h30ÐnH^` !Q¢qu@^¡>0»ÄîÔN£I€B®öI<²€DåùD"“Ö ˆ–ðŒ€Ää `À‹¬ð	Ø†«h4/'®ê¨¨ÁAzx(r`Fj¨œp$©>½ž&8¢#€!I>Š"ˆ¢G“ãÈž
+”$øR²;€Ä Ê ¶  úÀ;¿§á0†¦xôS~L÷ h®Œõ3ÔÎÌžÈ$]wc€X  â“ûG±áHž‰á9BYŠ"ˆ”(¸¢	€!8\¨<Á\ )€ ¡À•Û}?	€†~ˆ
+Š‰Hý	:
+ŒüÌúŠ{º‰J‹è	Oˆ¦<¦‚` ø   THðîÛØäò9=’Ÿ	”@ XRO	€E*J‚X3 D`×	º Š †’x {P¿¢¤Uð!è€Ÿò}t2@•?@€ @   .@ Ç .Ø÷pu0´÷•ºuÀ¤‚[ƒÝŽ³¨Ï†’hÀòÔgPAAº‚ðh^`7ÙFf˜' ä¢ý»¼î,§Äåê|Q”E$ó(ROÀ+ (€ X®(üyÜ¢î†¸h¨Í;¨c„åæ	È“éÉÓ¨šf
+ ÐnàÁÝEÜ¡'ÀÜ¡ÅìO
+E\O ELQ E¢ø€ ÄÍ ýÍ>Ÿªe †¤h'Í@–‰ÔA{T</¥BuÐ;‚ÜAœÊ'
+„gP“Ê-²ˆœž(“Ê!2ˆ£8Ü ˜ , Ðr¯O¬Óô †®h4‰ò0Í@ÝFp@70¤¿5P˜'3 Íà(<|ÎKS<¨óÈÑNÊ„	†   	 
+åøt{†šh3PîÔ¨ÎÐý´äP'€Á>…ø@ñ‹Ç
+§x_šŠ‹àPN8˜S
+˜(Ñºx¨Ì†¤hÀ¡<&	àey†à//+PîT@©ƒ¶P`^òðh^Lžõ¨G°f8V`^ŸåËÙA †¸h4/:húaA¤¨‚5àd n8´¿FP^a¡|ÀÅ<
+	ÀŸØ‰Ë ¨¥Ff¦À†h‰åÆÀÆˆÄ‰Ô'‚àO!»ÈG²ˆÀœÂø>N×
+=O¢‡æàesS`†¸hàÐn\`î
+`Cˆ ^Aœþ¨ÒS¼dð'N8‚ø)àðÁ:ThŸ÷‚Ù@ †¬h*¨7€ÀoRqÁxPŸAÀÜ?ÑDhŸ5	àN`íŒ	T@d'0/xRwfê'N£8*Q¡zã †„h''¾'‚Ô;Q€VœÒÔhA|´'N¢C f À¼H72O¤'x¡B|ËýQ¤@ †¢h	 /0+ƒ8'‚p<Nð½âš…g‰óC(ø¿5@ž'€L^`7è¡àÝD`ÌÂdù€†zh	 ‚…ï õ9„	ôPîj¨P`îj4:˜Ì/HàbÂÔ‚†.^ N‹¨†ph$æ#/Pœ\7x¢déàd n¢X ðeååì 0dáøá:r¤ê±0Îê3ƒE¨ÌnÀœØ½8†„x´hO|OÑžö™Üt<'­;¼gÚ t˜ß>ì8Ô@žU(¦à^£8¨v8¨P¢¢ôã€!00†˜x”àOÑSEÜú $èÑžRz†~Ê €,ò[¼”÷†/‚‰î0Pž•x,‚3ƒ3ãÿ ˜.@†Ôˆ>…½Eå<íG¾„5?Å<TF
+€6 À<~ñ0Ÿ¢ÑÝxržâ~ˆàTŸEDôhÕ“ô † x |w¹¤ÙýÀÐ Æ¡ïDÿ4 H Ä  +€ç'E7Ê„óà @<Túp3èŸ<ð('èwxwxš¡P† h=0Í=pi*4<‰ÀŸAÁ€  n»±¸ønñà"¨'¨6@èñ•>¤ú gÏ>Œ4hOÏ¡ã¬€†–h*âzàÑAÊ…æð(ÐÀ+€ÁFpîÌŽ²re	Ó³ˆœ¨Ž˜Óéy‡jÀ¢ 6O˜†ªh*ƒA¹$¨¥9|'v`î
+fé}CqÃ5(bŸEs‰ó/PaÚ„ð˜'pà@†ªh)O™†EïÔ¢Á™‚tê²/@ÅB‚øàà|wù”
+.çø APÎžµÞêóÀxc€¬8@†–h)Pð¿"÷Š=NœÂ“p'P¡?°</ÇãBøÀ¨y°gÒ|àc2ƒAºê O¤ p†ªh=NœÁèã5©‚x@ñ9|(©;Äõ@8Ý;¶<@ôÃ8À¡AÊ„ê=Q¤µ@òc€”Áà†–h*Pž”f‘zˆèœp^C%4ìŒ ?N#c 0ƒR÷pS…T¨©>p4P^aœÔ50Ð†…h(Í;1Äã¼
+Ž /õFf—Á( 0#NñÓÔ£@&—ýçÏæˆ=ÀÑƒÜ*ôcÏ †™h*Nñ=jÀ¡:ã‚ðˆoœê :/Q ¬q›ÀÑ @:‡ö7„ø4@€KPDjð/@OxKÑœ†·hÀžDêè`^žÀ=#ŒËìN8“A¤ê4hŠ …<	ô/P +3éÌ 3P¢SÀœy`†h	 OiÔ(˜Ž¨vŸäúvž`x_8áÛ@Þ(§C¸'ÒàPœ¼Â4ðGuÁ°†­hÀíFEã‚ÿ PØá<Aœ¨@F%N`Ê3 `¬	Æéó/C÷|ŸH0/²O™{c`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4073 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                P       L   P   B   œ   =   Þ   =     @  X   @  ˜   =  Ø   =     =  R   =     ;  Ì   ;     ;  B   9  }   :  ¶   ;  ð   ;  +   ;  f   @  ¡   C  á   @  $   <  d   =      <  Ý   <     ;  U   >     =  Î   ?     L  J   O  –   Q  å   O  6   I  …   I  Î   J  	   E  	a   C  	¦   =  	é   ;  
+&   ;  
+a   9  
+œ   :  
+Õ   ;     <  J   <  †   <  Â   ?  þ   >  =   A  {   H  ¼   F     A  J   <  ‹   :  Ç   <     ;  =   >  x   =  ¶   =  ó   ?  0   =  o   =  ¬†ºh¨NÁ<'Ð½ÄÔT ½FªÀÅBˆ7N`aqŽÀQ
+b|<ž'Âˆ ‰ðNA8Q
+#Å¤i :  vñÀ7†éòñ>;€†¦h(Qúx ©>a V "N@•@à¿åéÔT'NñD B‘<OP@|C Gr„'Ì‘DQåÀ¨
+\_ŠGâ€†°hpp¡Úˆ :¤ê b¢¨Na¡†…ãs
+#ºŸ?ÞúžR¢&ŸC>ÖBžRž¢¢·ãáà@>¸ï÷“€†œh Òú'O P5QS¨/t¡<A¤	àC•ÓóþÑQÝ»B|	° <1èŸ@œŽïR †¦hh¼	ô€À¼ÓœÀ¡>Pf£EZÔ11~eêŒÎ“æ¡pßDï@£’÷(P#Q!| †ºh¼Oy‚tîÁ ~a N7úñÀ”Ã4ú'Ñ;ÈCá\	`P£Ôú'Ã}¼N^ ú‚tï#0Ì †µh¨ƒ˜Ù'x¢x öj	§&Q¤ N 8%<[wÁž¦thìÔ ]O€ñ>µ	9éÀ²¡N †¡h@^|^ ÀZ£EiÌ ªië'PL7Îà‚ (`ˆîÆó§x‰„`ž@7^`î
+SéÐi †ÉhÔAr‡iÉ‹ôNQuArBýÂ(Ô;0NQ{´äfæ§ÌÂ2ñ$Ój/‚=Q¢I‚u †Éh ˜r F8cŠÁzL§¬Ã8*Bq‚…ì1Á€Þe8#€H^t^ðn(<IôOtê †±h³	àv¡Bs¹²téàPñ9wj Î©àPÕ'€pR^$/‚ /N`œÀF£¤ïè¡@Üâð †Ùhô‚x4N¡:„ó(Ž Pí9|Ô˜;R‚õÉ@Ý<ÆÀ ¼Iy„Aµª3Q¢u	ØA †±h 0/h_š…	ÌÐ¨N¢3PŽh^`_´Ì•Á2tãŒËÞ@œÂú¨‚Ó‚x Oâs †ÅhÇç…ù§0N^* Q¨˜(Oœ
+ À$/P±u D¸ ]H)tátL>b1²åÁ †§X@p?# "a8t¸ËÂ$]H/ AH5P;	€Bu	ÔhDÔ']p¨0O”À†Ïh Ì¼É<1Pòª ‚—Œ“»0OÄéLÀÇPf^miÔ(NŸ5A¤(C³p@7Ö †»h;‚%	àõF†Kàä'E´ã‚ñ ÝRŒÔ7©Þ'êøƒw'0N¢'j`ð¾ïêa¡x†»h;0GAR|ÌÀ¢p'J_š„ðh¡*ŒÔ0µCÅ°AÄùÁx N_‚r(3B}ùi †¯hæ
+3çz qctéË ÍFpiéÄ‰Ù9‚x7ƒHŽfÓé
+ÀdŸDìT(PŽð †›x
+Ì °eöHt('ÓÑàÇ“=8 WÑO;Áð<ƒ5Ì
+Ô;uàTŸE§P ¬Á< †Ãˆ
+{Ïèp_€Gœðû5ò™õô”ò•puúu¢x˜;PBˆ
+Çð@¡ÜG§dœÀ¿‚ñ"p†Ãxþ< €þøŽŸãŽ}à@Ñ“=LþÔ)èÿ¦†v¡Bs3'P70FœÂã(Í=Ià0à¿1À†ªh Ðpðp‡ù˜A*ôAy²x Î ÝBtì` F¡
+"}ç ¤qœÀ`^@ÜpK…÷(0/†ªhÂÄú'ÌÃ8 /“»0ÌÁ<'/0Î ~ ¼pÉÔf¡rqæ`)QœÀaéÌá~ŽÌ † h N ½D(/PÅB„ádðL<
+ Îà0“Àìp>Ó¨OÈT(NÄÁÚsÂõ°;€¨¾ †Èh N¢à0N`œå9‚ N`RAzˆ4/ÀÂA{ÅÅãu
+ v`B¢ç&´/€ÃÒ÷"< †¦hAdéÓÔ¢30N¢”ðÓæaRsü¨v¡©Qœ˜¨¨¼Àn4NDAôïÔa¡zñÃµ †¦h  o ¥A€Üé:sÌ§9P ÀFŸH'P²|Ô7ÉÞõu°¤N:ˆ˜ O¢h 
+à(Q¢p†âh Ün‰9}Iô/yz£H3€À¼™>‰îƒ4ì.N`^ÕCÂÿ”'0À$¨PGj4OI€ào<Dà†Îh Nx	TipA$ïó<ÉôOÈ vïhOOjÑíCŽ|êêhŸ>uÍ4àÀ3üodÎ†°hZ‚§&A~iÂõçEïA ÝD©ó€@)ô™D¢'”Nê	D•”Då	<ñh`@ À| 9¡‡÷Ê †Ähæ£•¨cx¿B÷@^Ê„P§D H*<§äù>!‰âˆ(‰á9B8Š)øZ‰ã¸¢/Š&L`FÀÀ 	P J¿¿€†âxÿ NOÎ¡&ÌÿÔý¨TÆÈÊ	éûL Ð  
+›½ÁÀŒŸ<Nó$1ÔÄŸ	ÅlQ
+E\ñ
+m¬ : ñÀI$oYÉà†Îˆ
+yH˜Ï{È
+x	8ÌùèLô¶†|5à€  hK˜ {ÂçO¸Óàˆ¤) ‹À"rˆì¢ÇxµÊ6œ‚ìüÜ=(ºP†Äx	ÿ3ÁÐž¡ï9ƒ:.u´'À  Ÿ¢VŠzT   ˆw€ä?D|¦…>E>†}Ž…=:ã@, ªd83Î<8†Äh v¢ðA¢sªˆ ©D8:Sè´`OEçr‰žQ À$õÄ¢ïPÀÔ%zÕáh  I nžìÝâ’p†°h x7.‚êÔ(%;PsÄéh^L£2þ`x¢eøBO€@'’x¤G'ŠJ!P	DžÈd L  ?Ð  x»³ §ÉÀ†Äh xœÄÀ½B‚óþ¨v£è§F| FatÔF~‡&„n~|§º3>Ž¢N£Bž¢'áà  G€ Ïºfž †ºxÞ ^Ôô|O©¢,À_PÈîÈîðŸñ>ËÆ|ï¢#ù~tlôÔ`TÑíAA  ¾XW Ÿ¡Ü†Îh§Òx ;Â÷ƒ„ðf^ ¾1ÀDh`BBvQu@^ \7ÌÀÔÁÚH	‹ô0Q >æê †°h 0/L^ñ;ÈÀ¢Ôh^F	Ä‰ô‚ä&æ^8:µ'ú	Ö¨Í>Š§&N$/Q³àÍ@†ÄXB3 (é‚áL>`¸Áu¨.Ì!0N¡9šSz„IÄ‰Ý¨PŸäú¨áxÐ½âp†Èh wPf`7ƒDï(A|cz„ù§&PíB—‚fÁHdÀÜ ñq³0\¹è@¾L8@ †´XAH%à^…Ó1 @À|À}h„&\,\p»'âsAJþP$ú¡@Ýt	þ˜A$
+ †æXà\´!˜.¡‚æ  ~*`Ì(\Äx3Äù¨R¡:Š“¨N.æ`K‚r$âBö&5…ú(†–h¨„¼À½âsú'P£Bõñ(/f¡<—˜@Ù¨Í9r‚ôì”@7ùC¸ P7(Î˜'4/xœ†¹h P7Aœ	à0/ÐÁÚx¨Qbx ©Dô¨ÌÁ…ª¨8P7O¡x —˜¨Nax /0v¢äð@†Íh 9Ø wˆÌf'/QŽÔ(0dœoÈáÜÉ<	èPFp'Ay„	Ô@^4N ¼ÂÓ¶N ¼†‡x
+3¬'±¨|O€¡ ¿¢Æz‰ë*<
+Pqî…öb`î OŠ4‚»ÄábtåéjÔ'Eu †×hôNÂ Îê O
+ÀÒ 8 *À^þ¨Oé3üÔ<//PíF‰à0W ‘<ð(–ê †äxóÀ·žš‚6|ðôgº žð» ˜8 " 	`Äð45IÝÀé8á8’ËÌÌ§ªj ÒphŸ0@8†Ðˆ
+Œø	º‰8	ê}úˆ
+z‹$üÅ¬0H Ô€XñOQNò³“ýh <0þàkEØ3èR¦rZ†} †¼x)À™A?”ú @Žuå'€€ Ø À7¸ÀÑø¨gÎJP@@W àkÑQ>öˆÿ TŸELê	ì™À†Ðx	ôÔ-èOPE;Â~…œú4ZÏLÀtx4øÐó»týP`o/§—Ý4{PYÏ£=HÔ3çù¡>&p†¼h O¨4O„ð	»PÆÃÁ»È‹Ô™¨'dê ‚µ
+)ôƒ¨3/ÑFiÇùÀ nñB„âE †¨h 0,Ô'Q'ÑC‡ƒ} ö BuBs
+Ô(Ópuf F¡DàP¡Úˆ<€†¨hÁ¡~Éô‚ ƒ1ÁyyÔ
+ÒA¢ ‚ê@Â3ÔWiÙ'Ñ8¨¾ïg@œ¼q™|…  à†¨h3Êw@œ½âx=AxÐ¿Dÿ@^a‚„ð3¸3QY€32Oš~ 0¼O¤@B„ú@^ p8†°h 0€f`70¥B„ë 0Ò`#Pæ‰ô/00Ì‡í¢„ð>Ní92‡iÜAœ……ð¨ÌÀ–n`# †°h Na!yÊˆ¡€¼qôXáÌ¨Ò30N^ÎÓ@ Øn§ù;µÞA@b£H	`ð€Hœ†ÄXLÇÌ(aÒãp	AH:\r01ð‚à€~SD <aÄ{Ùêhþñ?D™àÀùžL7ˆiì™À†Øh»P(N#QRw5ƒ8=;ƒó¼(0/€Áéçx+„7{Ùêh¯A>
+yÓ 1çnMáíA@†Äh ˜#0¨&/€ÂÕ8=P¡:óÓÿ@8/c üp`ËÓ—Ž§]tê¼/ñFA	÷P¡@†ØhÞ¬/'úðt¡ÜõÁ¢ŠKÌ cì@aêÓ§Ñ<Ð@¡8ÜHaZ} /0@œpœ	À                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4068 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       G   M   >   ”   =   Ò   =     >  L   =  Š   ;  Ç   =     =  ?   :  |   ;  ¶   <  ñ   ;  -   <  h   <  ¤   :  à   <     >  V   C  ”   B  ×   @     <  Y   =  •   =  Ò   <     =  K   <  ˆ   >  Ä   D     M  F   N  “   R  á   M  3   J  €   M  Ê   I  	   A  	`   =  	¡   ;  	Þ   ;  
+   ;  
+T   ;  
+   =  
+Ê   >     <  E   ;     =  ¼   A  ù   >  :   D  x   H  ¼   B     >  F   <  „   =  À   <  ý   =  9   ;  v   ?  ±   >  ð   =  .   =  k   <  ¨†¨h	”<é„s§â ©<8N¡8*OœÌ3©>‰à¢“à	B
+€"‹” <‰æH¢¢d ä   è  YàCÝ1< †äh‹Ó¨É>Š3Nñ<'Qñ~n¡8â¨fê“ “ÉîúN~) ŽÉäð	l¢)(“Éå	RÐ †0z“Ï †Ðh*0/Pé@V¡â‡iÑÁŠ`x_‚„ê*Ü	Ç:‚~|ð$À©k>tøº*hB­`*<oOë£Ø†Úh>ƒEËÄ‰ÔA˜ *—Ä‰àQ4§§‚
+G£q$&	Ô1Q™€¥F‰É Ì¼ÊÁéàC †Úh	‹ôN,€F¢40Dœ½>j'š‰ÎL ‚†Oèß3&ê¨ÐÀR +˜gSàb8//\`œ†Ðh*Qœ…ú@žàl	Ó¨/0(ø½áxpÃ( j¨/:˜@Æ 5(Š‡p%€Â“æ£¨€†äh*O™…pgx˜˜@¢ 	{Å˜iƒ€€—À^É9„&Á*x¨‚¬RŸDýf†þhÁwPf£DéÔ7Q¤	ÔfœŠ úƒe ƒÿSˆÔÈ=0Í@@ÜÁŠˆÁ™†ióN&ƒ0†Âh@7eµ§P@7Òê3Qixâ“j( Žiè0ÎEú'ÍB‚úSŽÓg±ÀV¡ñ{À†êh3‚êãˆ4w‰Ó˜tœH^KÅT;cLà` +0ö	Ý¨Ð¼˜¼qÕæAœ‹Ô †þh3‚ôÊ¨‚àF`¡8Œp^^D£H	`Ñ?J4h=€À¿õÁT	Ô;Q¤Lä¡<ÀìÁÉx‡!hÀ¦Tžä
+j	“æ ¥Fj=N8/é<¡Úˆ3ƒ3óàÎwŠ3PÎÌ3/PžÃÀ†Ñh>O¡xÚ d70PÝC´äÉôN¹8‘?©Çö¨NÊŽÔ3ƒ8 äX >iÄ‰ÙÁ¤˜'P+à†Ûh=Qœ(€¿åæàN ˜½ây“èœšð'Ñ”ÌÀÁ9€ßE@70Pž30ŽÀŸH'€†Ûh'Ð½ÒˆþQÓŽ)/Ñ:å¨9AxdŸ6P#ä¨@;È—˜(Op~¡D
+¼/±D †èh¨Î'‚æ	ø/@ìpàz}Ô'$2‚X'¥8‘=)àP nòdú@À½8á<
+¡Pì†èh¨x^i|'P£‚÷h<êÂøA¸4dçP¨ù;µ¨Az}>OœêÁuTf†Þh'ÑCu
+ó0
+Á†xàÙÄåæA‚u`˜'OTAô§Q}iÉÀ`_†KÄ€†òh=P$
+àN_¤A!„ð@ìÀŽÇ§0ÝA{À¡A,‚’ýÁx>/ÌqZuAf)€Œ†íˆ
+†à á^ï²€“Ï¬¨”§±Ð€§–¨“€ÚOÝ¨4à Á‰x’b÷‰óƒDâÓƒsôé“ŽÔA¢y”'†íˆÿ‚°Àó?µ'GñÇO¡OQsQ)ŸµŸ)¡WžÐ}æ£H3PK±ÂxÂžôPAx†Ùx ØÓÈYê@Ç	P)ÀüïG(Ô5¼;´&(9Qtã„æ ¤ÁDÇË NœÁ>L`À†íh4Na œ'ÖA}PgÊ§e³Ó¨hÀ$OJsð'€ÀäÀ¾Ôf¢@éÇ	ó0)ƒ0†âhèœ:/O£€¬Ã“*Àžtæ1O€B8Í”U‚wp'‚¥s¦ñÄæj3QœÔà†öhfÔ˜(/“è^Úæ“Ó”'Q* /¥@‘†çP'wx=P`^ôÃ3¼
+ X F£3j=Q˜†öh˜Ž°@¢¨ ‚X4PJ9„êÀÆ* dçIÌêçÊÇlùzŽ˜'Òà¥8à†öh4€½D¥à9)„è v¡’sõê˜|^`7ùB†ORu
+Ôf^L¢ïL4N¢7P^8Ð?yÉÌ ‡h>Ní:4ïR_ÉÌÓx¨ƒDð@t7xÉôQš†*Ì¨<0@`70ÌÂTù§ €n
+“…`‡
+h	†ï£O¢ƒ“ðr¢äÐ@^x^¢À`JœHÉÞ'Í=*Ì>P^¡LðA™‚% pÄÀnì‡À†öh*/Ñ<†éê@žäê ¥C¸,N$Oœ¨¨À¾ *)îþ?u5´òpzðP
+ ¥  ;À#Òµ	ð†âh*ƒ5à=J Or„æ*Áb‡Š˜1ÁÑy…IñDO2XótO
+DðLñÅ,O	ÀäIó•@× Œ 92  tà/õ‹;Å †óh§Cb÷‰àQ¢yS¨ƒDúAY†f	Óé t @ ågè¾O„âyf „âˆžx…"‰¦(“à&(„à	Bðd U ägà ÁÁ³¨ùÞ†ßˆ
+Š}{lþJx
+~JzÚˆ	:~H¸E}=Ü Š   I %àv>w(˜À'w‰EÞÉ' Ê$ðL¢y ”|€7 À5à|yÿòx †ßˆ	Hÿ‰Ÿte<¥=F}µ==EE=åD]?Ä>~€² €d ® I§øô;Tõuø5?õ ,`WƒŒ¿Cçò †ßx 'è³£ÞŠz @ž„ýôsÑAÜH/¨% ,$ƒ yø¥B‹ §Þ"’y<¢Óx§è+2‰D£` Ü ˜ówŸŒ@'€‡h)/Ca¸‘:u3ª4ƒèj˜h£8`€ÔpaS¼ÎóÄ‹(Dðw O¼1Dò„Ÿ EEàV 5 7 9pýýØðÄO †Ëh)00¶¼PC³¤â8>Øâñ"} Î	S˜Lžx”]ã°' §ÉèŠ…>Q ”J4€ ^  =à%åïh»Ï †ßXf Ép@¼  _ÐP»ÅÇ 4‚ð/XÆ…‹#á?‹OO¡''QÇñx8 ðP¶üyþz`†ßXd/L@¹pA2þ€á€˜R
+‚ËÂ
+%>óÂ~R{Æ‚üäs84|Ïñ<p€Æ_§d
+`†èh)ƒDò¨P^.¨PŽæ'x7I‰ÅÐh_*xÁÙ„	òO@70‚ééQ†piÁñy€†ÀhÐ;P´p_ã„ò@`^¡>iË ÍE0gª´A‡ª /v` ¼è¾'P_¡ƒÂÿ“é0€†Ôh*P ¼ø¿Dÿ'PœÒõà0P­@GÉÔ@Øo›(xBw¦	àÑ:ˆ*O¢Š“¨O‡j)ƒE—‚ †üh=P70äÀF¢•'’i	Õ§x¡Š…÷(vÊ3N¡CØA¢róS‰Ô¡:xf¢˜¨¨À
+ †òh»ƒ…ô§‚F
+	z„çª ƒÕ¨¾;È˜=Qš‡jÁJ‡f'P äÀ¼ÀZ8/Na €†Þh4/ n¢¨Á©€ Nr^¡CU	à©>j/ƒ6Q¡y~Cà+Q¤*30N¢—§0õAz„æ`†Þh3P¢µAéx½„ð'x^D˜(©;ÄèÔ(dïà€Å@‘<iIÞ‰Þ(&À^Êà/<†Þh3N8ŒËÎ v`j¢T<€ôÁBz“æ1¼¡ä	àR£Dê ÎIóƒH'ù9„‡âH'Ð‡hÁš†CuAfÌ xœF8¬p`8Côð@_(PœÀ½Â‚õ@œ½ˆ1PCuÌÞæ8€‡x*4"çPOÑ¢|à2g§žãÀX ’7§ÀÏA“—¨P^'N¢åæã‚ñÁÊˆ·;0€¿CiÌ †Ùx {Ñ%A=BžŽò´hS>}°,¡\GO©¢£iÔn¡Ù„f^na¢vP;P±Fƒ} Î P‡ˆº‹
+x	:‰JxªxôeF}:@€: 9ÃþNžñ vœÂ àH‡åâBùàÑA,¬Nðo¤@^` †÷ˆ¸
+zŽï}ý¤ú2žv£?BzžòžI@@ÜøËÏ”€¨tûÉï  À þîð [OPOFLÿ3£'èÏ£C†÷xà@Ð²ðŸ”
+zt'¨^ÏS?¥ ˆ€®Ép=¨gx`'¨ $hxÐî¡n„ôdý6g©žò~4T†Ùh@ìÃÔêÓ‚zT@^ÈÀG T@àF^#âuž¥	Ì†ÄjÀ8à?†ê n`¡;(ÑF€†Ùh ƒ3IàNL^¡=* /:ƒBü“À¡äÀíBvPÉ:€ü<0
+ÔhŸHÓ˜Aêˆ n`7Qòsï@†âh4N$/Î=€Faô	àõDRžæô€nï hw!@OÑ&H^	z=èÑ£Œ
+p9gù£¨X€†öX&]H&' ¬ #tÄ!’åÌ€Ø 8»Á|ÀŸ¢R‚~Ž0*'õx©ž¦x/'ü+?½- €†öh—…‰ôO¤Ãx d n¢¥	ÓŽÀà Ìo›@^a Ü\_¤—¼‚ÑÁ|(ÍAÌ@^žcÀ‡
+hðh£Dú@Äp70d:vIÓ§:‚æ	ÂÃiÄm â	Î`Ì¿è4/"P_…ÔS10N¢h †ìh4Pîj4N¡AzˆÔ(b¡AxX_œ(âäåîñœHí=ÝCÜ÷@Pwù>&x)§“áèÐ†ìh3O¡ƒ´ï§QxÔ|A{Ãp2O¡…#uàH$ Æý	ôàhÐ“C=8 TÏHó¦hO†ìh4Øá9|
+ Pîf”¨Ì½ä§0/&NñÔÞqmßæŠyþh›Ÿ:y2¼êéÀøîÉž††0†ìh3àÜÂê Qœ	ËÞ(ªƒ}Áòtæ*4c¸àpœFàÜ,èžÔæádÓ¨PìÁÚŒÓà£0†ÓhA	àÒÌÔ\_˜ã4úŠ“Àâ*w
+ ðÃ1¹xßC ­?Ê4NòáPAÔ	àN^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 3974 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                N       J   N   F   ˜   A   Þ   =     =  \   ;  ™   ;  Ô   :     ;  I   9  „   8  ½   8  õ   8  -   6  e   ;  ›   9  Ö   :     ;  I   B  „   =  Æ   ;     ;  >   :  y   ;  ³   6  î   9  $   :  ]   =  —   C  Ô   L     O  c   P  ²   M     J  O   K  ™   G  ä   D  	+   A  	o   ;  	°   8  	ë   7  
+#   ;  
+Z   :  
+•   :  
+Ï   9  	   8  B   :  z   =  ´   =  ñ   D  .   F  r   B  ¸   >  ú   =  8   :  u   :  ¯   :  é   :  #   <  ]   <  ™   <  Õ   :     ;  K„hgÐhª‡…ù¨‚LÁñ~,P`7b£H.'Bxw  œ'Š¢"Âˆ)	àL „ð¢Âˆ !äxÃ„H€¯ fpõìN}w'À„hgÐf¢Ôù˜fD`QÉ€¾E	Ø§ÌÂ¤èžc€!Hž'Š ©â;‰áé> Š X¢'€&IãT2€{ ÏÀÛßßo•Éà„7h§&N¡>hž£psp¼OƒÿTf¢l—x¤ž'”@%µ	< Ê$Òz}B¡(Ð	 €Ìlœ—ñìr€„#h˜'b¢Ì3Nta˜Éƒ¸*Øá:„ð2NñCÓÏO?,ê	ñ`@POP÷Ÿ6Œð hÐ  4 !€+—Ýéç„h;0ô¼ÁC¸ €éC¸9N ¾¥Àñ:uÁ  a ÝÜTgbôêŽpe‚x˜†À^î „hf`K	Ä…ðT¡Ü'Naê} ÑBu¦ 0`< ÜËéQ¤0(N¡C¸5:qÂ„æÁ¡~'N„-hÞA¤	à©;È>N$/‘<U2ƒ8Ž 8gø3/¦ðqï'N™Cµ'ÌÂ”ù¨¦À„h x_¤
+Î“æaJ} +P ½”˜Àð½A„ PÎËÝ—ý7D'<*4P#Q™…)Þ'¦ „#h Qtê eiØ˜'Q!z…¨v¡‰†p'0P¡³/Ñ?ÉóP~a¤	àB˜ P^¡á{('ö „#h ‚¨‚¨4OLsBøT¡ÚŠ`v`œÀ¼pÎà¨¥Cµà@žÂau
+˜Ás¢ø „.XBÓ0¡wŒ°u ¤‚†2\À}Ð@Äø˜1‚ê QêsúÁ¡€CÄèÓŽû‚ð„BXB ™u˜„5‚÷`8\,^Ô!¢à&/:…	ÔT@ÝÔA¢w‰Ö'P”æ „.XBL¼ƒåÌ	„‚f€áŒ‡Ìv	Á¼N ¾£õ'QIÞ'LŸ3‡jAvPA „BX@?À‡ `¸‘xA@ú†5æ0ìLÄâP.`¹ˆAÓ	—,a8&]C \Æ ^ „.hé0f¢¢÷ŠT(Oì(/0ÍFiÞ¼D
+f	—„&`¹xB‰… 0™Š@¼5 „h;0cj=€Hœäp^¢¢ý'ƒ5'ÎÌÄ¿AÇ¥æ	Þ'N¡D	àLŸ3Sèd	àep „hÁò} ªà%'0§0:ˆ¨NìÃ8 N£EàcEÓ0¤À¹…K© ±rð`Âf°0\„h Ò”g,ÁRƒ z À¾ê¨Ð½ä'l“À£ÕÔip'0PŸTï bœÂÔfž£éÀ„3h N`‡q¸>fS‚üS¨/:ƒ4õÁ™…)ô0P*a8.œ©L1’à}„ˆdÁ‚à„3x3˜ €€8qo?¸tgPó¡ÝBT
+™ù¨TÇGµŽf	Ó¼ƒâBú“Àœ\žõ(O0(ƒäê€„x>< ‚ÀøÞÆïî3þÏSEçx.g©¡gD
+Z€|¸/ï1’êC&ƒ0/¡ „3hf8 ( ~è7x_ò„éöQš”@š1N¢Œ!.`|ÁsP¾L(px=„Lhô	cx v£Õ¨U´ÿ(/0Öð(O¤
+„êÁqtê4/yEê2N ¿„ærh €„$h Ñ@‘;´åæ'õFj vž”ê t^œÁ:ŒàhT'AtïÔ'wÈ=€½C$ê ½:„ô˜'€„h@D'Î§xœu¸£‚õÃuAu™<ŒÓ—˜nŸH3ƒ8>Ay2tæc„éþƒ5 „Xsu! øXÂf%á¢ð0d¹ˆB¬K˜²ð‚åÇ ¤àôÃ&‚Ì1˜(\„?X._EË‚À¸ ™xr
+@F	˜„˜€!+ƒE¼OAì'` ½E&éÄ…ï v¡âp„Sh'²N¢`Qµ	Ôy|_š†æ	ÓÁˆH4QI~jÌ ‚¨3NÁAz‹Ç	Ý˜f`íF‰À„?h§õ:„ÿ'ÑBu	à`^a0fbtà€+0OIØ 0¨N¡”§ñCµ'xœp //N€„+h§õD	éÓ˜'O(09ƒ5ÔA(‚2à* "³ê $éê*" %)âéù*,iï`À. _€¿%äà „!h'ODùÁ€„ÀÀn]iÎ wÐ(NœÃAÅDS¼'M±<) A2„O(CÑ<Ÿ A<y A0É´
+à ²ð ¸Ùkês¸„h'P ¿EAz`B˜4PJ`î ]xÜÂ h  
+*êJûÜO6ÅÜÀ¡Dñ<DðœJ"  Á¨ 	\>±«°»„+x3¨{ÏSD3ÉÑíCL
+êh-@÷ŒHÐ   ÂW`ñGEð4øœ¢ ”@#Òx “Ê#µcÀà Šx KÂn#å_Ž„xêh÷¢
+™äçøžíœ:)èJO?Ç€   '!¯÷¶ú˜NQ
+§Þ)ñé<¢€J$ó*†ÑÀ„üxóûóòp„&xôg½š‚
+z4'üÎ€ŸFu
+p 'À’ð  ¡)™W@éóž	“Ê%ØO2“Ï$ñê‚¨
+€Tœp]Ïm? „:h§QLAÌA¼<Oyzˆ Ò	 Q  T×³Öp @„cÀD‹ @DÌ“¼ÝP&À| ?¡Óßˆ]bÓó „0h Ò
+S»¨wÄú@°¿H ƒHè¢¨DËøñJ„vŸ<§Â¤ñ9Dv”G®óÉEð` @¨~ìÓ‹.(„h3ŠŒÓÜ£83Pð¼Ð¿H˜f Í=EâE‘ïÈ JÀ]ÀbÔIÓÅ@IÓãTJS÷|   x
+³ÊŸ»¨„&h O‚wfàPŸ5H^ð¼Á>j¨/0¦¼'Œú%'ÀN`SÏ)B
+o€   à±ìùÀ„&X@À|ÁqÈ~0™pB‚p.\p¹Ãù„1jˆ{‚üàN8ciÙ@¢Ô  N fŸØ¨„XB˜NÌ@> N	ÂR0\¸‘u ÉT<ORwc‡pAÐf^LŸH˜(P^îU'„XB ]H1ð0`¼)°@¼‡Ì.é„àÑ(Ñ=IôO™‚s˜3ƒåÀ¡:„æùÀÉ:„à„'h Pž¨¨%Q¤	ÄcŠÀ^`^`Ÿ§¨PØ§ÒT¨é>'‚¨OJ—‡IÓ˜Ô<0„hÔz`EIó‚Ã±Åtð'‚âdú'ú	Ûï ©<
+-Nð¾'&O'QªÀ¡;À@„;hÞAê„ê=ƒDê‰?/ÎÓÁ¤éÔ'CbžäÐfŸ¥'P_¢vP@¢¨4N¶
+3/ „;XA8:bõÌ@º€€^	Á3Á¦ ]âð.Ï”§&ƒDý'Ñ9{Äþ˜@œêÓËxáÜ „EXÌNp„à9³	@Á`@¬ ^˜Sð."@¿`b.¤¦c0P>
+A8À0„h N¡äÀ¡>p</v8È¾*@ 2/§<
+|(c„ö˜'‚”ù˜f£5&àX`ì¾˜ P„1h;‚Ó˜Aœ(:hÔR¡à dðfœ+äP_œ'ÑGJ3NÆàÍC$ê£PìÂ’÷ „1x=ÀÑžžŒð>@Ï¡=áFt2 R/‚˜NH¾f¨ÍEª3Oñ|'âT(N;Âÿ Ò „RˆùHŠzŠèø
+ŠxÊ{½º… XØÈÎîZ{ÌöÚè1¾eîÔŽãA¢ÓÀ`ž€„RˆùHšŠzŠ
+zŠx
+Jy5/á@ %àc—î_y8£æŠf 	 €˜3±§ÔÏ=à^Où£þˆ3ÀdÎ„*x)À“ž¦„•ð>'üÏê
+ ¼åõó¼-Ô 	 &( –žsOÏC>Hà^Ïó?ý4gÑò „hiÉôO4Aœ«‚@$0 P^ðþ•ÇZ£Bó  +/ÌÀ¼¾Àð¿äú'pŸ5
+h^„*hæ£è§'Î¼O@Æ"€É8VÜìù;Äç P8N^7Ñ:ˆ OjÙ(/0C	à0Ð „XLÀ2.xÂpPº†'àô.ÑtÌ'A¶‰R¢åê4O
+Ú£8*PžÅæ	à0À „4XR&±„áæå `¸”/Ó09 ü(4/&N8//ƒH4Qšr$ðARq"y OŠ ð „ hg*ÔLä'‚È¨˜fŸ¡Áz!zrõ5!’ðpA8˜P¿LBEÓ0!Ì p„h ÌÃ83€‰>1ƒE)ô0%P¡?ÉÞ@'v7l”(/NGÉó‚¨3ƒqÀÝFZ¢*€I „,h Ð½ä@ÕC¸Åú'\ŸH	T(OJ †ú'l”  Àq¸Ü™>Upn¢ð(x_ÒuU³ „"X1.€àèÂp´ÌhÂpÑxz	Áàè0 Hwr[½ØÔ.çÐŸ’ˆ‰þôaÑS=ìõ4 „6X00`¼-Âú.¤Ô1¢é‚S.ôƒB8€ P^¾cs¢õì”@^Y| Ñ:¨¥>j „'XBÑuNÁ‡Ì@Ü a8&`>	—tƒ0N)è^íFp(€n¡Y†{ˆ&N¢æê „'h N`J¡Ú„…ê`Qp'O¡ƒµ'ÑG°g0P äàv_˜ß8àQAì
+ )Q@@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4018 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       K   M   G   ˜   D   ß   >  #   ?  a   @      ;  à   :     9  U   9  Ž   ;  Ç   :     9  <   9  u   ;  ®   :  é   :  #   <  ]   @  ™   @  Ù   =     ;  V   8  ‘   ;  É   9     ;  =   :  x   <  ²   B  î   J  0   N  z   Q  È   N     J  g   K  ±   I  ü   E  	E   B  	Š   <  	Ì   ;  
+   8  
+C   8  
+{   <  
+³   :  
+ï   9  )   ;  b   <     =  Ù   >     A  T   G  •   C  Ü   ?     <  ^   <  š   ;  Ö   :     ;  K   <  †   >  Â   <      ;  <   ;  w„.X„ F
+`¬^ÉqÈ1@p?<bàœOPž2Bxq	áä'Pž Bx5
+"|(‡¢P^² ® : 
+nÒùç+@õr@ð„.hg˜;Qñ{Äû(OÉôƒˆàNaJŠŽäø*(„ây‚'™"y(‰ây
+'€"ˆR(¨4‚ø ¬ Fà!“O\yú÷À„EX@	‚	ÁBæÂ™q³
+BféÀÄ	±Éã²xÁ Ê'rˆ>™ ‰Éâ•€y  JŸ ýœû½Ý
+÷€„h Òf¨/˜	Õ¨v¡Ü'‘8'wxT‹¨§¨€çÐ”§¼§€€¤€”§“Ð¨Ð+ ` g#éêP „;h ‚àv£5‚éã€G‚}Ö(N`>‰Áôí>Vzz!¨{S>ˆàSÑíá=AH:ÆôÿyÂR€„h /yiÞ(v`¡9œÔ(wXâ O¢€ ÁÂß+?Ìùþ@cxÏú…Lôó¨@ù’zÌà´_„JhªAìAš kÄä£€ýB#j=ƒ0@ T¡Â¾r®x#gùžT#@§žô3è§¢x À/€„6XÑsÔ‚†ôL¾‹ÀÅ`¡q(@ .ÉÆþ§N`…>j=DAšrh'PŸDð(Nœ  ø?„6XC0RÂ„˜´‚&à,\Ä2†Œ0Ý=PhœT_¨¨è¼Á8¹>iÔA¡z…5 "N„6hÉ Ð¼ê €¾Ì)Oœ“Á0<NÉC'OT§Á*3Ql'ùF‰àƒHÔf T7„1X Ì1è&]Cöà¤ `¹r†à¡¸8a´Oì¨B£8A¡J§&N ½’§ƒHÀ„1h ø¿E&§x GH4/Bu	Ì±Æ¨gj*ƒEAƒ²ñRxüžSè¢3€€¼„;hú£Dè P^aµÁš§ƒ
+Ôæ`H OJ‡j-0/PFp.O¡x¸½Bs¢ø'ƒH¨„;hú8¨[sj,ƒ5§QêÌ ƒ8	¬¼]3°0`¹u xÀÜ3 @ÀV.b	Àáp„1X@p>  „ÌB—0a3	—.`¼/¸2x3PFï v`žf(w‚öPAÉÓ˜À„1h vaœÌÔ'Pž“¨Qšq"}ÓÀ¢êW'0vœÁ>æËÄ…ê IuÀ ½”AJsöÐ „;h ÎÖ'0/P£H6/ÒÄ…âð'DW(O} HB‚x#B};QJ„ð1Qš…©À„'h Ò#O(ÌÃf	ËÞA‚„éÇux^Ê'Q™xÑ:„úA—¨PíFj)N¢
+T;Q*p„*h@`ÀóƒH1¼O(±:x>‚6NÂA»È')Q¢‚UàHŸET(‚f¨‚S€„*x ` 48ˆM>œŠsÔÎ ŸBŒð '¨Vwa"|àBÔzœI´ú(ù:‚õij ƒÕ „*x	€€ Ád+±èwP§ö†=à(GÏ¡>ö„÷05	ÔiâBÿG§;ÂöPf`_Š ƒ4ÿ@„>h…€€4 ÜÄiàƒH>OšwAéÔAòx`TËÀÂp<àP¦/2ãÔàb	˜„/˜ „h	‡¸õ;³pg‚w‰ýN¢ Î
+ O¨:Š“˜'Á>j N¢°h¡‰ƒ³ø…õ':ƒ „4h ùA€Ýj‡fàÒ
+4N-Qy‘~†À¢ Ræ4`>arêxC°PÀŒˆ'L@Áx „*hz¡àÞUâDéàÌqšv*3P!P¡?ÊÁ²†Îr¼
+Ó‰ÀžL3Oñxà¿EAì	Ô'€„Rhú¡Ú‰Sè F¡D¨Ñ?ÉôOŠ„éÉ”;ƒdìò”Áw‰àPE°hŸè /'Q"ôê 0„Ihü:ˆ'ƒ8'd¢õ¨D9ƒµ¨¸½Œ'P_Ì0@ÅFiÛ'Ò ÍCsj¨Î „…hÿÔ(/QàQê„ð(:…ªÁ¢}Ÿ@ÉÔz¡<Á¤'ÍA
+ŒÌ Ú†æ±Q¡x¡8„Ihý¸4N¡Bu	à¦—æ¡iy‚tïçÊ:ƒ“iÊ“À£âõ	ÑAy„
+˜1¨0F^„Ih0</ÑB„ð'0/&: Ž`QxáÚ‹”:~{Ð*g‹£>‰04hU4>€  @Äx	ià„?X@*@Á¨€‘x0™w \¬Â `‘Š˜âxz'„àb Žâˆ¢ Š"xŽ(‰àR Š"‹Ð¶ b€U 2p4w‹È18„+h ª²‚=P;ÄâDì`‚¨§P p Ejx¼Çr|1 B‘DQ(Iñ<	À„w JGx@ ðÀ nà|ãhõÌN„+x%g©L
+z$èÏ}8Àùq‚šz~ x   €m·Ü´üO @‘DO(Gr„Ÿ H<¡'Âp)xr‚à ¤$ð5²7|í‘“À„?ˆZ‰=ûÊ‰êzx
+Šx
+‹	8í	8ú€|  )ƒþA‹Oßß|#“Ê*¸”IàHS@ÞÀ"žÖ<è¿# „3x8çdÏ/G½ @ÏÒà@Î¢¦tU@  ÀäVéýº|žA¼Xå‰=>Q“Ù$ñ8Qh -oÁmüüž_ „h ù>Š¨Ñ<(Od'Ò‹”;Qì@@ 0O[Ý?À<¡Îó$OÏ|Q	Dð¤O
+Jçpðv`mâÕYö<OÀ „3hR^¢ày	àNyzˆ;€\_¢z”h 'œüžÉ'§Ê*²‰<¢Q Ô*2‰DžŸxÐ ê > ¸8Ðÿ¾Ÿ“€„h10Oði
+ PGuãŒËþâz‡ZE?Ç'¼=m<E>}ä>…E=C p    Ï C™"=N„)hz¡Ú‡ª Bq"}‹Ô'©:ƒ˜@Æ˜DÆ3òžfž¢žRîÂžRŸB`,$˜îúyLøz€„)XÑuªb0]3 X?âEáÂ €Œ„`ú3£hcÑgB~†5
+ôSÑ¢Ã /°gOÏîà„=h²/QPh_¤˜>Nî
+Tg%âHƒõ
+2NÚ(%N`^|_âþAÁš€ÙA|5§î „)XÔAX'À@	À†KŽC0Rs
+˜mú¢9‚ú(/Qáy~h ™:sióQd „3Xz†K‚ÂÅÔ‡/¢ð0tÀáu©ph1â~§Qòs÷§Ñ;(4‚¨4Pí>Š+ „GhäÐ'0¥:„ô¨Î ‘@Ý=IàPµ>Š4Nòp4	É Í=éÇ	éQ ÜF‰ÙAœÁšŒÔf 4  „XÉ³ x	@n €†‹—('Âð‡Ì6j=/yæàù<
+Ì¨dD'‚ Ò Ð
+ „XÉuf ÔƒpL>$`¼+ ¡xA‚íš†EïÈÄRB~ Ñ9ÒtæÔAœ@, „h3á~‰ô‚4ƒ³éÓ˜'ƒ“ð2O¤Ln8/BtIóPÅDp^`œÁFp1P7P¡;Å˜ „Bh Ì¼H^$Nî8@Bx@Ø'/T;0[@DtIÄ‰éO…åê'Qœ'P ½F‰ò€„8hÀ¡<§‚pX¢ñ"} Ø
+ ì?b^œÂäì ¿8AÊ…1N¡<@`žÔ˜@ F8NŸU „8hÀ¡DÔ˜A³Áµ°€?KÔÜ¡“Áœ	Ì.N8/¥:uf¨â‚Sõ¨¨É@„7xàgPÎ…£Ügzš è÷¢Nu  !à ÀU/ûPE€Ù¨wÀÉ8Þ˜'‘<h¡D`Q|˜` „_ˆ
+x
+zŠ{Z‰H‰Jzš‰Jˆšx€f \1Àï¥ú/Bvýè¦  €€#…rùC>„½ SÑ¡>ª‚|>@¡ „Kxô'ÔÐ“£Þ‹Ú=À«æŽ*À€¹§9~¥÷D  '‹b=Ôø
+àS£=8tS¢Ep „h'0ÍAJŒÔR¡Üè8c  pé¨ƒØH^¢ 
+€^ìoìàÒ	ÞåÊ3‚fÀ„h 0Oš‰”fž¤ïå‰óQ¤ÁÆaùÊ‡p(³PÅ@à§§ö	ø€FaT	Ó…IàOJ†à„-h /Pñ:äú'dŸ5(j¨w"Œàb¡Ü
+ g‰éN ÂTîÓ@Eð;”ê5Q”f “€„7X„ƒEÓ3æA ùˆB6]0@€á¸4	É”'‚äùÁQ‚tò'Pœšð:Ošz”<€€^„#hŽó€‰C¸)‚À¡:séëQ¤Æ§ÀÐ''‚T;€”Âë¨¦ ÕF‰Ù'./„;h§0Î O ¸nð½¡z…¨€½Rw2hÎŒ PŸDìS¨Œ(N^aª3NÁBu'ÑEJ „h'0Ð¼š ønòÌÔ1À•F'Î	Æì
+±»ê ¦Áˆ=Nñ;êÀœ,PJ „'hÔh^MpR FaÜéQ¢x Ò
+Œ3/íCÀ È`q¼«?Eíó¨gì$@Ñž„õ\à„;h NäA¡y2} îÉ“¼O€ŒÃØ3‚Äì8 H^åþÔ'¥D	Ì¨‚¢øÀ¡D	ÔAêp„1h ©<|¡9…)ô/@Ax¸½:‹'âw‰Ì“²p@t^î „ÁÜ¨Ð¿E'öæ@:„ï ¨¼„YhÙ'/0ù<| Gê˜˜'PF¢3QšuJF—œÀ#0vŸH3QšŠ‹ÇôA„ê˜{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 3970 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       K   L   G   —   @   Þ   =     =  [   =  ˜   <  Õ   :     8  K   7  ƒ   ;  º   8  õ   6  -   9  c   9  œ   8  Õ   :     <  G   A  ƒ   ?  Ä   ;     :  >   ;  x   9  ³   8  ì   ;  $   :  _   ;  ™   ?  Ô   J     P  ]   R  ­   O  ÿ   J  N   L  ˜   F  ä   D  	*   @  	n   <  	®   8  	ê   7  
+"   8  
+Y   :  
+‘   8  
+Ë   9     :  <   ;  v   <  ±   =  í   C  *   F  m   B  ³   =  õ   <  2   <  n   :  ª   ;  ä   ;     =  Z   =  —   ;  Ô   :     9  I„XP»Ð/ `ºfLÀhº0\Ä@¼3Ì\„ðÂˆ	á<‚€ E˜QàA”Ž(G‰AÈp ×è ÓfO&›çÜ¸N„"h(/AyZ‡c`N¡ ÜÂTgƒ´ù§xaR´ïÀO@”Q Dò|Q	Ê¬O2@äð‘ Àn;G÷éùÜ„6h¨Bx F£DçEêÆAyÒïÓ»Q¡„Ë®ñH>Q €D¥y<Od§Ð¤ñ:„òP‚€¤Ü çOóð	8„h¨N¡=ð@`ÈÀ+ƒtêÁ¢~@Ÿ5>|ú SÑ§>ˆô@ÏºM 2 À rP À#±ç „h(BtêÌ 0:/wê§e´â…ê3N8—Àž¨…9y‚sºè4Qœ£¸æ< „Jh»0OÄò¨‚P;OjŒÔ(/Nœ&/ÑE0€¸ N¨v¡Ú„Åð@É>j#ÚŽü¡Ü§Í@„6hè`žj%Pž
+ Ñ?IÞ'O‚~`xŸè ð ƒ'§¨ÍB˜AR}–èâ‚õ(ÁšŒÔ „6hÀawjAûÈ=Q¢r“…ð(wdù¨e X`ÁÌ	Óè:…&	àªæ§va„ð|^8/x^¡8„JX00]3‚tÂeÁh'pñ³‚€Àžð{u˜¨Q%ðg
+ „X€/ˆÑ‚ð(`¼2]H!1Æê§ÐÁÜ1€¼Áºˆè£D÷Àñ;µ
+ „uX ºfÁ3À¸4^™xAâêAp@¹‚ð1„Ì'È†a0\Á„Ë¨`^	˜P¼ „Mhé¸ Q™y€µFj7Nñ94§pA{È4/bdê wp(‚&1Ãsåïh^@_¤§P`„MXRp„àb—PÂæ0A3—1ã\˜‚	Á8BÌ<…Ø˜‚f‡àœ1 „MX@¼Ì)˜P>bà¸ 7BÆ œ‚U˜Rà¤ `>1âð0œ‡Áæ \¸„ahàƒDùÁò} P^¢ÌÀÈ½BwfaœÛDú'Ò Ð½B„ð(NÙ<
+3/ðaœ	à@„%h O¢}“Aš‡…îÁJÌÀîÂtê80¡x@Áu `¼øÂ…Ë‚Ë‚†ÀÂ„9XBÔ0¡|Á3	˜Næ þ‹Â‚€€|Ä¶(Ošs¨Ò—¨¹Cµ	àA ßCõÀ„>XÁÃæ07~Ô°@n„0ôpž¤éà•C³àÍ<¦Aê} ™8‘>†3 „*h˜ ( ~œR£84Nâ9,ÁAI‚tí*ˆ õBx%Q¡{È4NŠì“æ`R¡ÚŒÌ3/„>x*	 À€ [ Ž«žžŒú3èË£<	:)ç¡Ÿæ„X3´©Þ'&Oš‹“æ£Dï¢NœÁ‰‚x-P#0Ñ>p „Rx)…€ pw kw]þgC>¬ð #;²g¡ž¦‹°3èiS¼Oò‹”ÔhâtIàƒè €õCÈ¨v`„9h P „àrñJ}R^aôï ¦à™Fiô€Á:³á£‡Ë‚õ œH—Ñˆh¸.™ˆ„%h P8
+ _
+}SNŸBòh4
+ŒÔ;Buô†‹Âæ@n
+@˜ ¡}˜hÀ0¡sÀ„%h@a¢‚ôä*˜z^$€$/Í?©àQj‡j30Ì½¥€,‚¢ôð#0€¾AzsKÌ j¡9†'N„9hAµ	Ô¨P_Q€ŒÁ¤Ó²N¡?IÞ'Î ZÀ
+CAòð¤!ñÈ˜0]èB0^p€„Fh v£4ã‚üà‚ÔhœX:w‰ôOêˆ'Qu´Éx…ºbT/A8XÀÙ…æ „nh Ìnñ<ix'ÍEiÌæ F¡’u	Ô'P¡ÁŠS¨O ÜHž¥ˆ‹Çð;0™>jÁ „ŒhËà˜Ap@¡:s+ƒH4/Q*ÌÀ¡;./ÑG¦8æTžé”f£DêÚaÔ(N„PX@À}8B	ÀÁx1  }@@	ÂÀ.b„4Ðf£Ø30/P_Òx¦O¢ŒÓ˜("0Q 3P œ„<X.B	ÂN.bÇú‚€|pÃÐNqŸ=O)=O+QOQ‹Qð À	X	pÃÏ§Ï„<X.@>˜!'# 0œ‚„.ô 9
+…äø ‚dø¢ Žà	â ‡ 	>(…byB'‡b‰A@ <	 Táõ¬ûO„2x*'èRu%'ÀÑ#>ˆ`gPxÐ_Ïu@ ¢úÎ(›bˆî €"ˆ(‘§x Ž¤ù’w–¥	‘| ¦  Të€¸Pb÷äð„
+ˆ	H	<ý	Ø
+ˆŠˆø˜
+|ú{-   "ž·Ó\ïJÅ¤Ÿ Eñ,Äñ<¡	Ið¤O-@âø€€oàÓ[¿íäð„?ˆ
+}ø
+yH
+ŠŒút}E<\¥?%<¥F¤Ý<SÀ € 	r#üw~Û ”IáRˆœ'Š@!xœ¢y(F@9`ð6å¯;“€„?xô@žœùôJ=ÈôSÑODHó­  0I%÷z|vŸP“ÇdñJ„O€GåIDïððsÁÇ:÷wÊ „!h(€½B„êàetì xŸDúA$AQ€ d¹üÇÁQ< A0ÂqDQ A<'(B–CÔ š Í sàÙÌŸß‰ã¸ „!X/.bÓ€” cLº…Ç!HB‚ Pœ->y(¢Ê$ð
+Ì'žIêüžy ž#$ ¡ô 3ã~<åÿd§€„+h3Oòu	êÙƒµ
+ Ráxànò;ƒåÔDn‚‚OQcQOQQ'QxðÀàe pq±Ê{º€„ShÞ'¥Bu¦è¡D
+Sé	ôa{Âòdú't(óÀÐ³DÙóè‘£ÞŠ† 2 
+€àn÷³ÔÎ„IXf ‚÷‹ŽB.©„à™s?xÄ Ó'0Útã‚X QêŒÓù(€
+ 8& ÜtôÁ „5XL¾ œÅÓ„(`
+˜N
+.]ˆ/“êx¹ˆ˜.cAð@¸‘u¹B<\>_0„ „(hiz‡…éé„ú(@^œÃØÄ£Bú‡Z…$`lÂeàa8'!ü1f
+C0Lº†! „<XR©…Ó„(bðÁØB07P»J¡ÚŒÔ'àÒf	Ô¨O1{È>/xŸ5 „2h Q|ø(N`F`€;´ÿ'€ÁÌ'exè PíBxAu	ôObŒàª=/PD
+ 8„FXÁ ùˆÌB. ÙtÌd¼ =³Â_@ÁuÂ„@¸ávÌ'(ƒP.b „ `„(XLÂ…Ë˜™u@À1(0™p)—„L²Äð(‚ 9{%ÀG… N^È¿H@ À„<hè£Dð(3Q¢º™¨O¢Œà@žðÙ<24ê¨€¼Âê ©Fpw„ú'€”ÁÜ@^`„2hè`î¸‚éÌÔD¢øÂ¸)Pž¾f'Ò‰ÉT'Qb‡j4Ú†IóQ|Ì „Fhéph¡ü(€½BuJÀ¢€ Áœ)Ô@ÜÁf I´äª ObŒÔ;0v8õ>j§y „Ixô@•ŸB{Vz3è÷z)¼h °Â~L
+z8àùD
+?P ošŒËí0‚<Oq{¸Ž „Iˆ}*xÚ‹½ÿ„^†D¥DB€
+ Ü˜@À^S±™‚x	”B€Ün>j4/"‚4ƒ4í Ò`€À„Iˆÿš‰:xhÈ
+x	=Ú}
+‹½` ø8)Ýï˜º‡¯£Þ‹Á` ù  æ7»ÀÑ<	¹þgPÏRØà^€¡ „Ix	ð4^Ïñßt‰ú SKB~ŠŠ h gtþ)ÿ3½}ôI€psOwOB}¬ÿ3ÀÑNX ^PÎž„5hÀ`Feå(/ù;ÄôAT(€°nø	T;œA„ €
+Áø¢z P^¹>‰ôƒ5'9‚Œà„Ih§BŒàVaT;Qü'dœÀq¢q¼¨Ð½œ@œÁ8 ‚y{Äõ@`^R£DïôOrsæ
+4 „?hÀœÂÔ`^¢`xž…“A™|
+Ô^¡C?ƒH(Ð¢ú x^ÔÃDêÔ(5N8ƒC (  „+Xs00„ƒàP»æ!ÁHB‰@¹vÞ Q	Î§‚¨‘èD(Z¡<˜ 
+ „8h¨OJˆ N8¨/0Î“À¡:ƒ½*4P8/¨U`™qÈ0¼ aÓp¹pBêA ùˆ@ ¤ „8h¨ù:ˆ¨Í9x¿U'P¡:“‰
+Äjé†jÀ;ˆ Oê <AÂüŒàN8ÐÀ„BhéP<NžhŸ8¨D
+—“(B„â1ÃÀ  
+ÀœGóiÙ(N Þð(N4A™ƒ³ „BXƒ°P¼!&a@ùcËÀÁxdæLÃ¨¨€`wcOþ¡S?,ð4oŸB~ˆ ÀOPö¡N „hééP¢T'Q¤ê!N¡;ÂôæA};PÔ(€ ¼nœ¾Õ@žö¡: ‚ª4O¤(„GhÀ åDÌ;BxT¨w„àP£55
+ `À \¸|?Ó„ ™€™ˆˆ*]C	ÂÀ„=XLÆ ¤3Bq ø ^Ìˆ)¸7Š
+ ~#€¥>fà:Ì¨N¢éÔis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 3974 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                K       H   K   B   “   =   Õ   ;     <  M   ;  ‰   :  Ä   8  þ   9  6   :  o   8  ©   8  á   8     9  Q   7  Š   9  Á   ;  ú   ?  5   @  t   <  ´   <  ð   <  ,   :  h   :  ¢   :  Ü   <     :  R   >  Œ   I  Ê   N     Q  a   P  ²   J     K  L   I  —   E  à   A  	%   >  	f   <  	¤   :  	à   ;  
+   :  
+U   8  
+   :  
+Ç   9     9  :   <  s   >  ¯   @  í   F  -   C  s   ?  ¶   ;  õ   :  0   ;  j   <  ¥   ;  á   <     =  X   <  •   :  Ñ   ;     @  F„Jh4PíAz‡f'Ò*3NtŸ8+Dè îa¥EŒñcÅ¼EDŸÄñäOIðœ¡	Ï’¨	p € uà÷É}´çñØ„@h4Pí@ŒÃDÿ'Pœ¹>j=PC84NL¡Ú9„Ê+2yå>I ‰Éê
+|y'‰Ê 	DtŒ  J¨Ï%úÙ=<„Th¨ÍFphŸå	Ô&Pí9*„ê+ƒETf¡ù„QcO'W¡wQ'Q'O¡Ÿ ºø€Pð;Ýñ´ð „Jh O¤@ ¾ð@ìÀ½C5@ð½D(ÍÔt1Àµž{Ú @•Ÿ:…Ø3ÃP& 3‹yðèÎ„^h§ÒàQu(`^ ½ázu¨x_¤A€à1€	FùÁju
+>NœÃÔêý0B¸fŸDèSÀ„Th3O™‚x'ÒPŸ5Ì ® Ñ<8   ¤?Ájx &ƒ5§P’x ÜÁ:qÁzuÁ „Th3Nð½Az}à8O¢w‰à‚¸@íDn8 Kô/é:ˆ)ƒ5T@£Ôð`^¡9„	Óô`^„1h);q~1Q¤ w£‚õ0h¢¡¸‘;Äà`àÌB	˜‚ð¬Àp¹ˆ0¡tà8‘„À„1X<a8X>¤2aHb	ÃF˜Àp¸‘u¨`büàÍBx3PB‚ôP'0Í9zDú'x^òIó„YhÁ¤¼PJ ½GAIóNÁ¦	Ó‰è¥ÇåÁA8(`¹B.¡ƒ`rê@ÁtL&„mhÁœÁš‚QÄ	ü/0/©CµEðAT(v£6O™‚sð;ƒE
+ò^8Pí>ŠÁŒàC•€„rXØ)	Â3Ë¹!˜Á &`lÂ…Ç!¨bÌ.`ÂòEÔ‚.`|.aØ' p> „^h=Ù‚¸ PÆø`î
+`O<PŽj4BÀl¹ˆƒê˜N‹©áÀ¹A8
+@l„^Xd¼06˜.aø(]âæ.¡u ¤0]`œ1¨„ ¡vL@¸áqÀüÁ‰ ¸ƒeÔ„^h>N9b}É”¨¢±¨F£4ú@ìÃEë ™pjàb	˜d¹‚êNà¡€¡°„hX'¸A8ÀÄ ËƒAø
+—ÂR
+,‚fË©„aâF˜N	ÃF ¹h&„Th3ƒCKôƒâø €ÁB`N`õC¸@ ½äÚ ÑCÁ¾f	Ôf^˜À½=J'Î ©<
+¼„hh`|œo,@ p7€åB‚ü”¨0Oœ'PÉÔAŒÓ¨ƒ8 P%DÉàNð¼Â
+`xÑz€„TxÅÀ n Žúz,3èÏŽˆ
+º hOÑî†x
+\À|.¡ˆ@l.\jàñxN!˜Jð„Yx´	  €¸Ä~)ôôJàsR= g€ÈÅúé2wp'‚
+ xž”æSx$åéÉ'„Yx´ Ð¨ã~u”öG~P @“¢‰õ SÑNõ!“	Â €ÙŒ— #@H¹‚áBð„mh¦ €ph‡åôÀ¢Tf åFpV`í:qÄ	Ý¨PÊæAJw‰ô/0€B„ô¨‚`ÌÃØ €Bp„Eh*@àÐ½8ô@É;ÅTà®‰àP7Pñ<¢äÃw‰Ý˜˜Ô(Oò„æØ4‚¨ /¨„JX	RÀú…ÄAà”ïà_&0é„à¬e@8N¬½Ayz„û¨Ò`N`­D}z„Åï „JXhÀÜ
+A2ïAH+—0"`pÄŒ'`£(c…—¨<'p£2öFù‚Déà&:ƒ€„^Xf„Ë¨_PPÂ¡ð(`0™&aÒæD¹†‚”æîÌ˜àÁFpz£5f
+Î“Á˜€„†h	ƒøÆ‰Ý¨:/Í;¢ñ"”<±0¨õD
+¨ ¥Ayƒõç8Nð¾¥Žà‚TA“`„h	Kà0À¢ ÎTf”A¡~Š)Nñ99†
+ÁŒÓæ¡BuÅï N`7"	“§ƒ% „|h=/QL@ap&NíG¦àyµ'Ñ9Á~>j
+z)è©Ÿ>ˆÐ*@ÏDš> m w}]`„hh	`P_Ô@žŠL§ú¾A(ÔP`$›¼N¡;»Ý y<Q(”MdñI<NQ'”S%€  /Ç@ 8»ëŸ‰€„Th=APi~jÀ¡?Ð@ŸH=/0° •jtü'ÀpO@DQK±<)Ç‘<OI–B0p sSà À•Ïwß¢À„Ux`@Ñ&Lò`h/>ˆtTÏCAƒ:|v @  â§såOò|ï@œÊ¤Q+Å<Q IñDQAY
+ð€¬!p)2‡/´ÿ;€„Aˆ	Ý|h	Jx•~|åF~„M=åEf}:ƒ>¡d ˆ   Ã‚ŠÇ»÷x…>y Š@"r‰|¢Ÿ(“Ô y’0Q  Ö4à<c.Åûà „#xÚ)ç•¢ž{Ú)çáŸ>ŽYôg±CÃzÀ€ H“žSné\ž§P“Éì’yD¯P€Iâr‰ÝBdÈ€%0CÁ' ÷8,„Kh)QšŠ“æŸäú('QT@Ÿˆ(Ìnñ@Ø PÄçßÛ¼òO§Ô$ñ9Džp§À$ñIDïA2  @r 'à“¶÷8L„nh¨NœÀ¾)0N‚wR:Ž EIôN,“wüÔ%xlž €@"r‰}BO ™SåÐô  ”à Ðð¹š|<žN„Zh3P^ ¼Á<@^8ýC¸¨PŸˆ'dŸDþ(Î*'´>ñ´ððuúðYú
+ 2  °  Ý¼eœèzzp„dXÂRàñp@»†|˜R€p?¨'ˆ	ß‰Ozêzx	:Šz‰ºy8*}¡pãÀ	PÿcçÇÀ]€„Ph3‚4A}* NH£Dç*30o³EúAü
+­3ÆÐŸž„ýôT€‹¢A`È Eéðþ „Ah'Òê3Buâø=O™‚‚÷f¨Ñ>(bõh F`_y†‰Ñ¼ƒåÓ•(@;²ôÉÔ „Ah'Òê˜'P_ƒðzŸHð²
+S»Q¤
+ðhŸH¨0¨”½ä(Í:$éÌ Oœ	”@„7h'x:Œà0<ÀñCÔ@œH^JašŒàvÊ PìÀ½Bu'ÑD©Ó˜˜A©ôƒDú'' „7X(\pÀ|Âó1ˆ(`sÌÃPPºQ“À£HÔ(O¢}•'‚`üqªf(v2€@„FXhºPÂ
+ÁBà´ `+AØ)—1ƒãŒâxàÐÁ‰€Ž	ThŸ5ÜŸDÿ'ÑB“ <„FX:aH&]0 vf@.ìÃPR&! ›'xBw…ï ¤¼H_*ŒÔhŸ1Ç)Ý§ùCµ	  „dXÁ3	ÁHd>Ú.™‡`¡}P»ÐNEÓh3D§yPÀ|œpïh¡°ß8˜'€¹< „dh`ÑFpgÐ@œ‰C´õ@ñ?£1/x_RŒÚàOcÙ@žT¨Ñ>ŠÄS|¨N„Gh>OŽ`Ð¼I	ðN¡<
+4"pA€=Ý§Dã(¨‚ð(N.OÀî Ò‰Ô'P +0lœF„Gh>N¡9	†itâê˜ô0H 
+ =/µThÉýP^`üÂá¹|Á™ƒ÷†	æ
+ Oœ§x„yxsÔÏÛ=HôTOÉš‡¸!˜ $ ,6€	áüG³C@Æ(NJ^B˜ QJ‚õ /0v£Dò¨€„eˆyJŒ‰H
+z‰8
+H	8	H	8Ç€ dP;Îv?Lƒ§Þ€žð"@H¸MOÏž$èwx ž ŸOE=sÀ„Lx³ÔO^Ïó<˜4uÏ£Dàn ð qºxßŠ7Ï+;&p¼ hO|owOšH¹ô@Ýž‰9ê@JÎ „`xsüO#;ÔÎÝÞ‹Zô@RåÀÀ²ÓÓñ@öÊ*Nñ@ø€ü?N7Q˜3ƒÕA2u	éQœJ€„8h>‚LÔ{Š§0O@m X äoœ¦	ØÀ50P ØÂ¹|ÔCS‰Ð¨Ò
+`EÊ „LXf0H>`¸”.ÑsÌB´ ¡w€]HvƒØ	×@¡9y€D0A4Q2|à¤¼ÁAðà€„9hAš†j˜¨;µ(C³ï b`ìÁZ}D	ô"‡iéDÔf£ÕA2xèA  `„Mh=ƒEÔA
+æ¡:„ê4/lŸH	‹Þ¨²u
+À‘@ŒpÆóê4ORˆ×'CÄéà „Ch*:à0ORw‰Ô'ÎÌ €…B„ìTB€½>lŸ3?‚À¡B4ùÁQ|Åú(N¢ô „Ch*Bà?ª4O} yy…ÉÌâäæ
+õ²}  /ËÓÁôê'ÒP@^ºj¨9Â„à„Wh*/@N¢êÀ`îÀ¢÷(P_é†[·P’8Í S/§À»¢{)À•¤êàhÎÈŸ¥â˜„kh=‚	Ç	ÓÀDAtê'¹<¦Ú˜fÐ| <Yyy}J NA¸*ƒH7áz„ïË“æ„CX	@¹p8]3	Á8'@¸!3àƒ¦00]”z…ã¸§úƒ{ÌÀÅF†àP<Ã€„Wh*‚þ'ÑFp;0wà‚ø@^aê}!N8dþ‚ °¾2øì`Ñ?A0ßH0€Á<hž „Lh¨‚÷;P ¼Ø½BzTA	Ý˜Ä‰Ô¨Nð´ è!Ì\G/ÓO€¡.8	ð*@¡¢* #çø                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 3980 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       E   L   B   ‘   ?   Ó   ?     @  Q   >  ‘   ;  Ï   6  
+   9  @   9  y   ;  ²   :  í   9  '   9  `   :  ™   9  Ó   :     ?  F   ?  …   >  Ä   ;     <  =   7  y   9  °   9  é   8  "   ;  Z   <  •   H  Ñ   N     R  g   P  ¹   I  	   K  R   I     D  æ   @  	*   =  	j   :  	§   :  	á   8  
+   <  
+S   :  
+   9  
+É   :     ;  <   =  w   =  ´   A  ñ   F  2   D  x   A  ¼   ;  ý   ;  8   =  s   :  °   <  ê   9  &   =  _   >  œ   ;  Ú   8     ?  M„oh3PžÌÌ¨v`íG*¨d_¤@8Ù~c„5GpOÂqDJ|=À_ L h
+ 5  =ÀîÛÚÞž „oX˜„„à¡„à6a“
+‚pì‚f-7Œ\O'‰Ê$’z…>c(€@$œeP¨- Í 07Ïcñtüà„eh3PD	Ë N£8~T@‰†…ýA¢„ð@¡th'ê8ê  )*$à'iê !óô "´)Ù ¢0Œ >Nˆ„yh3Q ÜÁ9d	ÔhÈT@ž˜30jašuŽ<üþôgP‡£ÚƒnuÔ3§­@Ñ Bñ½>žq°„yhäÐAÜÁ90àoZ…sð(j8€½:… ,h ì¿Òñ"t* ‚4/A¡}*¨ 0Í;Ô@„eh˜Sx-P`ž”ê F¡:súÀœq€ :xk/¢§üÑ‡< |€Â¡ñ=>}à2;É@€„eh“'Ñ?J3NÉ:„ë O‚÷†ÀÜÃ4ê Ñ“‡ééO¼/0OA¤“»QzŒàb¡:€  „yhÌ)Qš~“è Z¡By N` ½ázäê Ñ:€@‘“Óü<A¤	Ô'ƒh4ƒÕ'á8½ˆá:ð„NX(aBð…`b
+ ¸ä„„!ˆ@>ôXq(/²êÁ8/s è ¡u ¤"„vX&`l¹ˆ„ã…Ç LÁxfâ1ÀÁwÚ¹ÑzuŠfé*'€½BŽ ÍC¸4H„€X'ðP¸<\¹ˆLÀlÁ‚ú0œs&Àdú'úð¨E)Þ'LœÁ>Çª4‚—¦„€h3€¼Ã4÷'P¡:p°o"„ê'Òp(NL9;(Ñ=0(/` n8b£Dð§Pä§éFp(Nð¾„€h O¢w…åIÓ˜Á¢‰S˜'Pž5O™†p@¢†Nòºˆ˜˜R`_ð'¦!â}éà„€XÌ(]HTÄðÌT¼.^	‚0aöNð¾'$/0Œ
+ØA ‚	 Ñ;Äù˜À„€hÁ™ƒµé‰ô‚è N`70O
+„ê3PElD	Ôgê4‚˜¨­C³0f`R¢ê4˜„lhÀìÁÚ†Ðg‰Ä…í‹àQu	áP;Å	Ô3e@;È?N$‚˜3PÍCÂö&À¸n`Bwx„\h¼P^£¢ý P¡:Žè_¤¨…>f5À™`¡tàô˜.\•‚…ÁéÀJ…Ós„\h4â€@7=Ü
+˜(àoœ@ñ:•ÀíF)h3Q™‚uÁséÔ*/ÍB„ïêƒDâH Oð„Žxô<  \	"=HÙ wÏS=5óhÏ£Ü
+p32|Ì¨PœÔÃBóù§}j˜@Ÿè €½Bˆ=„zx4€ Hx 3ƒM>š…8óüÑM?>ˆ:4;üN06&\.v
+@Áu„ aè„ƒ „MxŠ@@ÐäW|ð/g£jÈ TO¸ñžUáB@¡;$ð(æÕÂ÷ÃsUÁñz„ÿ'Q „ah30€€¼	ÏTÁòsåEùÀ¢àñ<2Oœ
+XÂçIàQq~j=0Ì¿e	Ì=Nò0@Ÿå	àd„uh¨xËÐ§Ñ?¦ð60P_˜ÝD@œÁ‰€ŒÂ‚*P^ …F‰þN8/ÆR¡Ús¢óú`ÑE „uX@¸äÀ‰…êàôÔ.\„ ô„V‹À¿‹¦]ã‚0p±qÂâP/Á2àx„eXB€|ÑuŽƒF†‹¨° œ—€ ó@ìÀÀo™€†ý wD'ª¶á|fa(„ehAé|¨v£DùÀ*O™‡©Ý˜Mp'PœÁ‹A¤
+è^ú v`ì¼aµ N£˜3Dà*„«X@óà"`Áu!¦C%à]¢æ(]8	2}'OwÐ<é/0Î x_Ê 0/Ò	@„«h§¦ƒ	Ôg	úP8/¥<	ÅIàNñ;ÂöLŸ5'P CÄùÁ¤ w4@Ù8¼Â@„X(\0™ˆBvÌ5á¨@¹è&`DL¾ž=t{Ñ>ˆ {Puý`°a|Ãü@„eh4N.è¡<@Êê‹ô/euAšŠ`ÑC)§Äå™<îQ*»Ô ¨RŸ€]ïx¢ðO€j ücÀo¾ÛÓè „QhAJ‚óø30ªú0wPf£¡ÀÝ?Ð< UYÄò,Ÿ
+@O@ÔO Dñ¤O EÜQã@ </ð E`ÅÎ·š@„eˆ	=ˆø	Lû(
+}	¬ûÈ	Ý:Œ/ˆ{`*  ö¤®{hE€#¸Š'yB
+Š žCž$ø¢cž%!—àÆÞÖåË]Í „’ˆúˆšzŠ:x
+Š}½ûÊyêyHmûƒ  ¨  –"á¯cÝ[¼žQ€@ H0“Éå‘*€Z Œx|ûûøñ„~xóÞÐŸ¡OFŒú S¢L÷³²'£@N  x  áÿž½§§÷¤€€Ð“€€€Ÿ¨§¨€€Z 9 àO€áOO2„th3ƒâõG;D(w0@aJŒÓ± €éc×¼üzO'€N$ñHO(€Q)ñH Œà >€  |À	8WÛxœžD„th˜1‚¼ƒ8@#g0A*3PrœpéÏâê›¼“Å)õ	<D€E)õ
+‡À;  3Ø 
+pÃš{žD„tXBx4^LL¹€@>c0LÀ† `¸ŠxŸ¾|l>…<D•=>…?ÃpÀ ÄÀ à§$º.¢<„tXBàb/A3åÌf
+P>  „'ú”ôùö°tòUðë@ˆÛàð×TÓÝÔ[€„VXB1Óf! \¼˜Pºp@	˜Qó¨@§<º)èÏ£ÞŒÉùÔ*g0 B€àÏ'>Œö „~XÀÄ..¡sƒá ¬ aBê@,P¸ã'‚ /0=;N`Ÿ5À ½âs Ê¸Þ”êÞ„NhRB~æ`ìÂñ@Ýâ†0;Pòê)<´'dŸ3SèœÂà…:ˆ¨P¡¼
+Ô'Ñ9„vhÀL:‹Ôip(ƒ…Óý V8x^GÐ'‚u‚f4]84a2æ œ"`¼Åà\!à€|Âf$„€h§:NœÁºˆ Îñâ€þbý >fÀžž>P^£¨¨v£Dé /¨Î¨P^¡9€@„€X˜
+˜/ sR€(^÷ œ ]Hj €|ƒ'Q)àQl	ÔhŸE
+`Pž¥3Ô'Os €„bX@¹‚æ(]3—’€Ø #AH(PÄ¢Æð'N¢Ø'¥Bx!9…&'¼½âx@`¨„vX‚0æ	˜P¾Œ1X'BRpLÄ¢Ð@`r¡:‹KÂÄÿ'€ÀÆ ¤Ââ‚üÓ˜'Na„vh3O¢…7:Š`x{Å0@`` +@ÜH_³Aœ@EªÀÅD	Ý'Pœ™@DŠ»ƒH „Šh3O¢sòÔSjÀñAÌ  #ËÔgÍ¸)0NžÑÂ‚ö*¨z¡:ŠTh wf@„sx3ç¢UiäÌùàlÏó<Ìào/—ó²@¨ÉóOŽ#Nñ9y€VaÁŠ*/‚Ià‚ „‡x	ú @ÏÔp)è&z/gd0 6  ž Æ÷z)²‡j˜h8;´åæàUµ@ñ?°(/d ¾ „}ˆ¸Ê{Ìø
+yJyHJzŒüj‹Â`
+ þy¦Ç§€“|ôô@Ð ñ@â9~	êP h§’ÎŠp%g¡„ixêh§J†|ÿ3ü>ˆ³“ $ 3‡ñmÝ>ÇÏïFw€ˆ h;Ü¾_OPO”ÀŸž¦z$ç¨¡w:†‚„‡xóÊÑN"µjâA–†{ª4ã Ž7’ôSy‹Þ'¨p à/§Î
+À^¢”æ	Ý¨‚'Ð„_húŸH<ƒ8@D¥ã„þÀ$€š÷j4ƒæ/v¢¡ÃÃËÝÞA‡0@ž•	Ôh¡<	Ì Pð„ih4ƒÕÁâ|Ô@:ƒäùÁô	àd¡9~Šcƒ–QœÐ<P¬o¤
+À`5ƒ5'PäÁ‚p  „Uh…ì“æ`Í;Äê¨PB¡Ù…%æ¨0/xŸ5²|Ì`ÑBDùÀ¡:s°hž¥	Óè`#€Â  „hj	L¨_Ux&QwŠ§d_¡ƒÅËædð'xŸEÀíFŠ¨^¡Úˆé@AƒÁÅ€„Th‰ýB‰ËôƒÓðLBq ÜÁ=Pi X8
+ËÐ²‚ñÀF‰ñƒDîÇ5§ÑAz âÀðq`„|XÌfÁá<]3Ô0œ!(ÀaHÃ­Àá8Ôbž¨ÎÔ@D
+ n£4ð('°„hX.# BÂÉ³‚fð† \ÀéÀUà@€<áüGóá?Fzp&g¢;è©AÝ“?@„hçuÔ@`œ½Eª¨Q;PA(àGÏ@,áoOkÑO>Œÿ3ÇÑŸEØñh©Ü0 „h˜;‚ö@¢õ(µ8n¢ Ñ<
+=Q¡y³˜E)Ãø,Ošu
+¨^¡:`ÍB$ú@ìÂô „X˜/¼1'S
+ÌR
+PÂÐ†š`”Ðé³Ó OÁ˜;Q¡|X„mh3Q	ËÆ;QÁÒ} N8Á¢‡j	 NŸ§ñ@  ¦ý<–¡î=
+ú @“ª3Ô                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4118 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(83) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                N       H   N   ?   –   >   Õ   ?     A  R   =  “   >  Ð   >     <  L   =  ˆ   >  Å   =     =  @   ;  }   =  ¸   =  õ   <  2   @  n   D  ®   ?  ò   =  1   =  n   >  «   <  é   >  %   >  c   <  ¡   ?  Ý   F     N  b   S  °   Q     I  T   K     L  è   G  	4   B  	{   >  	½   =  	û   :  
+8   ;  
+r   ?  
+­   ?  
+ì   =  +   >  h   ;  ¦   >  á   @     B  _   G  ¡   G  è   B  /   >  q   <  ¯   ?  ë   =  *   <  g   =  £   ?  à   ?     >  ^   <  œ   >  Ø‡¦h	Ì§d¡ÚˆËÔ@òj‹ÝÀò€­GÊ*(±æ¢c€#È€!	>(‰ã(¢‰åh¢ÜAt4 ”¾ ö5u'OÐ1@‡ÎhÐ ½GªÁˆ;/î“¼‰;0¤½9†ƒ‰çãP	DÇ €SâùD'P±Ô&²‹' Ž¸.vïûàY8‡¦h°N`£ÔúAˆ;9ƒÔú(v¡äÀœ¼,PõúÀš‚|
+4@ö¡íBn™Ù ð wc~x´ ‡¦h	Ô'Qê}ÀÁzqº‚ü Qh^LB…2töÁœ	ÓŽ?P#0/à)æŽc‚ôîËÙ@‡öhö
+§õF†p@œ½Buú˜Àa ŒÂ”æ
+;R÷†	Ó˜'~8w
+3/\`˜<Oš…|Ì*0‡¬xÞôg”¡ï?- 6¨S€EP©?C$¼ìŠ8Âº®zšT)Àæ|ê½)èmxcPE£G¸ ‡˜h(€½8Eµ(v^upu@Ÿ8'ÐÀ øÁ€#š§ÍCù„§QÁ¸‚ÓÔä@C¸ ‡¶h¨/	ý9€´ÁÚŠ Ñ=ªÇ§Ñ:ÁÆiÎŒn7æ…ì ‚c¹„	àP½â“ÁÉ†…ð ‡Êhæ¨d^`^è”¨èn`â„j3Nu'N|^ð½”	àÑ9|
+ O†jÄ ¤ÃBñÂp‡ÏhÓc¼'@ã!~‰ÄïÞŽÈ O
+89N¡BtêÙ@¡Cê®PžàQy†iÞ'‡ÏhÒ`#PžêÁú…Ì4O„˜;/0‚óåæ	ÙÙàn8/Q{"óâäð(B ¾à‚;Q¢p‡»h§ÑC±Ãµ
+ /ï„ê¨â	Ô¶j%B¸ã3 R§öfT</Ñ;Äïábtð ‡h'v8Í;Äô¨va~n`žZƒóõ3Äë`@ÝF1/ÕfT;ƒ5¨ÍC±¸à¼‡Ôh ¥;ÂÿT;Qòu	ÄøX^dŸ3
+Sæ^(9…Eìœp”nûiÅÊ§v`íDæ	àõFp_ ¾à‡ÔhéàõC±Å)Ô(˜;‚%à&O¡ð²„ñ(=Pf¢”ï»0Ñ:ø=PìÁ¼Ô'‡ÊhêBrdîÔT ½Fj N&‰çJjf
+ ù;¾OšŠS˜’˜'0vâ…ðfœêšÇð@‡Êh %0/§Ñ9Ò‚ñÆiËÔb£4þ¨Ñ9¤	àb¡“˜b +1P_( ÚŒÇó ¬qé†iÖ'0€¼À‡Àh²âTÌ)N p-€Fœò v£5*¨¥;<‚ÅALÔTŸ4á°ÜÀnQs
+T;€„qš‚X ‡¬xG \¢=5	9à<"À÷¢d
+)»üÑ;>ŒèÚGàÜq3ORp±;ð(^aÊ} >Oši€‡òˆô°¸ N>?Nwz‚*£Þv¢î£s>òïCßB;>¢A¨#0Î
+‹Ô'&‚)ôQÜDâÔãˆ(/‚£ ‡Êx
+€$ \ Þ®rüYÞÑtTÏmCÚ‡¸ç@”Í;H@Jav0A
+àÑ;$ê åDz`‡²hH 0 ÜÀE*ÁêŒàüÀ¾P(N²ÓèŒúP^``‰õ'0N8O¢~L3Oƒ¸6O¢x ‡²hj O¡y€Ü6ÁÒØ˜@-0N ¬ÁÚŒÓ±IÔ@¢Š”ã…	ôNÚ¨Ùƒ•¨‚ ‡²h#QšwÌ	“èž¡Ã´ÿ¨/QèÜÁD'N$PÁX ´q Ü¾ú8Ðnñ;Äü˜˜g ‘9jw‰Þ€‡Æh£Ôgf§Í9ÒþB‚Tð(’h7g(¨‚àZ8v£DîÔs‚ñ$ÔDœHŸ8 ‡ähÖ˜˜@žõ(Qzƒã@ì¿åà€Ô¼pÝ´Pm Þ	Ô(vBw‰ÓŽ§€Ó¨‚ÂñÄ(‡øh ¥à€½Bu	Î“¨/N¢bñ…*—Œ =IÙÚ‰ 0/0N^8Í:„îÇ	Ô7Qy‚uX`_
+ ˆ*hþ`N ¾öIÝ¨NÔæ£Ò÷Š9ÙxºÑCTú@`_Çu	Ì$B|ÌŽ¨Î ‡îhî/0NœÁ<¨Ñ:sê!€F êiÛËÅÆMÝ=H g¢Mô'ÀTOÏ \Pš7…v5
+eð‡ÀhñÂõ	óQ¤	Ôiy‡°(O¤'ýCÂõ
+&'PÑÉêì¢O(ƒ@"’xìžyxÍÀ4Ð ¸ „ n@iË]ÞOO‡ÀhAœ
+»P#	Óéì N¡ä(¨xa â¡;¾$‰å	>‰à¢V”(¸¢2á8¢€"‰ã¸5  ò ˆ i HáU xžO‡¬x
+àSÏ¢|)¨gÏ:47†ùÙ     P€Õ< Br…+IóÄ… Gr…+B‘<1(J†Ðy  H BÜOh¾³€ ‡ÀˆµÝG¼E?&|>…<ôå<¢‚¡?QÈ  `«;OOÀ&Rz|¢5 ‰Ô(²yäž1P“ü>0è  àgTýóº€‡Ïx	û3ÔÉÝA>¦ˆ9h÷žNŠz.¨T/ÜÐt à  æx 3oOOñŸ)OQ'ŸyQ	¡  ÀÐ”àâ=ßŸP‡“x
+3²'ÊÑž·Œùåh©žNzš%@¦ ·¢ à ˆå{ãÙïž¡;”CdñJ}B”K)ÿ@à "f pã±ôøfP‡Ùhæh7:<
+ v¡Œ
+ ÔAêsà0‚ú„à^(‰âˆN “à	
+'"xR „âˆbx™9 Ð€€-0>q£¯{n ‚e ‡ÅhÉÁ¹Ô@ž‹ /ƒäð@É<
+À8¨‚bu	ÄžŸ(À ,¢É'Š@,wˆ|,øš *K $â‹Øà˜ ‡ªhb¡Ú„ê3OâˆAiÕ¨xœ™@ŒÁ9z…0EåBi?Ÿ=OQkQwQO¡Ÿñ#ÈÈ@4	òvžžÆ ‡¾hbŸE'v¢µ(P¼Pf£5§˜—¨&é¼bOÎž¢u×yà(@ÑFÌã€[/ªÀÑžö€‡ÈhÄä	Ó¨QA€ÜÁ9€>
+4Nt7QÂñ"s‘ÃÀT_¢ƒ“åãäú'ÍDb¡ØãEs°;ƒè ‡´hªOœ
+ÔQˆ ƒ4ø'Ñ9Òs÷;PÅC''czåÔhžôP$ÁÓà¦ ‡´h˜˜1Qx`PaLåö¨x^È½á†…ð(N³d
+ '˜t_(O‘Âx=N`¡j|Ô<P‡xh	`0Šs—˜“@^ÕFpU¸@¡8Ü
+GY‚xÁ¹„°(‚¤éÌ1PžCqÀÝŒÔ<  ‡ÒhÄa°@¡Iƒµ ©83Qju
+)/v8v¢À;üO±¢~ˆôMO&@¼îÈŸû=LèÙý˜°>h& ‡ªh˜'”	Ô&/(Ž3Ú@áŒ§xBwƒvx`~¢õ(Oiƒ¸>O¡†ÉóNr8Ò	Cð±F€0‡íhþ'à/0€¼Ã4õ(Ð½„ê3ƒBð‰>iÌí¤“—‚ôê Ææ¨	Ù—Žÿ(wxá9xá@‡Åhøä	à€Á<§ôp#‚U
+‰ Ð¾¤ù§PžAŠ„åæ	àƒðz¡BÔ(b¡Ü'/	Ô ‡Ùxò4@Q=’xôI€Èï‹?È@°sÛt'˜ÓÙBŒKÌ¨/AŠw‰É‹óƒÅ'õB„éàN8v ‡x8;¨@dO§Dz$¨1çÅ£äp,1ˆåW}	äÄöPŸñÂtæbŸ1¿Æà­8áG£qÂsòôáb€‡¢x
+Žõ4^P%Àö¡î2È4TP?  ÀAÏ>¦†‚	Ì˜(Nð?<áÌ?N`ËËàFiÙ ‡Þˆû:‹Ê‹½¸	H˜	HJ‰5 Ö X Ü8Iz|þOwP€‘  Ã\ýàJNý @€ŸŠz  ‡¬x9¨@v‚}Hîè¦ð–¡Ÿ@@€ O óŸÞ†=ï:D€ Àpg
+ûàg€ÞQ?Ú‚~Œêô('ÞP‡ÀhÖ`_PAg$ï—˜( àÁJ}fþgŽ  å÷uu$ÀwPD/“óèSD  ‡ÓhØ‚z‚ó	 v¡á|õAèfœb Faêvxœ@AƒÄáZtê@í8à¾84€˜n¡Bµ@$N‡¿h c(N8/+0Í>†ÐŸH*PíDÉÞ²NÚ(ÝBsiÄƒu
+ÁštæÌ)P¡9š… x8‡¿hûÅ'N8?N``>‰ÿ‚ðTœÀ?"O¢Š†í†ð(Oq!~f¡A~Š7Q Ü˜Á9|p  €‡—hÀíBtéÔp8O„îÔÀaªÀD£1¸D‹àq	Ô'Î$Ô˜f N¢Ãõ+0Q   ?‡µh C³“ê§PâwÀ`B‡pt—Óhœ°½:‚ø30ù>‰àN`	„;N$0˜g lœ‡µh PŸ30(P3N8¼Q¡Ž O¤F—Ò^ÂDàI ~<@ÅF‰Ô'N8)€¼Áâwp.á}* ‡ÓhóP^8¦à’àC³iÌ v`9²„åì“¾‡€P Æ7±¨{Ïz7„üÿð¨<'ç=¨	ït ‡¿h x7€qL3³p@¡Ü‰Ôè`^¢dê %Pï p±¿Ù}“=äöLùô{ºˆ gÐº¡£? ‡·hRŸHG	Á ˜'”	Ô¨N£è3âwc‡j¼
+(
+Ãõ	óQê‡pT¡<JÉ“è£uÉ“€‡·h|7AòxÉ OP'NT¢äÅú;N$OšvP¡â}ÆîÇ§ÌÃÕô¢¹2‡j¨ÐnL8‡·h1/x¢¥30h^¼°ßH>Q ÝD@CÔÑðüGO%¨,èÏNˆ:èùŽ„ý	™óçå                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4118 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(83) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                N       H   N   ?   –   >   Õ   ?     A  R   =  “   >  Ð   >     <  L   =  ˆ   >  Å   =     =  @   ;  }   =  ¸   =  õ   <  2   @  n   D  ®   ?  ò   =  1   =  n   >  «   <  é   >  %   >  c   <  ¡   ?  Ý   F     N  b   S  °   Q     I  T   K     L  è   G  	4   B  	{   >  	½   =  	û   :  
+8   ;  
+r   ?  
+­   ?  
+ì   =  +   >  h   ;  ¦   >  á   @     B  _   G  ¡   G  è   B  /   >  q   <  ¯   ?  ë   =  *   <  g   =  £   ?  à   ?     >  ^   <  œ   >  Ø‡¦h	Ì§d¡ÚˆËÔ@òj‹ÝÀò€­GÊ*(±æ¢c€#È€!	>(‰ã(¢‰åh¢ÜAt4 ”¾ ö5u'OÐ1@‡ÎhÐ ½GªÁˆ;/î“¼‰;0¤½9†ƒ‰çãP	DÇ €SâùD'P±Ô&²‹' Ž¸.vïûàY8‡¦h°N`£ÔúAˆ;9ƒÔú(v¡äÀœ¼,PõúÀš‚|
+4@ö¡íBn™Ù ð wc~x´ ‡¦h	Ô'Qê}ÀÁzqº‚ü Qh^LB…2töÁœ	ÓŽ?P#0/à)æŽc‚ôîËÙ@‡öhö
+§õF†p@œ½Buú˜Àa ŒÂ”æ
+;R÷†	Ó˜'~8w
+3/\`˜<Oš…|Ì*0‡¬xÞôg”¡ï?- 6¨S€EP©?C$¼ìŠ8Âº®zšT)Àæ|ê½)èmxcPE£G¸ ‡˜h(€½8Eµ(v^upu@Ÿ8'ÐÀ øÁ€#š§ÍCù„§QÁ¸‚ÓÔä@C¸ ‡¶h¨/	ý9€´ÁÚŠ Ñ=ªÇ§Ñ:ÁÆiÎŒn7æ…ì ‚c¹„	àP½â“ÁÉ†…ð ‡Êhæ¨d^`^è”¨èn`â„j3Nu'N|^ð½”	àÑ9|
+ O†jÄ ¤ÃBñÂp‡ÏhÓc¼'@ã!~‰ÄïÞŽÈ O
+89N¡BtêÙ@¡Cê®PžàQy†iÞ'‡ÏhÒ`#PžêÁú…Ì4O„˜;/0‚óåæ	ÙÙàn8/Q{"óâäð(B ¾à‚;Q¢p‡»h§ÑC±Ãµ
+ /ï„ê¨â	Ô¶j%B¸ã3 R§öfT</Ñ;Äïábtð ‡h'v8Í;Äô¨va~n`žZƒóõ3Äë`@ÝF1/ÕfT;ƒ5¨ÍC±¸à¼‡Ôh ¥;ÂÿT;Qòu	ÄøX^dŸ3
+Sæ^(9…Eìœp”nûiÅÊ§v`íDæ	àõFp_ ¾à‡ÔhéàõC±Å)Ô(˜;‚%à&O¡ð²„ñ(=Pf¢”ï»0Ñ:ø=PìÁ¼Ô'‡ÊhêBrdîÔT ½Fj N&‰çJjf
+ ù;¾OšŠS˜’˜'0vâ…ðfœêšÇð@‡Êh %0/§Ñ9Ò‚ñÆiËÔb£4þ¨Ñ9¤	àb¡“˜b +1P_( ÚŒÇó ¬qé†iÖ'0€¼À‡Àh²âTÌ)N p-€Fœò v£5*¨¥;<‚ÅALÔTŸ4á°ÜÀnQs
+T;€„qš‚X ‡¬xG \¢=5	9à<"À÷¢d
+)»üÑ;>ŒèÚGàÜq3ORp±;ð(^aÊ} >Oši€‡òˆô°¸ N>?Nwz‚*£Þv¢î£s>òïCßB;>¢A¨#0Î
+‹Ô'&‚)ôQÜDâÔãˆ(/‚£ ‡Êx
+€$ \ Þ®rüYÞÑtTÏmCÚ‡¸ç@”Í;H@Jav0A
+àÑ;$ê åDz`‡²hH 0 ÜÀE*ÁêŒàüÀ¾P(N²ÓèŒúP^``‰õ'0N8O¢~L3Oƒ¸6O¢x ‡²hj O¡y€Ü6ÁÒØ˜@-0N ¬ÁÚŒÓ±IÔ@¢Š”ã…	ôNÚ¨Ùƒ•¨‚ ‡²h#QšwÌ	“èž¡Ã´ÿ¨/QèÜÁD'N$PÁX ´q Ü¾ú8Ðnñ;Äü˜˜g ‘9jw‰Þ€‡Æh£Ôgf§Í9ÒþB‚Tð(’h7g(¨‚àZ8v£DîÔs‚ñ$ÔDœHŸ8 ‡ähÖ˜˜@žõ(Qzƒã@ì¿åà€Ô¼pÝ´Pm Þ	Ô(vBw‰ÓŽ§€Ó¨‚ÂñÄ(‡øh ¥à€½Bu	Î“¨/N¢bñ…*—Œ =IÙÚ‰ 0/0N^8Í:„îÇ	Ô7Qy‚uX`_
+ ˆ*hþ`N ¾öIÝ¨NÔæ£Ò÷Š9ÙxºÑCTú@`_Çu	Ì$B|ÌŽ¨Î ‡îhî/0NœÁ<¨Ñ:sê!€F êiÛËÅÆMÝ=H g¢Mô'ÀTOÏ \Pš7…v5
+eð‡ÀhñÂõ	óQ¤	Ôiy‡°(O¤'ýCÂõ
+&'PÑÉêì¢O(ƒ@"’xìžyxÍÀ4Ð ¸ „ n@iË]ÞOO‡ÀhAœ
+»P#	Óéì N¡ä(¨xa â¡;¾$‰å	>‰à¢V”(¸¢2á8¢€"‰ã¸5  ò ˆ i HáU xžO‡¬x
+àSÏ¢|)¨gÏ:47†ùÙ     P€Õ< Br…+IóÄ… Gr…+B‘<1(J†Ðy  H BÜOh¾³€ ‡ÀˆµÝG¼E?&|>…<ôå<¢‚¡?QÈ  `«;OOÀ&Rz|¢5 ‰Ô(²yäž1P“ü>0è  àgTýóº€‡Ïx	û3ÔÉÝA>¦ˆ9h÷žNŠz.¨T/ÜÐt à  æx 3oOOñŸ)OQ'ŸyQ	¡  ÀÐ”àâ=ßŸP‡“x
+3²'ÊÑž·Œùåh©žNzš%@¦ ·¢ à ˆå{ãÙïž¡;”CdñJ}B”K)ÿ@à "f pã±ôøfP‡Ùhæh7:<
+ v¡Œ
+ ÔAêsà0‚ú„à^(‰âˆN “à	
+'"xR „âˆbx™9 Ð€€-0>q£¯{n ‚e ‡ÅhÉÁ¹Ô@ž‹ /ƒäð@É<
+À8¨‚bu	ÄžŸ(À ,¢É'Š@,wˆ|,øš *K $â‹Øà˜ ‡ªhb¡Ú„ê3OâˆAiÕ¨xœ™@ŒÁ9z…0EåBi?Ÿ=OQkQwQO¡Ÿñ#ÈÈ@4	òvžžÆ ‡¾hbŸE'v¢µ(P¼Pf£5§˜—¨&é¼bOÎž¢u×yà(@ÑFÌã€[/ªÀÑžö€‡ÈhÄä	Ó¨QA€ÜÁ9€>
+4Nt7QÂñ"s‘ÃÀT_¢ƒ“åãäú'ÍDb¡ØãEs°;ƒè ‡´hªOœ
+ÔQˆ ƒ4ø'Ñ9Òs÷;PÅC''czåÔhžôP$ÁÓà¦ ‡´h˜˜1Qx`PaLåö¨x^È½á†…ð(N³d
+ '˜t_(O‘Âx=N`¡j|Ô<P‡xh	`0Šs—˜“@^ÕFpU¸@¡8Ü
+GY‚xÁ¹„°(‚¤éÌ1PžCqÀÝŒÔ<  ‡ÒhÄa°@¡Iƒµ ©83Qju
+)/v8v¢À;üO±¢~ˆôMO&@¼îÈŸû=LèÙý˜°>h& ‡ªh˜'”	Ô&/(Ž3Ú@áŒ§xBwƒvx`~¢õ(Oiƒ¸>O¡†ÉóNr8Ò	Cð±F€0‡íhþ'à/0€¼Ã4õ(Ð½„ê3ƒBð‰>iÌí¤“—‚ôê Ææ¨	Ù—Žÿ(wxá9xá@‡Åhøä	à€Á<§ôp#‚U
+‰ Ð¾¤ù§PžAŠ„åæ	àƒðz¡BÔ(b¡Ü'/	Ô ‡Ùxò4@Q=’xôI€Èï‹?È@°sÛt'˜ÓÙBŒKÌ¨/AŠw‰É‹óƒÅ'õB„éàN8v ‡x8;¨@dO§Dz$¨1çÅ£äp,1ˆåW}	äÄöPŸñÂtæbŸ1¿Æà­8áG£qÂsòôáb€‡¢x
+Žõ4^P%Àö¡î2È4TP?  ÀAÏ>¦†‚	Ì˜(Nð?<áÌ?N`ËËàFiÙ ‡Þˆû:‹Ê‹½¸	H˜	HJ‰5 Ö X Ü8Iz|þOwP€‘  Ã\ýàJNý @€ŸŠz  ‡¬x9¨@v‚}Hîè¦ð–¡Ÿ@@€ O óŸÞ†=ï:D€ Àpg
+ûàg€ÞQ?Ú‚~Œêô('ÞP‡ÀhÖ`_PAg$ï—˜( àÁJ}fþgŽ  å÷uu$ÀwPD/“óèSD  ‡ÓhØ‚z‚ó	 v¡á|õAèfœb Faêvxœ@AƒÄáZtê@í8à¾84€˜n¡Bµ@$N‡¿h c(N8/+0Í>†ÐŸH*PíDÉÞ²NÚ(ÝBsiÄƒu
+ÁštæÌ)P¡9š… x8‡¿hûÅ'N8?N``>‰ÿ‚ðTœÀ?"O¢Š†í†ð(Oq!~f¡A~Š7Q Ü˜Á9|p  €‡—hÀíBtéÔp8O„îÔÀaªÀD£1¸D‹àq	Ô'Î$Ô˜f N¢Ãõ+0Q   ?‡µh C³“ê§PâwÀ`B‡pt—Óhœ°½:‚ø30ù>‰àN`	„;N$0˜g lœ‡µh PŸ30(P3N8¼Q¡Ž O¤F—Ò^ÂDàI ~<@ÅF‰Ô'N8)€¼Áâwp.á}* ‡ÓhóP^8¦à’àC³iÌ v`9²„åì“¾‡€P Æ7±¨{Ïz7„üÿð¨<'ç=¨	ït ‡¿h x7€qL3³p@¡Ü‰Ôè`^¢dê %Pï p±¿Ù}“=äöLùô{ºˆ gÐº¡£? ‡·hRŸHG	Á ˜'”	Ô¨N£è3âwc‡j¼
+(
+Ãõ	óQê‡pT¡<JÉ“è£uÉ“€‡·h|7AòxÉ OP'NT¢äÅú;N$OšvP¡â}ÆîÇ§ÌÃÕô¢¹2‡j¨ÐnL8‡·h1/x¢¥30h^¼°ßH>Q ÝD@CÔÑðüGO%¨,èÏNˆ:èùŽ„ý	™óçå                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4079 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                H       @   H   >   ˆ   ?   Æ   >     C  C   E  †   @  Ë   <     <  G   ?  ƒ   <  Â   ;  þ   ;  9   =  t   =  ±   <  î   <  *   B  f   D  ¨   B  ì   ;  .   :  i   :  £   ;  Ý   9     :  Q   <  ‹   @  Ç   H     O  O   R  ž   Q  ð   J  A   K  ‹   J  Ö   H  	    B  	h   =  	ª   <  	ç   ;  
+#   =  
+^   ;  
+›   ?  
+Ö   <     =  Q   ;  Ž   <  É   ?     B  D   G  †   G  Í   @     <  T   =     <  Í   =  	   =  F   =  ƒ   ;  À   ?  û   <  :   ;  v   >  ±†õx×Œð$çù¡.‚}Ý4"è€žLOÎð…B(àï8
+z‹,û½=¥>Í=Þ„}<¤u<™€+€t Æx _€[Š0†Íh'P_ò}¬‚*P^œé:‚÷(NDà‚¨§­§ÀÎBîÅ
+o9éÀïŸäÙé˜„€± Gv0†´hç€Ýây Ð
+iÆæ	Ô;ƒãËÅPfŸØ£'Ô@ž¨ /````8NãtJ3Šƒ)@£Ôù€†ÜhÓ‰Ô'x ¬ÃAÃ´åð'O¤˜h_iƒµŒo£žxù'¨@GPPP‡qßnsÀP“C:Öv@†¾h N¡8‘:u(/P¡Azw‰ôPJ¢ë“æaèà:y®x`2;ðPÁñà?ç²ñS=Ôÿš%hdx”î †¾h N¡;Äð(F¢'N£4ïÔž'ÐÂ  !Þ:ô 3ö $éì4$óù*ÿ?tóºtöU` ç8†µh!0ÁQƒ¸'ÎÁ:ŒàÌ¼H`7N$O   ¿$ê%*,sþ #éê 8þ)à&t)éçj%*+´À ðY€[ð†hÐ;0˜g* Naœépg…¨/‡OôTÏ&xô@P§Ÿ:…˜3òÏó>è Ð (Àãx†«X1q(@Áx&_†s 0a8»Ç|õÈZà @¦Ÿó>ŒëÐ*'ÉÎÉ£‚`K/§€†ÓX$^
+˜0_@ræ ™~0bÌ ¼N
+2{Óè`J£HÞ¼NœpB`Âú'B£AÃ²õ †ñh ¤Áâ|Ôh7@D	Ì #P o¢‡j30§”féû3§èPÏBviùÌ÷‹"GÄòþT3¨@O€†ñh—‰æŸDú@8N:x§Qš|Ô	Ô(%N$bù@¡:¼”f`žê9P$Ç	Ý˜À¢ð@†Óh!Nœpžè GÄðAbˆŽõ'PìpJ£6Q!{È¨Ì¼©Bsºˆ%P^`_p[ŠÀœ†¿h¨@ÜÀn8ÍFpÔAÚsð@^¡>j*O›(X_¡zwJœÀ¾
+ *Q ~ ½äÀñ<'†ªh v£B÷‰Èà9‚„äj4O¤'OŠ”@ÉÖ˜¨õAzƒóöEâH	Œ ¼Á>p_Þ †ÒhÀñ>eàÐoÁzƒó‘¨Ñ@Žø'PtœÁ†òÁ‚U	Ô¨ƒØ@LøÓç'0©>`†¾hÀñAxàF¢Bõ
+4Ú…ê /0:„åïRC(¸¿H*Pž;‚¥§ø
+—¼/OêŽ †¾h#âˆæ¸’j¨‚óéÇú'ùA{(>€,/%N_È4/d£4äÉÌÀ70nŸDôÀ`†Íx4 	`OÓçèÏ¢ëÇ¼ô`SÑQ=C>ujjßCá€\OËôà/Àdž<æ§zz
+Îõñg£Š„ †áx4@ À=€	àö_Ÿ£>‹º*g£žŠp4gOP¨ŸQCÛçp¾-§ûO@O©>&~Z)ç½ž¤º g½ †áxÌ€ !€oyÐÔäèOÑ
+öMóÔÑî8@àÆð@~¢ñÂuçIÌ bŸDü¨N8b^`†¹h@  +ÄjÁ¨Pž(Á¢ŒÓæ£84ãð8€½8à¾ê :„ðz Â
+Fù¨¹B„ÿÀ†ÒhT<9~j	 OÐf8Ä?0ƒÕXá<@ñ<Á@€ØNà`ºp€Ù‚æà†`¡u `†ªh'Ò xœš¹É€‘>%ðARˆ ÎÔ@Ð<0P^ÆÓÇˆ'Î Ðp7P_&Óé€†´h90v¢Áêsÿ'0Pæp'w…êgƒæ` ½”êÁzx;Qt¨0/;$éÌ4Nð†´h¼OŒà©D	ØŽ§Ø¼H^É;È3:ŒàP°Ràì bp.\08þ‚†À¹"ð‚f †ÿX2L¾Œ'‹—ƒÐPÃf/˜&aâåÌ hæ@r¢Ì &N¡=ðf¡Øàna}¼ƒ@‡'h0;NJ8Î)à€\_¢ŽÔ;PÆ“'Pœ˜¿F0O¸)Q8âòdêäÔ;Q„	ôQ¤À†áh.¼QHÝä'€&Ó”'v`È¼½G¦
+êƒGPcÎ¡£ŒŽþ4@O¼ ïS?È @°¡ !‡÷ˆ`†¹h9ÔRŸ8*P ¼š„	ô€Z§es`Ò`9DO1¨DäñyD¡1€@)ðIDò¡<ÐÀ€ <öô^c†²h;0v^˜'©<5(;ƒH*Pœq ßC@ ,«U€#ÉÞ € ¢I€#ÉB‰á8ž€"ˆ¢n²	€ì  × < ¶Áw°>;†žx Tî†„WŒð>;ÓÑr¸´<hÎïQ@Ô €  ùE®ûiøîw‰å'Ÿ¤ù’O‚¢xN( ¢'¥¶‚8 † °_€œÅ¾ÀnøP†ÆˆÌùH
+Šx-
+zxÿ‹8~O„ü3@Þ    ’ ›ŽÉÏ‰Éçp¢k ”T+0
+…>5'€^5\ƒP° €!îýfï;†ŠxÔôhv†‡x3Ëvz 'üP0  @ D€ —ü=Þ…=Fî„LD×¿ÇÆÑÐ |mÞû¾Æ¢L†ËxyþgÑáÞœ™ï'¨@¸ŸCÞ‡‚ÿ,ð@PP—~ƒw±è)òx(“Ê!0	=âOÐ@àì á¸ 
+x8äß€IÀ†£h,Pñ:xï ÍCø<AxXžú”'Qé„Óè7‰Ý>¡'€@#Wz„ž ¨IâõƒÌ  œ \œyýñJ| †™h'8áÙxàn``-ƒH<P7D(ôÀ¼ÁŒ&O^”E3ñ9Dž“Îêé<¢Q€Y/ Ø .—€Î-í½>)Ož †Áh
+à‚ùÀ¡Dà¨¿H§Qy€Ý”
+ c‘N†d"óäééô#}å 1©éê$ %>B@Ïpåú~NP†Áh	Ì'¨n$QêuçPh gÄÿ@òê‡…ÿ(Í 0Q™|
+pHœÁ=*Áù†Š)€°¼—§OI€Œ†­h(Bz“‰ÔDŒiÖAš‹Ä"P#ƒäïõ¨O¡€ÍA‚zS¨€œÁÚr|àÐ¼Á9É†`†Áh¨Q&u§A4
+÷˜;Qô	Ó¢Q¡{(3eÔÔi„ëÞ'¤¼H¡œ'euÔ;z¡8†ÁhŽÁñ|‚Têü`^ üÁÚ NžUAéƒ¶Nñ>ƒp°½B……ù¨cj+ƒ5@`7x Fœé8 †¨h'ÒLÀ¡:ˆ4P ½i‚tð@¡Eð;PM ”h^8˜ç
+ OqÁAtêgh  0†¨hÃw{(Na´àP^k€ÝD' Ú†0	;†}æ
+p;èŸ>s	pêó¼S/“ Sx †Æh˜@ÅBuÓ¨€ÂÊŸ4êf¡}10NÐhÚˆ¨P~j4NžDêóN8/x_¡€à†Úh5<ÉËÔh¢õ@¡j‡j Nñ:5“æj§0Pœp~^ñ>ƒ‚òÿ@8/Oš„åâB÷ †Æh10O*4®0/NÊà•@ÜqR F_¤‹Ô1{	àÑ@ŒÀ¥F‰ýPD<0¨Îpf¡:u †žhAŽµ&	ÔU…è”@áxvé°´¨âwp'ÍA*sòA¤âH$/Ñ<
+ †¨xÉú JSFÔTôvOdÎ´ 
+Žå·q½AãCØ'Q‰à0\^î 
+Áx4â„ê
+Óé †äx`@v#º´
+p$ÀŸ´
+™ÈC€ 4 Àî_€ŠðžÊê@$P_ÅîÌ)ƒ2þ3€,NAZwf
+Ç †¼ˆ
+
+{º‹ÊyHlûÈª‰Jz=
+}`€ 0gšyò”÷o¢\
+o8W†_žŠ™×Ô @Ð ï*{ÆxÞ †ÐxÙþg©4jtTÏ²``@ [|çžo¢ä
+z ~ 4 æqÍ?BÍâž{4@ÝB*z†ˆ4 †¨x @x9è©6ˆ	ü´{?D€OwcÑA=à\O&( [éôôSODLð3èŸDí	ú3Ó†¼h˜'Q¢|à\D§x^@œÁ>cƒçéôQyƒùÈeZwð;h_¢u‰Ó¨€½B‹”@œHØ†íhT;Bêh7ùFj§ÐÁÜrž>/Ñ”$O¢vPf`rB 
+à’‰þ‚áAxX  †±h'ÌÁ:wŠÔh£á¾‰Ê“æa™y„'‚
+`Í”ôPÈ¿H	“—¨Î…ò@ñAÌ(ù:s€  0†±h'ÑBtææ	àNÉC³ J8Ñ>iÔA)„‚TéÙ8xÀaêu	ê‚@^¡¼E0f¢¨¨@V†h”;N`D'PŸÕ@µ8‘8oP»$åì7 ‚T§:<
+ Ž//xŸè¨ªêƒ†Ùh%N¡<
+þ¨Ñ9È À‰D} ~`</…ïîÚ L8Í8Á¡zˆ P^aš‹ËÔAL 9P¡?Ð<†ÙX.‚æ.8]è…LB„!HA3oXÁSýÀÑ>}*g±‚Ì
+p$èÐîÜžÈ†§h'€Àn¡C3PJ`D°g°'0našw…ã‡¸,ÀþKôôhÏQ@G0gÏHsèÏ+;ÄÝ †§h@¢éà1ƒE—¨NŠàexÞ'y†/\@ü5Úˆæ`^`A\Aòu
+	S¨‚¤ï †Èh˜fä	Ôz`íAÊˆ `œ½F‰ô€:¹Ñyƒ@X Hœ”n`_Òx{ˆ+N¡>Š4N­F‰éØ†´h2ƒDï N”±PœÀ9‚}æaz„éÎ Nê	HBºz|×wŒò“Ô KwPÏQâž}z*h ¨{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4095 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       G   M   @   ”   >   Ô   <     =  N   >  ‹   A  É   B  
+   A  L   >     =  Ë   <     >  D   <  ‚   <  ¾   =  ú   =  7   C  t   C  ·   A  ú   >  ;   :  y   :  ³   ;  í   9  (   :  a   <  ›   @  ×   H     O  _   R  ®   Q      J  Q   K  ›   J  æ   H  	0   B  	x   =  	º   <  	÷   ;  
+3   =  
+n   ;  
+«   ?  
+æ   <  %   =  a   ;  ž   <  Ù   ?     B  T   G  –   G  Ý   @  $   <  d   =      <  Ý   =     =  V   =  “   ;  Ð   ?     <  J   ;  †   >  Á†ÄhéIà¨€¿åÓš'Ñ;$ú¨/QðÝåJüO
+OQÊ¬	ÄðìñÀ´OáD6 ›€ "ð×Ú>/ Ià†Ähèaêtê!Q*(+O¢‚QÀ30©:qÁÊŒæ¡“ÄäñIDž¡€DäñÙDòŸ.¨DäýÆà@¿û½ÞP†Äh8/Pœ˜ÀF^]„ÿ'N¡b|Ôh…†—èž¥º…xjÔ	j“éèâ¡îÕ)¼À±œÂ»¼­ †Øh˜¨cp@^8b70N<‰ç ½‰ƒ´çJ±xP_¤	àx^¸ÀF¡ŒAi‚u…ƒséÓ’¨N†Îh/N$€æ=0Pž’ø˜gµ	ÔSŠL3dãB÷f	ÌÁlæ(À¹9‚s¸XŸ5	Óü^`†âhuH)/0/ÈÀ½=0(‚ø@íBu`xœšÀÿ8Áœ`00§@1P`7P8
+ÔhB‹à†Ýh¨N3N_¾cƒ•(Aµê˜H^ñ=&	Ù;åx	 
+ÇÔg"øB£4ìL˜T7	éP^†Ýxt   t Á?~Šyäè€ï$ÀÇ£>ˆ
+ÓÙä¨@e
+þ/ÑC1Ã¸=0N2‚h3ƒÕéþQ †çˆ	ªƒð ¨E€—l|Œù:{‹Ìûˆ
+ˆø
+x*zv0r<IàQú} ôÀ¼ÃXf`x¢¤îÓ²0Ì†«x'p`–Þ7§ûÎÝžœ	:Ô4@Ñ¢Â|º 1†)ÔúœÁA:q$@žLfÁûÅ§ÑA, †¡x4<¸ßOAÇFTôhÏO:†xSó¨SÏ¡ Au¨¨.N9Ô¨'0¨PäÔ(ƒÒõ †µh(N` ?ÍFÊÔR`^ž§'PžX—…Ší ‘ÀÝD)ÌT_¢z N¢‰Á"ó †Ýhc‚óõÔD`^”§PaHµ¦	Ô'Q'_‰ê0/Nê ªpy~‰ôƒ5(#„à†Éh#P^`;Å°@ –ÔAˆÃ fœÔ¨N ½‡ø4QQ|	Ý;‘{È<Á~ŠÁ¢â”ð †åhµ
+ v£8:0vŸäúAi†iþ0Ì'9€ÝC@­A‚vIÓ¨­:u	Çæ§v890‚Óç1z€†½h4Pœ¿E@Öƒ”h^EjÁü(/Q„íj§©:„õ¨N¢	àxØ“ n¡Ü˜€†Ñh4PŽàPŸ¤ê¦Ú£5Á¤ÌéÆO€~²á}é‚xè¡‰€V8‘;µ˜ ‡éh˜:u(Ojtã‚X4N*Ní94ÀTB|Ì3dî wP</a|Bôêæ !§‘Cµ—¨Žˆ  y€5Ï¿x¨	Jy
+Š‰Üø	ªx
+ŠxJŠ}Ú‰FP¨NaT't_¢†&5ÉÓÁêˆ#P^¡ázp–ˆ  ÌÜ¿x¨?‰xú{(
+ˆ	ªx
+xJŠ}	Ú‹¶QhÜÂ
+ CØ'bašŠSÀaêrõ'0Qœ ‹¤x   
+`ÎiòóèÉžy0 @VOÐ _ÑRŒôÞ.è¦Æ*ˆ %BxTh‰„	É‹Þ'úŽ Nay€ˆ„x Â½5	NùóÃP§ŸŠ†„÷äüð3Ó??Ìä,ì JD'N™8ŒpÄÁ:z`ÑGÅù¨¼Â /P†ÒhT<9~j	 OÐf8Ä?0ƒÕXá<@ñ<Á@€ØNà`ºp€Ù‚æà†`¡u `†ªh'Ò xœš¹É€‘>%ðARˆ ÎÔ@Ð<0P^ÆÓÇˆ'Î Ðp7P_&Óé€†´h90v¢Áêsÿ'0Pæp'w…êgƒæ` ½”êÁzx;Qt¨0/;$éÌ4Nð†´h¼OŒà©D	ØŽ§Ø¼H^É;È3:ŒàP°Ràì bp.\08þ‚†À¹"ð‚f †ÿX2L¾Œ'‹—ƒÐPÃf/˜&aâåÌ hæ@r¢Ì &N¡=ðf¡Øàna}¼ƒ@‡'h0;NJ8Î)à€\_¢ŽÔ;PÆ“'Pœ˜¿F0O¸)Q8âòdêäÔ;Q„	ôQ¤À†áh.¼QHÝä'€&Ó”'v`È¼½G¦
+êƒGPcÎ¡£ŒŽþ4@O¼ ïS?È @°¡ !‡÷ˆ`†¹h9ÔRŸ8*P ¼š„	ô€Z§es`Ò`9DO1¨DäñyD¡1€@)ðIDò¡<ÐÀ€ <öô^c†²h;0v^˜'©<5(;ƒH*Pœq ßC@ ,«U€#ÉÞ € ¢I€#ÉB‰á8ž€"ˆ¢n²	€ì  × < ¶Áw°>;†žx Tî†„WŒð>;ÓÑr¸´<hÎïQ@Ô €  ùE®ûiøîw‰å'Ÿ¤ù’O‚¢xN( ¢'¥¶‚8 † °_€œÅ¾ÀnøP†ÆˆÌùH
+Šx-
+zxÿ‹8~O„ü3@Þ    ’ ›ŽÉÏ‰Éçp¢k ”T+0
+…>5'€^5\ƒP° €!îýfï;†ŠxÔôhv†‡x3Ëvz 'üP0  @ D€ —ü=Þ…=Fî„LD×¿ÇÆÑÐ |mÞû¾Æ¢L†ËxyþgÑáÞœ™ï'¨@¸ŸCÞ‡‚ÿ,ð@PP—~ƒw±è)òx(“Ê!0	=âOÐ@àì á¸ 
+x8äß€IÀ†£h,Pñ:xï ÍCø<AxXžú”'Qé„Óè7‰Ý>¡'€@#Wz„ž ¨IâõƒÌ  œ \œyýñJ| †™h'8áÙxàn``-ƒH<P7D(ôÀ¼ÁŒ&O^”E3ñ9Dž“Îêé<¢Q€Y/ Ø .—€Î-í½>)Ož †Áh
+à‚ùÀ¡Dà¨¿H§Qy€Ý”
+ c‘N†d"óäééô#}å 1©éê$ %>B@Ïpåú~NP†Áh	Ì'¨n$QêuçPh gÄÿ@òê‡…ÿ(Í 0Q™|
+pHœÁ=*Áù†Š)€°¼—§OI€Œ†­h(Bz“‰ÔDŒiÖAš‹Ä"P#ƒäïõ¨O¡€ÍA‚zS¨€œÁÚr|àÐ¼Á9É†`†Áh¨Q&u§A4
+÷˜;Qô	Ó¢Q¡{(3eÔÔi„ëÞ'¤¼H¡œ'euÔ;z¡8†ÁhŽÁñ|‚Têü`^ üÁÚ NžUAéƒ¶Nñ>ƒp°½B……ù¨cj+ƒ5@`7x Fœé8 †¨h'ÒLÀ¡:ˆ4P ½i‚tð@¡Eð;PM ”h^8˜ç
+ OqÁAtêgh  0†¨hÃw{(Na´àP^k€ÝD' Ú†0	;†}æ
+p;èŸ>s	pêó¼S/“ Sx †Æh˜@ÅBuÓ¨€ÂÊŸ4êf¡}10NÐhÚˆ¨P~j4NžDêóN8/x_¡€à†Úh5<ÉËÔh¢õ@¡j‡j Nñ:5“æj§0Pœp~^ñ>ƒ‚òÿ@8/Oš„åâB÷ †Æh10O*4®0/NÊà•@ÜqR F_¤‹Ô1{	àÑ@ŒÀ¥F‰ýPD<0¨Îpf¡:u †žhAŽµ&	ÔU…è”@áxvé°´¨âwp'ÍA*sòA¤âH$/Ñ<
+ †¨xÉú JSFÔTôvOdÎ´ 
+Žå·q½AãCØ'Q‰à0\^î 
+Áx4â„ê
+Óé †äx`@v#º´
+p$ÀŸ´
+™ÈC€ 4 Àî_€ŠðžÊê@$P_ÅîÌ)ƒ2þ3€,NAZwf
+Ç †¼ˆ
+
+{º‹ÊyHlûÈª‰Jz=
+}`€ 0gšyò”÷o¢\
+o8W†_žŠ™×Ô @Ð ï*{ÆxÞ †ÐxÙþg©4jtTÏ²``@ [|çžo¢ä
+z ~ 4 æqÍ?BÍâž{4@ÝB*z†ˆ4 †¨x @x9è©6ˆ	ü´{?D€OwcÑA=à\O&( [éôôSODLð3èŸDí	ú3Ó†¼h˜'Q¢|à\D§x^@œÁ>cƒçéôQyƒùÈeZwð;h_¢u‰Ó¨€½B‹”@œHØ†íhT;Bêh7ùFj§ÐÁÜrž>/Ñ”$O¢vPf`rB 
+à’‰þ‚áAxX  †±h'ÌÁ:wŠÔh£á¾‰Ê“æa™y„'‚
+`Í”ôPÈ¿H	“—¨Î…ò@ñAÌ(ù:s€  0†±h'ÑBtææ	àNÉC³ J8Ñ>iÔA)„‚TéÙ8xÀaêu	ê‚@^¡¼E0f¢¨¨@V†h”;N`D'PŸÕ@µ8‘8oP»$åì7 ‚T§:<
+ Ž//xŸè¨ªêƒ†Ùh%N¡<
+þ¨Ñ9È À‰D} ~`</…ïîÚ L8Í8Á¡zˆ P^aš‹ËÔAL 9P¡?Ð<†ÙX.‚æ.8]è…LB„!HA3oXÁSýÀÑ>}*g±‚Ì
+p$èÐîÜžÈ†§h'€Àn¡C3PJ`D°g°'0našw…ã‡¸,ÀþKôôhÏQ@G0gÏHsèÏ+;ÄÝ †§h@¢éà1ƒE—¨NŠàexÞ'y†/\@ü5Úˆæ`^`A\Aòu
+	S¨‚¤ï †Èh˜fä	Ôz`íAÊˆ `œ½F‰ô€:¹Ñyƒ@X Hœ”n`_Òx{ˆ+N¡>Š4N­F‰éØ†´h2ƒDï N”±PœÀ9‚}æaz„éÎ Nê	HBºz|×wŒò“Ô KwPÏQâž}z*h ¨{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4034 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       E   L   ?   ‘   :   Ð   <  
+   @  F   <  †   ;  Â   <  ý   <  9   ;  u   8  °   ;  è   9  #   <  \   9  ˜   :  Ñ   =     >  H   B  †   @  È   >     <  F   <  ‚   :  ¾   <  ø   :  4   ;  n   ?  ©   J  è   N  2   R  €   Q  Ò   I  #   J  l   K  ¶   F  	   A  	G   =  	ˆ   =  	Å   :  
+   =  
+<   =  
+y   <  
+¶   9  
+ò   =  +   9  h   >  ¡   >  ß   @     F  ]   F  £   @  é   <  )   <  e   <  ¡   <  Ý   <     ?  U   =  ”   >  Ñ   =     8  L   >  „…Êh$/Ñ=F§0NA|'>‚úAœF	àbœÂ¥	&w”$ùBO„å	ê'“à* Žån'™'‹#à: à SÀ> Næž‹éù<…¬h˜h^Êù¨P:ˆÜ£Hô0D¡:Tg
+Øø	:‰:‰‰:x˜
+zˆÊyM	C 1 @P Ç c~ï>P…¬h$áyÑy~ŠŽ'§>Nîf`µD	Ù'<	©ð SÎÉž¶zš8¨gwé¢¤‚@ôÂ{‡°…Åh/<˜gú È?//‘D¨äAŠ4X/à^	‚à™tÌ)˜p(]C…Àœ‚€…Åh//0ŒHÌ3PÈ¼na"‚ójˆ â x8 n^îð</(ƒE5 P`7ÍFŠ4Oœ@ì…»h¨/ÀœÁàÜÂpß8À •9„Ôg`€ 0`@ØñºŒÔ'ƒ³†…ï €½Bˆ3P¢jÁ …§h'0“@¢iÌ ¥>f§P’x8O™xY `0þù¨€½¤Aœ(7‚Ašˆ ÑC¸€…±hÇ	ËÇfžXÔŸHŽËÙ;PÞ1	8Guª NÚà%0Ñ:óðU+Q§…±h§0Áš‚¨§©;È$P_Ñ~ŠÌ4N.æÊ+:G	ÓÝeçEï/DÀð½"‚óÔ€…Åh'€¼Ã4ú([„ô§0O à+0b¡àÝd'ôq£'òôçPf´à&/´¼QR†ðA‰Ô …ÙhÁ§Ìpk‚s•''x_ò|Ô,/0Oê?'Qì(!0˜˜;‚Äï²Nð¼A|À…¶h(w„îÔ\ŸH3P¡=éôQò‚ø8€½C"÷‹ ¹…h>b.œ0^PÀ‰ˆ@¹ˆ' …¶h'O¤(v¢äï ÍAzŽæ¡ˆà?0¼¼Á;(4h?P#N˜@Fp1Naäù¨9P`ŸéÌ48…ŽXŽAH…LÀr.p¹‚âEÔ€¼h?‚µ‹‹Ô(o‰É“ç¤ê²O¤§Bu …Þhê˜h_”;0˜@žE'©;³æ'://cj 0¤¾äÓÒ£8(/Nt +0:„ð(N…Òh&¼Pra	Ó¼Oé„	ä0¨Ñ>p&ƒ8*P`Ä‚%Ô.æ!Ë¡Ä¡æ \»Æ…¾h¨Ñ?Ð˜'NñA)‚º3jc‡…ê`yªÖá’êb €|Á€ù…à`¾¡a. …–hPg >æ^¡@Üpr /o¡‚uÔ	L OJŒÚ‰Ô'¨Á<àÑ>‰Þˆ P_Ju*P^œ\^ …ªx”)€pœËùôhÏ$ÀŸÏ?È3²g«‰9ê4@ŸØA!x‘>‰ôƒ¹Ê„ð*N¡E0@…¹ˆ(€4 B ç	³ž&Rž&¢ïB¶£>ò¦¢?B  è£B÷¨Ñ>Š30)ƒ5°f`F£E¨v…¹x” ` œ5»ÉOù£Ž†8Iú T€ž¡àgcÓè£H˜¨Í@Fp.ƒ5¼€CÄõ(€…¥h(x8Þ
+`Ò¡¾J^òø MzˆØpx’ð"/P^$0˜!O¢‚U
+÷f&€…¹h'yjÁñ{³Cw†—ésð˜'QsæàO¦	àÒ \Ÿ5Õ	ûáy1{À…Öh¨w)Þ']	þ0ÍCDéËó0v^@ Fa€Œ`00€?ÍFiÓ‚‹Ô'­>Š¨x^°½Bx …®h
+ç)Þ']u&v oÈÁÂ|Ì /x°ô@¼.8^ €3pºf0œ	Â Ì …¸h,Ú†IóP…B„âÕXŸ1ÁzusEæ	à”r ¼Ã8—Ž'QTù‡æ	à€Ã4ò'ÑF…ð …ôh,/Ìnt£4èT@ž¥
+ íFj§BÁºˆ¨dçÉÓÀî@¡:s¨ÀÂæx4P±;ÅàP…ôh
+ù—¨N¡=ªæ`FÊ˜`Pb|ÔSv0Z¡:†)àQR‚õ¨OF'e³	@_¡†€…àh'w
+Ô5Àð½8áÊŒàªéÍæ¢˜:~,ú4thÏ+Dó¨'±@Ox” L0	‚@ÉjÀ…®h;0v¡âróª3/Ä‰ñP8l7'n`œ¼"ƒI”_j¸vO”Bd÷ˆRï(“Ó©ñ8»@È€ ú€Påp…Âh,ƒA»Å@z8ÎèŸeêŽŽ///0¨	*(³døR ‘bxR(‚bˆP¢âx¢(€døR ›ª€"  pÀ lî,½žO…«x 2'£;“ü'üÏ%C<=èEP¨$cO   .T ni^O€#É>O€!¨¢P€&8Š"˜ Š"£  À‡  ˜kæwŸÛ`…«ˆ¸oyJ‰x	J‹
+	JyØO=ø8€  IxË¢ùùå>¡O¡J$õ	Ü''”Ô%}áh   DÃ^©À,`…µxàSPãB}ÿt'¨[xwzà{x?   äxMßïOOQï¡ã¡yOOQ'OÅŸP ¼d€|9…¸âÞîžP…µh	 w0'0~¡Ü(NaÚx):ŽÞ' ¤çÝ¸¢OP»ÉêhNO(“Å%X¢¡Œ! € V > œoÑ|\¢x…ºh29‡©Ó¨~`¡>p(N•B‚òh(!ƒ2õ
+4©B¥¨#¸¢	ãÈg”!8
+‰âˆ”"z‚ZP H€PY"´¯'Éñà…ÎX%ôb×„ a0üH¹p@DL¿ ¤æ&"€m8ð™<î¡€E Ù=B3¨@*"`ÐbþFÑy<Æ…°hAyÒ|àÀ½ä
+gi‚‚ö&'•D'Q@GT2û0tôð^÷•ðDÀl€p‚ŸÞNžì…Øh59*w…î ÌÁ:ŒàT¨€˜¼,¢P_
+½²„ð1D
+Ó¨‚¡¸Xžˆ( Ní>j4…Æh2OšzG—†Ãtð“‰¿/“'PD'ÒØÂ„îàôÃ4íô0˜'Qôà¥Dæùƒµà…²h5Qš†)Þ@L7Q*4Nà½DT(O	ÔiŒ^Á>2/ÍCHpAqp™…* €¾3Q …¼hL'b¢ì“éª'q ~8%NðÁÚ„êÔ(bó‚øŽ3OÚ‚ó“¨Œ	ê/0‚æ€…¨h!ƒE¨€nt FaêƒxÎ“»0ÍBtð(‹Ø@¡;¨#PœÃá¹y1€~¢£ø €¼pœp…Áh<NCµ—ŽÀÊ @Ž#‚øPÝ9yƒµ0&a2ã…áA8j	˜.¤ÀÁu˜/  P…ÕXl¹s	˜P¹s† ¡‰—€/ ø‘s1Ù=j3O¢…fêƒDì“¼€À¾ù¨N¡9†`…­hâ1Â»Äð¼PÄÁÜ@9ÔÌÀ^8Ž¶0f¡Bw‰Ó¨íBx=ƒ8	“¼Az„ïÞ@ž …Áh?PíD
+jA¢ Îà€pJ^$0¤¼½F‰ôXl¼&bø`>:PÉu bÌ'á …­x´1˜sÔÅAÝâLý 2'ÉPä¿Þ¢‡¶‚ÄéÇ'OÅð;Pž ÒTh¡~ià€ …Áx
+º*@•ž¢‚Ê„ò`hÏR¸Ê @Kîùé§“Z„éÞ(‚ÐÀ$Á0iJ§¢Šæ …·x	YØà-gÐ ² Ç¡F}3çnP \óûÎðÐ/ƒ8iC|àÑFeê Ñ?Æ3iÓ§A …Ëˆ
+Ú‹½	Úˆùè	:xª}
+}ý
+|e l 
+È0Ø÷uî ¯ä øUÎÆ¡O?µ°*hã¤z gÑ …äxàTÏ+;&~Yýç½š…H	êŒ € 	 |ÓîçP|êïÔ@€  	á¤o©žL+g€¡M>¤	yô@dÏP…¼h//ÔŸE¨Í=0fp'‚ @  äãx=Oè¢¤	@0<<âŸOD˜àQÏ5jôgOdÎÈ…²h$ƒDõA OÁøô:ŠG3SÔLl„ê(€)ƒ8>€½F&Y„	ô/ò"|Ì4…ÆXReÄ `Àô!ÀÁqÀü¼aHh>8aØ(ÊÓ§Us	€ŽŒêÁ¡‚tï gÄù€À …Ðh#/ÑCê$O¤¨Ì¼ ½D'x^ N¡=0(h5‚¨€ÁšºŠ“æazˆÔ@žT(NL  H…¼h v¡Šu	Ò'yï @_…IôƒtêÀÐk@ ¼¼X¡:z”h^(O€Þ¨N¢@ …ÚhÀíA4
+ ~9…IóP:sU—…fSˆÚ O¸á;8 QL
+Ö@Ff×(Àt¡à…žhA¢zA|qÁ|†âDè¨ƒÔï ~`ð
+JwŒˆŒ /À™‚uÀ70À½8’Ô¨x^É>€…ÆX06a8€ú`€Ø ~	Â1bð1&ùï…€|PÈŽÇ®™Û³ÀÎ€Ÿ˜ MÏQ?’„ …ÆXtË@@¼a) Àr¨bÅÃæ!BÆ€2(dG¦ŸK93?ôwž4
+p-hc€B/¨ …žhIÔèDÃs Nð¼Ü;O‡fT'€ÁC¶Oá€4P%ãu¨Ciøƒ5˜À¹>jÀ …ÚXt¼ ™‚ð<^tà€Ù‚åÇ!cs M‡˜h¡Œ	Ó¦N?Ðf¡¼DôÀ ¼Ù>j)‚ …æhÔÔ@£5§P7&QrDù¨ÍFpU‰Ý˜hð ˜€@€Ât½	úT3èïœ
+ôqPÏŸ”à                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4010 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(81) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       G   M   ?   ”   ;   Ó   ;     ?  I   ;  ˆ   =  Ã   :      :  :   ;  t   ;  ¯   9  ê   ;  #   9  ^   9  —   :  Ð   9  
+   ?  C   B  ‚   ?  Ä   =     ;  @   ;  {   ;  ¶   ;  ñ   <  ,   ;  h   =  £   G  à   M  '   Q  t   Q  Å   I     K  _   K  ª   G  õ   A  	<   <  	}   ;  	¹   ;  	ô   ;  
+/   ;  
+j   ;  
+¥   <  
+à   ;     ;  W   =  ’   >  Ï   @     F  M   F  “   A  Ù   ;     ;  U   ;     :  Ë   ;     :  @   >  z   >  ¸   ;  ö   ;  1   >  l…RhôP†1P9d'ôÁÜ'P£8ÂóÕ
+Ô¡ Lp;'Å„(Ið-ÄñD=ÅDYP&ÂØ h@¨ 8 ©Ä.³ë9<…Rh v¢bõR¢éÞ(%ƒ3À£3Ú¨/MBŸ§Ì©òˆ*¡'€Ndò‰DÆQ'”K 	a¨4 ¼¹W€bà …RhÌÛ‰þ/',ƒDìS¨ƒ(v À¼¤À½C¼'±è»£:…Ý3ùP€Ÿ{Bz… ´ìËùêg…>h E°;QL¨,Zƒ”åð8BŒÓÁ²ˆ3OR‚ø'0OŒ	Ì§P`ÝFcŠ”f7N F …Ch ÒÓç
+˜n8w ÝD!Q¢‚U
+Ð¨P8`ˆn7Ýâ(^`ž&A,	àx`ì¿äú@…hÀXŸH'ÒÔÌ NždïçIÌæP8 0* €¼¾¥Ô;âƒsðS"€¼ÃHf§Ò …MhÁiÔ'Pž	;<("/0Oì	à˜pð
+\¾cv* ƒ5 Qš“¨‚è3P:…ª €…9hÌ#P^¢	ÔF£8À¡?P@7 ‚Ãp°pÌFâ1ÁÊ„ð<O¼OJsöÐhžà€nÉ:s …;h 0Ç‚x Ñ:“ A|	ÞÓ@íCgx@ ½D¨g„ÿ¨0c„ú'ÐÀÕ8¼…OhÔ',/0O†iá/Q„ææw}pujHÁ	Ìðh¢²ó`€Àæ;f_*Œà…Oh P‡…ð'˜¦<'˜A Í8©>‰ÕCð@¼˜LL»…á"éÀHº˜©x@…chà\
+'9‰‚x4/P¢ìL3PD7ÑChœ¼Â QœÖDÕAR‡piqÁªqÁx…EXBú˜0¤aú0¤‚…Ó15¸4<Oêp°¾¥	Ô)Bv&1Âtú'e„í†ê …Eh N¡¬Žj4/ÈÁ:vIôƒèŽ§QS a¼(õ>f¨/P¦10ÍAzŒÔUzŽT@ …OX@lL'ÌB	L¾¡ïACà™~‚ €²„úAô'90ÍCÕ@È½A~Š QQzˆ.O€…'X@rN	˜„‹¨_P.aè˜‚	—	@¹†Ná€C„äÅïä£8*‚4N`ž¨Ár‚õ …)h xž3õ	Ô@¡\'N nù;ÂÿŒ3/Y)s.9 ùp(`?P>%@‘xX‚°R …)h4NY	Ó¨N¢8ÓÀŸeÀÆàYÂö0O‡p@£5sú@Ê •<@_Fà…3x>	  %>›»$
+ð>h%çÑ£,/gøŸc>ˆœ'x^ò ÍCµÕ…ò¨€¼™FeåÆÓ€…[ˆþM \ \ yˆóNžó>BNžò¢žŸK>ŸBzžNbžAÁš v`^a¢|Ó¼PKfª ƒäú@šj …8x HÀXW4çÏ6ˆ)À¨îážzjàlOÑ”(/ƒäï b¡ÚŠ Ð¿å'åF‰ÞÀ¢„åæ …8h@€Ó„*À¹:ˆ˜f{Äúh^ŒÂö0NœÁŠ òw‰ÙAœ'ÌqÊ|Óé„ìÁ …LhÀ ±@Œ¼˜½âr"ø Pîs N£8¨Î€Àn8%BzT@ŸÕAêu
+ÀD³P¡8…Lh˜'3Q¤ÁšŽ‹Ì 'wøà>pH£BöQ
+‹àü¡:Tg*ˆ¢Bx xžµ
+€…Bh Crñ!|(F¡Úp@žª3Š¼O¤auù‚rõ
+ñx);ŒAòx Ê …Bh ?h`œ¼Á<‰óP¡:‚ú“¼09Qšw‰ô Bs§<
+ /€™;³
+KÞAJ…î‹Ç	À…`h;PÜ½D'xžHÔ(0v£Ôù˜1N$€¾Ô4	Þ(/PìÃDâAºÈf¨Òbõs¨ò< …thXßˆè£5Ì§‚z£BúTg4ì¡;Äêæaš}Ì3€ènò G¦@ö …VXA2ô.`ÀTÂp€Ùˆ@ÄÁËä¸ØdÄ½Lõ @S>x4 ¨TÇ:†}4(
+Aa@o¥óp…Bh Ñ<Š§©F6/v¡D@ìÁàßå5(N¢b’x¤OO²Ià	Ü¢½OžSèÒx¢O(Ð(ô J ÿJïÝäà…jhó‚Dï ¦ !Qœ(PŸ2óÉÓÁHáàâ¡IÞŸŠ$øžŠ!H ”"(ž'€!Ø¢O”!9BdA& ð Å  4pˆ™õ9Ü…Vx=ÀÇ¢¤	0*@AÑMA?F}à(@+gOÅà€ Åj‡ÛÎò|O	ÅäŸ @TOSôOÊ¤¡n / @  Záˆ‰Ÿó‰À…2ˆ
+Ž?‰8	JxšyM
+zŠyßˆ
+yÊyMª~:‰æ@/   pI‰Ïôþ×'”@"ryD'²@'p	=âO(ø( à	  Ç†U?íÉÀ…FxôSOCs½8´gÑ+>Œ÷4S€µžž‹Ï À  P2 ¯éþºŠxÊzxÊ‰8	H
+Š†@X€X`ç«¾Nœ…nhú@ò¹‡ª¨™:u@¡@F£5IËà¤p ° Q>V>OÀ"u
+|Ox—Éå¤ž'(Šrà
+À &€>àXCÓ˜Þ …h</Ò ©D
+*'%0PŸÄú(õBx>N$QPTŸ'ÀäŸ
+@|¡Å|QÀäO
+E$ð¥Œ 	¦(ôó'Éð …Ahfâ|Ô@^$‘(Ò* /ñ;È>0/O¤A4ûÅBñ‰§Ï$ñÙ<RŸ4€E$ôhRPä< n  psNƒÝàp…AhfŸ5'Q‰úNò
+TÁZ€¬1B} ygÔ||,`.éì©äà73å)ç %  > ø ×}!ON…#hhŸ1ÂtùÀ`_i‚ˆ=OšŠàNaìÀœÃ8:$úAô3Á0'00àà83ús¸…7h¼O¢„ê4/P^*0OIÝ¨®ìŒÀ^`î0……ø¨Ð¿è3¢„ðSðh¢•—îœÁ8…#hAf`^¡< C¸¨O àoòˆ²/x½;O„'0Ox™>fAœ¨v ¼Ã8	æ	À…#hAi	Ô@J`¡>féÌÔ'ù:…¦§bQÆi÷‚	Ô'0Ù8ŒÁ9ƒÂÿTf¢f§0P…#hê¨v¢ý0N`žãqÁ~†ª OI‚xØ'Þ¨á{äåæÁœ“¨: ýBÀ…Kh˜'+N$N¡;È*‚À~^¢3/d¡:rh ªÚàÑ9„àÙAy{È@É<'Qœ'P …ZhÞ' /'w†sT_¢} ;Äæ	àP^¡ªQ †j)Ù‚X3ƒ4ã‚ñt§&/P_’p² …ZhÞ'æ F`î¨¨¼HŸ8¨Í:…(/PÞ¨Oh‰ƒ³©†p<OƒÆÿA(w …Zh§b v£H NÈ¼p_¤('OÔ5*3O
+ ª	Ò¨N¢ð(©@ŒÁ¡~ªÌ …ZhÁ5Á¤¨w„çEðA¤
+  	À7/P_¢†ù;µ
+à0‚¨ Os¼„éêQ¡yÔäž …-x4hAÑBìz*¨{S>Œ÷´T˜G9—Ösè€Ê €¼HBs£y2|àdÙ‡ph •@ÜÂø4€…ix	ùô è€`ºŸOGØà|Ï£:6†@( ;àaþNx
+_‚ñ"sì ÀÅ>f¨Î3Oêu^a™x…Aˆ
+ˆ
+xX	MšŠzy-:Šz‹Ê{* Ø ,  sœ¡§¨§|ð4g&hÀ°èßïBÎŠ™äÀ§¢däÀ§Š …UxôgÅÚ‡	ú*Àøï£GÍt@  “Àø3sçÐú 'è¨$ Àt?œó£g§žJƒ‹j3ÉQ?fŠ …7x)ÀìŸwiéÐ=¼"è€¡ÇBƒÀDÎiùô'¨<ú3ÞxÀ±Úz4
+.çd€]€ñŸFz"¨hO…Kh¼€† Páyt§©Bx>N` HÙ|	Ì bõ'(@#»€šà©;È—¨>fP@`…Uhæ¢è¨0è¡2xü¡<¨˜(Ü@ ½´PòSÀ£5àb¡B“—Ž"Nî4/l ,  …UhèŸ“ÓÀ¡Ú„ÉÔ'¥Dõ(Òó…ð@¢Ñ>T:¼‚•ê)Oˆ“éx@Ù@4  …UX1ðP¾ \Àð|Ä4]C—1 8`*\?x¡Ü w³Óª0NŸ84‚ê PBsA¸ƒ€…-h˜A‰Î‹Ô'Ú ©>‰Û(/‚“'N^ÎÔiâBüÌ¨-0>;€Á:x ÔH£E …Ah¨á~Š˜ÁŠˆ öçÅï %0N8:N^S€aðü ^Z‚…ËÁH0(^…AX„ÌÀ¸ ‰xCP„ƒêP@¹}w¦ Lpñ>x
+Sô@©A>š„4;ÀTÎ ž…Kh ‚*²N`ž$ú(ŽàmjÁ¤˜Ô<€(nå÷y)õ Q¢x3ÔÜRO©/E<à…Kh OÊ /dBuIóP¡:‚óâýü`î…ù¨h   ‡ãtÿAœ@ ½Dæ_†P;‚E¨…7h ÌÀæ*/0OŒÓé	ÖŽÁRŒÔ'N¡;<ƒC(Ó±O¢s%	à/€ÂËàP./€¿Ã¸ …Kh Ò
+KÌÙA‚Õ'Ò¢NòGÓÀœpé¨T” þ#ñÏMÝK>„÷ˆ	ð*@ÑžôúŠ‰à                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4050 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(83) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       F   L   >   ’   <   Ð   <     >  H   >  †   A  Ä   C     ?  H   <  ‡   ;  Ã   :  þ   ;  8   <  s   ;  ¯   ;  ê   :  %   C  _   D  ¢   @  æ   ?  &   :  e   ;  Ÿ   :  Ú   9     :  M   <  ‡   >  Ã   F     O  G   S  –   S  é   K  <   J  ‡   I  Ñ   F  	   A  	`   =  	¡   :  	Þ   ;  
+   7  
+S   ;  
+Š   =  
+Å   ;     9  =   ;  v   >  ±   @  ï   @  /   G  o   G  ¶   A  ý   :  >   <  x   <  ´   ;  ð   ;  +   :  f   ?      =  ß   >     ;  Z   =  •…8h'NˆÁ<'y°</Ò …;ÄõA¢üEDñ<Dò„OE|Q@ÜOEœ¡aY @ ±ø  )°]äŸÉòx…`h§Pˆ½D¨˜{Âý Qrwj=âuð<L*Ow€B¤ð	DzQO”I`K¼Q§Ü¯ b ,Éø–7ù¼ü …)h(Oò} Pœ¼ÃäéàùBx'Pž•'íD‡’ŸO>Ñ³ÀoDú4@{9Ð Œ_0ÿæ|à…ehÀŸåÀ9y2u1P ½âx“'ÍCDê±1~iÆïþPž'N`70ƒäï	 
+àsu …=h'‘y„¨ÎTfŸäú…‰Äf@Bà€1ÈàN‚j*ƒ5¨¨'C ƒÓøÁ …=h¨ƒÓù§y!¾Š)Q¤'Î
+`Pœ`7€  /tè Ñ;(3NÑ<	Ä‰àOô@Êðc …=hf`¡Bqºu²€À¿8ŽT@BwŠ§ XÀŸ2ùà˜iˆ"/Ñ:ˆÔA¤ª¥P ¼…QxÙ   ¼óèöŸÊxà@Î¢}=ç£ãÃjeèÀòðEÄéàN` ¿Bó¤ï ‰< …=ˆ
+‚` F2 b=QïO;QOQO' Œ€»Ï›¨€¨gfZ‚„ðAšŒàU ŒÃ2ñ!z…Ì=P^¡,
+ …=x@ É  %—Ýô'èm€¡ž}%@©âÈz ga!~‰Ð'Qj3‚(3ƒH4‚ï %P`7Šð…Eh P ˜¼?Ô(v@ÜIiÔA\|7ÒÔ6f'_ÂöP(‚dïú¢ñ¤ARu§0P…1h P¸¼¼Á:w‰Ó¨Î‰ÔA\§x_˜á:vÐ¼ÁDð;0¨½D'v¢¤ãˆ#/‚J—Ø¢à…Eh ÎÐi¸ N`âtê3Np80ØÀíFph¡Át	ÌÙ@`_l(¤na³Õ³Ìà…Eh ÎÐ;ä'PŸE	Óæ¢Àà?9ƒ5Àñ;gz‚„ð@Jæè7'Pa~Š*/Ò'€…Eh˜'CŠ*N¡A|(/âvðz F8c{'PCàüHž¥	ÓÌaÐ(‚2ð°n¢ñ¨…1X.bÐP¸‘sá03ÀÄ0™ƒ@œÁ;@#§Pžcó˜Ax‘:‚ø"Oš€…OXqSÌÀÁqÈ@¸|LÆÌ'Œ8dÁx3Âõ	†ï %€Á:'&OšÓŽÔ@FÅæà†Sh œ	ÆíT@¢’õ
+Á„æÓ’'Ò
+T;0bžp1ŒÃP{Ë¼]C—10]hB ‹Üˆ  ¿ $Îzúxúzˆ8ÊyØ
+Š{êy:‰JyH	¬ùMv¡@Ü¡;Äÿ@žÐ;Q‚täÁøX^LDÁš€ˆˆ   /À`cºsê 3à4)é3å*'t3éåª.ê$þz°šsó¨ÍE0'‚h'N`^£è3ƒáºƒp	€ŠÄx   pØŽãžœz*g¡Ž:3À¢¡ïBz„ót'ègj”@E*À†Çê3ƒâõ	Ù'ÑC3 ‡@h  ' j&O¡{µ(˜'QJtæ`xž'µD	ÛE8
+ P ¨P_1†j Oœâôê=Pðoá„ …ûh 7Í88Þ Ò	“À¡:w‰ñÇªÁ4	Ì8' Áq¸<‡`\¸4`n/(_.…oh»Pá@Ð</\ž	Ôf¡ÊwŠ=P_I„6hÓˆÌ)/ySéÙ'Ò”f¡<§`ŸE …Qh ÍFh‘zrþ”3éÌ“¼OLA2} a!~Š'ƒBÿ Í=¦ê)B“¨‚Ž	Ôi …Qh ÍF;Pð@ÕBuÀ¡BTïÁ(w<ƒ5ô/úÔ[„ôÀœpr¢¼Qú} …†X@	—™…ïABâPPºpx†Œ˜é°A“¨=Éô0Ôh`gŠÔgdú''v¢•à…šhÄj§ýj	L3Q™†pÌÁR}ZŸHêŸ'Îê4‚3u	óŠ‡‰Ä‰Þ'¥F‰À…rhóƒu@ÅFiÎ†ãˆ¨N8
+Ô</©9‚y‹Ä4
+ /¹Fp@žî§Q†…çÐ@À@ðÔ½@Ü…^h Á‚ˆ b£5§§P¡>‰ô’x®ƒ3	“Ê)ð5Þ' €J)÷ˆ¼ž(€@1zÍC@ð( T¸^ß|N…@hè¢2ý3/(%‚ì“À`Kc†*Ì-P$QQ<ï2IòQÉò4O(J<QÄñŒñ	ÊAŒ/€   Î >0 GàÊØý  …,x*h{Pö KP©i?F~Yà@å£Â6rüB@À  Šrå¯1ÉóLQÉò4QJüQEÅ4ï@¤¡´9€à @ƒ óÆÖïð8 …@ˆ
+‰8	
+y:Š}	:˜
+šˆZˆ¯x
+~¢` 	À  dH åŒ¸­ñã2‰<cP€@'{%>;'”T!ò„èà l iÀò_ŸÙÀ …@xê@ñž¦x
+ôqCŽx9gÑ¡iÞ‹@Ð    <@ a®Û§Á¨€ÏÆ€€€¿¨“€Š§¨€èøZ 
+ ;ÀŸcçÊg€…;hÀ£5
+±PíEPf¡’|Ó¨PœÃØÀðp 	»ùù<žOP±À!2ˆ_P±Ê ˆ…ÈÀ@˜ psO£€E$à…'X„Ë˜/“
+Ôºa2ð0bÂ€)
+“àž'€ òO‡¢x àR(€"yâ œ¶‚Ä 9 pã÷-{ÎO„â€…Ehgp;0¥>…äÐ</ejÀ`7&QœÁ‰±Ê>|ž' „ÓêŠ¼) ŠJ ŠòÐ= Áà 8HÝü}>y'…YX‚p0˜!˜)`¡s.c&à80^$þþô÷p0ôpžõÌ  ŸÎ}çóè]Ó€…1h§Q‰ô/AšˆÔ@ž¤ù§¨À¾g(Na B¢˜§'v¡‘z…“‚ Æáú‰‹àN…YXBË‚eÇ b
+1ð1 ©²àÔ!ãe	ÓÀr8‚ð'>‰Ù@¡:$ê ¨N¸¾ …h4PžðAšˆÁ¡~‰ô/úza™zˆ PÐAšƒ“ðh_p‘9€ßäærœHžú'é9‚€…1XACxB
+/ (Pºpz† œ!e<Ò`^aœ	Ôv¡:ŠS˜Ar|Ó¨Nñ?IÇ	À…1h@ŸÕ
+ Í@Þã`ƒÐÿ30g0'€¾™;È¨FeêXŸDð@$/ÎÌ¨;¤â@(…1h'QRufA	††¥îà„Ã8)/Naä
+ÙŠ!~ŠÔ;0NžÅÔè`îf¨/Q’q  …Yhé ´p n$/Î¤ïzÚˆ`Ò`ÌÂ„îÔ5Ph^`ž3Bv‰àPíFjÓ¼Pí>P …EXN.`À‚©…º`lÄ`6j	Áó
+bS :ˆ3:‹¨v¡âstâDîÔ=€Á8…@h 0OT@r`œ¼e;Qœ@¡C$åðBBvP^ À–	ý€À¾sðAŠÀŸCõGøà…@h EEê ¤¼qØ3€H7x`/00ƒ 'x¨/PÐÁì(ex@^`^`#P ¾Æ'P%Q€…,h €Â˜ÇT;‚X'Î~ p 	@7Ó'ÌÁ³O‚U
+ ¨pñÀ­9„5
+‰ x7x^$0ÜÁ8…hx	ùÔ/'¨g½¡Ž(ôSQ<¡à@@Àsw‚ïR<N^¡’…T nžÄð@ñ:u Ðn$/ÒÉÔ'…Lˆý	zyJˆ¸êz}
+z‰= @ø^8JÔIÀ<ô%	 Pw/:$ú/gøŸ¢`@Ñ¦ …8x3¨WÑO<àAxÏ>Šp 	 € Ü ðã}Üôà<ñ@ 88‘½<¸4^ÏQ=A?B„¤ýà¨gÐ…`xàdíá>ù´TÏîHIæ @+;»¼­ó½= b .ðêîÇú…8T=çÑ¡?D­ôUxcÐ…LX@¼'ÌBÄÀÙ°A8*2\¹}L»<O@€H’ô0þà¦c‚õ'©D	òQ¢p…LhÀ`f£Bõ	Ì°NìÔ;ƒÈ30Í9„§ÒP7¢DÁœ'Pœèo…)ó0Ð¿H(€…LhÁj4:xœ(‚¸à+ƒÈ4ƒ4ê dŸBö0O ‚`Ò
+'OR‚ó
+Sé;0Ôp @ (….h P^‘Fp@£5è¢ù˜V¡9~†Ô‹Ó¨a ºó‹ÞAäs
+T¨øo¤(ÎG P8…Bh Na‡p'ÔÁ¸á;³j ƒH3ŠKËÓ¶j4€†ÿÌ+/‚
+T'b£H¨ÒT@8…Ah˜'m	êPž	ÝÁòŒÔ=D¨x¡A~eì¡8(SˆÓ'ÍFIó‚A"}ü ¼Ã¸4P…-h@£˜T˜¨Ð¿åÔ=0/0©8‘:ˆÀú4À<d+’ô"çùž–Šp4gOP‰ž¦tlùÔÔ*g…AXA8‚pxÀ‚ðA8;!	˜t¼ðRS@4@¡ý?=Ø AöLö @Ñu?ä‰õ4 …ihÝ˜Kf*¨Ù,BôÉÝ¨d ¼¼Â?Ìã‚õ=ßD¨	ð4¨gPÏ¦t÷‡~Iì‰ý SÐ…Fh¼OÄ§ù8‘<	Ì¨:Œ†ïý
+À¡Cfœ@Å:téÔ<¦ÜEæ	ÖAšƒ“öâp…Fh;OÁƒµ*':…
+àQªw‰þ‚ÿ¨PþÞó¸Þ#¨gcÑ¦µ° hˆžÉ£Œ(§üÐ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4057 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       I   L   D   •   A   Ù   >     >  X   =  –   <  Ó   >     =  M   <  Š   :  Æ   ;      <  ;   :  w   9  ±   :  ê   >  $   C  b   C  ¥   @  è   >  (   >  f   ;  ¤   :  ß   ;     ;  T   ;     B  Ê   H     M  T   P  ¡   N  ñ   L  ?   K  ‹   I  Ö   H  	   C  	g   ?  	ª   ;  	é   ;  
+$   ;  
+_   ;  
+š   9  
+Õ   ;     ;  I   <  „   <  À   >  ü   ?  :   D  y   D  ½   A     >  B   =  €   ;  ½   ;  ø   9  3   ;  l   <  §   =  ã   ;      >  [   @  ™…h w  ¿8¨ÍBbø'Q N`¢ú%ÁR4ŸNñäO(DðLQ DñäŸ @”Dô·po ` ÐG XÍÜƒóù<„ýh ÒàwÄðÌ O§P`^¡DS¨0˜žï(“Ê"rˆô£(™Sâ’ˆ¢ŸPÁ# J  $à.¹uEör€„ýh vaÁ{È3Oƒ ýBx3‚¤ê Dè”(0ŒúzzŠz‰Jyê{º‹(	:x
+ˆ¯€Ä > ð9ÀøäkR „ýh Aù€A|ŠÌÓ—¨N£ÕA¤àlœH`ìzóèÏèàrÏR}à7h $ HÀáüÓ?@„éhÔ70v ¼Á:€Ð½:tê Qês˜g*€Æê Oèaê|àBˆ¨pü?cz€„ñh €pCtõ(v DœF£âõ@£Dú'y$à8§/ª@^`Ÿdê d:‚=:ƒ	Ô „ñh P8`N8%OšTh7ú'Ñ>‰ô‚¡ÀX	Æðûu§ÙBx'EÉô0˜'N™:„à…h € € ¨N¢¤ïºOSè£H3ƒ8(b ÁCf7Ñ;˜Á¢uIÔAézr¤ðT'ƒ%à…h P   ZœÁ=IôPé<	Î“æŸH4ƒ8 Oò€@7m»Pr£H Ú…IÓ˜T^`j…	þQx‰>p „ñh€€ ð'QTà¡:ˆ)0€¾˜(c
+3P`7h¨O¤
+¨Úq2|ÌÁèŸåê˜;P…h  À9Ñ~~¡DÀž ?Ð(P#P¡;'PFp¨Q±Ã”úA™yXáÚrdð(gj …h x`ph’x~8w)à‚¤ê ù>‰Ì ;@âq!~Š§€Á)z…A~ w2u
++/Ñ8…h ÌÀf`íA*ˆ°Nð¿å	à%'‚”ï¨‚}è^$O„ð*‚úã†ði*¨®Ó€„ähf8=N`^ Àna¬	àd^`^U ŒÀ•Bˆ&àÝŒæ¢4ðA¤Ìù¨dŸDï¨Q|à‰8à¼… X/Òðp@>ÂÔ! V R.ABìF‰Õ¨/àÎ;QRw‰óPBqÀŽIÓÀ…h v¢Õæ¨/L¡D¨v^Uj=Q¡zè KÀÁt ¡ˆ@¹u ù`0àœA8-à…phó‘'€¿H 1P¢jŒà”Ã1»%Àº h >æ¨OuÁ†*¨va™|àè`‡x w»¸@Î_wã¤
+Z @Ðî Ÿ;:„	9à@›ƒT_¤¨Í=J Qœ	Ó¨9…0˜(/P¡*‚õ ‰éˆ à/ÎqáP-ØèÌûªˆ}êx	êzˆØ
+xeÂ÷ã‡iÎ“¨O¤'QäÐAæ
+Gu ‹=ˆ  —~ï|iûù8
+š‰H
+z‹º|ªyJŒX	JŒšöù;ÂñÓ(/€À¿8@^¢¥
+óBuIô€‰!x  À#—Àø=À4§ûPÓ¢œéèÅžž~P*hIÏ¢|ŸH0âS¨9†fÀ^£Ôðgu	Th^‡'x ÁN $â;¼¬ôàSÑO=MàbÑNz(çxÎÎÔf¢è OTèN`ŸØ(À½DÀñ;»È †7x ÎKO hOwEÑñ?æ™Ùé¨mÏQCŽyÿgÏ¡³h „¼Ànu¸'G°(O„s ÍF	Þ€…ƒhÆê<N^ž¥	ÔÌÁð'•Fp{
+˜g(O¢‚ñÁÊ} ­>Š=Q¤Ì /Ò Á:… …3hÓŽÔ'ORxgˆÔ'•>p2‚àhf¡±|	þOœƒq"z”iðAÈfÔ@ …XRx=Ë‰„!³ËŽ@Äæ À¤ŠƒûÓ¨O¡|“¨/ƒõ
+-QrdùÀ…B„à„íXR`„ïABî˜1à‚…è\l€~%¸12ˆÈ¨Oœ
+ z¡D@CU	Ô ˜o™z …XN„ é³ŽPÂeÿ.]8P±)†iÈ Ò§€D_š†æ`Ðp¡ÀVµN n…hh^v`_J¨¨¼HŸE'¾¨PÀ:ƒH"*NžbNž£C>VRžz¢ž˜èÖó6žÜ…hÁ	Ô|¡Ü¼/‚ >/OÅ§@(šÍÞ)O@$ð
+Õ>PˆSåøL¢)'Þ1‡àä Ø¶ ë…Å÷ÉÀ…h§0!0N¡ŠŒàv£8@¢ xŸ4å
+ €V“‹Çr|³(@ E„Ï DðcBq<I<j…°u H M`<q ¹}ž'…xêg£>rÄüú4hÏžº)˜4gwÐH   p¦*Çí»	Š#¸ž€ 	âgŠ!Hž“ãÈ¨:A {A° «ÁÛ°—~äð…xéè³£>yP>@Ñ?Fˆ4*èø¡Ÿ< ð   € (H2¢?ÛãêdöI<&(“Ä$óË¼&¡€X* 9 ‘€ Ë·rIž„ôxÔ'èOÑG½jàIÎ¡¢~zšôgü °   HCÛ{¿¾‹w”J*x¢“ Ê!PBð: dìAÀŸ„Ý¿ãÅ3à„ôh¨‚õ(/PíFpi(n¡âŠS§N 
+  (‚H?ïOŽÉäòyD¢Q'À"’y•>É ¦( ¨ ž÷¾u¾ï;€ „ôhj/Qšx(O¡{ÅTgðgÆÓª€(‚xùøžc(Š@)ò{$k ”@!P¢˜B `  °Ðü³îóçäòp…h v¡º˜Ô(ÒÔ#ŒàoÈ˜f(àpa<x‚ï”E ùDR5¨IàÚ„QtZ L `”¼•u¾Ÿ “€„ðh xŸ	ÔSµ¨x_ò}•'P^ñ>fÉà‚"j%*;j$óå)ô3ï©éô )ï ÄÀ	€"\o’ù°ð …h Í;äêý‰öQ¤Sæ¡j‚ó;‚•½çŠyîç©æwuÙà@¡ŒÁ$HÀ3ƒ>xIúÀ…XBÖ0^P/A '(‡¡€Ôf&
+û³phŸe§ÍF(À@rñ¹zS „ðh N8rœÀ½’sýŒf°A0(Ay‚‚Rõ	ØÀž¨3á~Š6O¢|Ôg#‡R^ž°(€„áhÁ´ê¨Q¨ P9z„J§QÂòa»È”àd n`^¡âyÓ‰ýPž
+¨<˜h „õh N`æã†)Ô@ª
+ÓÀ¡jx'0Ì¿å@Õ¼‚¤ð@¡>j'O¡€µBx	Ô¨<Ì€P„ëX@Ä‚…Þ0¤ ‚€€.^0œLÆ`œ¥²ƒ5@ž'NÉ<
+4€½F‰ÝŽ'0PÀ„ÿh /0r`í92q!y”Áš„ð-P#0N£DÿAœRx ªÔ˜@`Gu¨CÈÓ¼Ošt@à„õh PXàGÄú'¡Dx4€¼ÁC´êª€F`Ô§Ò
+˜'ªóÓ‰àQ¤Ž¸ ‚;P À„áhÇj3ƒ5§`œÀ½DAYx Ó—¨ˆ¿3b¡Ù…	Ó¨öä	Þ@C³	SéˆÌ;P^`„õh yð@œÁ:x(N¡FjÔx^ Æáü'CS|˜Aª3QÁ|	Þ¨Q*Ô'O9ƒ°@„õx)À¡F„ýøhÏž›Â~‰j
+ PÐÄrÿìú3µ0A	Ì£‡cr NìÁ:„J4Ošu	Ð¼€…x=èÖðÇˆä@Ñžò~t@`à9»«À©¨N£#!{éàå<
+3P;cpRD(v`„úx>;äÑNŒùôpOÑtà P€œGàT€þô@Ñè‰â‹»¼ô1èÑŸ´p/gPORÏQ@…"x	ÿÓ h€Ç£B}Å} TÏ™à €
+àöž{ŸCÀÑž°`W%ÿpt@Ñ<X4"À‹Æx „úh ÍDpAià0g	ê€H¡J€( h '
+ËÈà;èÑ<F`Ž<§ÓOJÏ<	ê`TÐÛD
+ÏÀ„õh Ñ=PA‚|ÓªƒDðà(yxÜ€½B†Ð¿C@ pˆËËÌ)P^¡<	Ì§xŸèŽ"Q¢€…	h ÐnÈÀ¾ê3Pªj ‚G	Ä…ãu@CÌ˜z8P^#9…)àP^a	Ó¼OI†‰âE „ëh(‹“æ¡<(Ja¢wjÁI„
+4è¢ø¨g…ê²DÔ(öàQµ˜ÁôÀd8 Xœ„ÿh¨ù@:ˆ Q¨ÍA|@FjŽ8€+PÚ¨ªø3N8OTÁ¨w|^$R€	à„õhéj(%Pž Pž˜ÁRw2ƒ0AÀÜ¾R€€/ð0^EáÌ†K¨\Áu6`.„õh¼ƒ5
+Ôž;€Á?Åê ©FpLp7Oi 40véÓÀ¢*P ¿5	à&O¢xf¡¢x „ÿX©Ì;Ì.™q((\H¹‚ïB(\¼¢€ ±==?FˆÅÿ)ÀùŸ–|ùÙÔ3ôÏR „ÿh¨Nòj*/'>jAšz“¨QL(‘:‚÷dP€)ˆééú4'À½¤
+‰ÿ3ÊÑŸ=H4LÏM@„óX@Á˜LÃ¦‡ÃÔ1&]âê@rû0¤• >…â5AQzˆ3Q¢|;PL^D)Çp„óh P7æœé</PíBsÿ(x_¤
+ $N#0o”€ˆËÄjÌ=0OiÞ'Á>ŠÀ¡9rx€„ýh Ò´ú} ŒÂtù˜§AL'CÂÿÌÀòžÀ F Þeòüê:)è÷¢xp>gåž:*'€                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4051 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                K       I   K   E   ”   ?   Ù   ?     >  W   =  •   ;  Ò   :     ;  G   ;  ‚   <  ½   :  ù   ;  3   ;  n   :  ©   9  ã   :     A  V   A  —   ?  Ø   <     =  S   9     ;  É   ;     :  ?   <  y   @  µ   I  õ   N  >   O  Œ   P  Û   J  +   K  u   J  À   G  	
+   C  	Q   ?  	”   <  	Ó   ;  
+   9  
+J   >  
+ƒ   =  
+Á   9  
+þ   <  7   <  s   <  ¯   ?  ë   @  *   F  j   D  °   @  ô   =  4   =  q   <  ®   =  ê   ;  '   =  b   >  Ÿ   <  Ý   >     ;  W   A  ’…&h'‚àx_RøP`7€Ã8/‚äÊ4/É>•<GpïBw(B‘DÇ C)ÃÑ<'PIÉ`k 	 àW€&õîS®^Û…h3Áº…äÉó€Ñ>j3Q™y¤ê> ÍD* ›ÅÞŸ<“ÉàJ„N'”Hàú…QP“ì” J €( “€pÃ­9ù8…Dh3P70~ ¼Â•Ì»Oš¡|
+)ƒDêTGÇ¼.¢òR>¢v¢ž¢éà À \®uÀ…Ah)ƒ5àïf`M Ü¿Õ˜/‚Ô'0©BwÑïG¼ñ @&º3è“J`¡¼ÀïBÀ…hÐ;NŒÃ3 &/‚¤îà^`FiÓ˜2NÃ ìnìn	‹ÓÁI„	È“À¡Œ
+Ù@ 
+*€§Þ …7h	GÓ……êÞ(c…ÿAv(N ¿H	Œ ``/Ì¾Ôð¨P^*: Ñ=J30bŸ5§Ð…h“¼OÁ{È Ú‹ôƒè Od
+ ÞR`8c f_¡Ià‚•æ¦	Ó“;PJ¡Üäù§Þ …-h	‹à…RŸDçIÓ§y	ÇIó‚ï ù@‘”Ëóƒôæ¨ÌÀN ½C³ ¦ú(˜nà…-h	‹ÔA"x ¥Cµ'0Nð¾ª4‚ÁJq#(Ì½ÙƒóðRäêh_œA¼/ÁF`…7h=Qœê) ÌÂ•	àÎ…ñ'€¾=0vÊ§yõ(˜gDîÔiu¨B|Ôap…Kh*NìÀ¬ÁBzKÄ…äÉàÙ†pE'DA£'>ú(öà,O¢‚¹4@FiÄê …Eh3O¸‘9y‚x$P^8Í:x(Ì¿E5Eác'ba Ý‘€9ÒuYitó@œÂ”ú'@œÀ…	h(‚ÔfD
+ F ½FiÌËéµ§ê#'c…°hž¤ðY;‚&“(vœ¡@~…Yhj3Q}¨QœÓ§Qƒ´ûŽÔ'€HŸ¤âFNJ¢õA¤'PtæAT'Pr8Nžx€…h'x7H8
+Ô@£H
+Ô@D'ÝD
+Ì3OÒ?ª§‹ô‚¥	ÓÎ¢ýà'Cærˆ3…JhàQê4/õFŠLÁL	ÌÀ`^¡>Š&Ní”(‚¨Î0…ëÌ¨Í<tŸ0A™y„ª3…JXpAs	‡Â¦0-@F!Ðùˆ.8^ÅÔe
+ÓÀñFpS³	àvâs-Pîf	àTà…6hÌ4îËéƒH.ý‚-P:ˆ4‚Õ2ˆôO¤Ì¨ÍBõ¼‚¨v¢A´À…6xÉ€x Ž †_FO¨ŸÙCÞ‹°3Àµžˆ>'ÍÑí”˜f£@ü,/&Oš‰Ç ÌÁÜˆTf¡:‚ø@ì… x”   àËä¼õ4IQ>œê hOPï;æ|íÉ‚x¼/ú P_¡„úARsòdê 1P …Hx`	 PƒøW€Kwùžô
+p)¨gé¼cÐ_c&@XŸ8)‚˜Ì¼ƒÔðAò‚óFæ …>hÀEàw|z^¡D	àQ ßH4O¢‹à”SÄæj'Žè¡Úx(€”Ànañz„ù@ð…*h>àâ¨ îpT`^8P7N¡†iÞ(à½C'&/xœ±>j=‰j3O…ì Q%êe°…*h)€ÀÂ¼æfžTù§ :ƒ“j9ƒE/£
+\º0^„!¨&&\r—0]ðA@…hÐ˜'N¢ v¡Bx*Ní?(PÆÔsl£ÔàÐo‚Œà¥<2‚ó¨˜Ó……ì“ÀœâÀ…>X<]Bð0œ‚s €Œ ˜ LÄ "áãdäÅêeú'ùC³•(ô¾ÆiôNuä…æ …RhÃ}§QœAœ	ÓŽÉ Î±ÀÞ
+L ²tìœš+âv*Ò£4õ@`ŸDù¨ôÀ¼Â¸ …dhƒý ¸½:ŒÔf^@œp_¡zrbóòeÖ¢NÊê¨/0A|(v£H'‘D
+)0/NÙD …Ph*/ÐÀ10;±Æp7Na¨ú1NòA¼¢TèZ 'ÀÑ=K=MÔÞ1èP ~ žv‡p…Ph	LÀˆ¾'N¢ø4N Á<'OÑz„õŽ ˜OP€H`¸òOP“Ô©óÊ|NQ€Cå
+ N R ð|ôûñ`…<h=0Ì½'xžäfA€ÜÀåBƒ
+‹Ô'$ qR†»;À|C G’|)<DñDK Br|yÇ1<yt b  @à*ñT¶ü…(x™àgØŸHôbÐÇ£ÞøèÐ`»ÝAØ   é]Á±¯{n'„ N'ŒbˆR(˜gˆî ‚¢xR š'„°€Q´ ÝÅ°[z/…<ˆ	:ŒúŠÈ
+|ûÈ	JŠÚ‰:‹ºzŠˆš}ªxö0  
+ÉmÀ½¬í/·¨Nï<RQ“ÄêÙ<R¡ä€T t@¾ö?Ï€…Fxz*gŸ£æ|ú4gÅžœ
+ @’¡Rœð À  %»¿“Ï)ó)<òM”SêÙDNQF`ˆUÃ6<èî~P…Fh¨v¢õÔ(N¡:ÕÁ¤@ÄÃC)ÓÀ €&PFÑy<ž'žSëRxœ'”@&Rx¤¢ÐB € p– ]À½Š?ÖO…Lh	T;€Á>‰ó€Á>‰àƒÕ	Ì-NòÔf¢à@ @îñI<ŽO<€NàˆöQ ”Gj	>Àü ` j sÀ¸\Å½…ÏÊ …8h*Q¡yxáÚÌ»@^É<5Q˜ ¨Ñ?&
+&”Y.ò9EŽ€IàYD¢O
+€IïƒP0€qÁwJÝôÖŸO…Vh§Ñ>p<9€ÜpìÂõ'/0ê‰Ó¨O LÜ@Jhh'ãà$éê)ï 9j%46j *à
+ T	sžËQN…VX&.¤„!
+@À‰„AñÂð.@"a7P¦¡>Ä
+™óè©®z$èÏ¡€,@H9€Gôt'€…3h Pž
+L§ôÃ5 Nž¤îÇ§‚¼¸à+c vžHç±ÁÙz†IôNX`@éÆÿ'P…h Pž
+A V¢¢÷‰ô0/QR|Ó¸Na‰ó0?Q›S‰ÊÌ ¼ƒ5ÀC$ú(30P¡:téÉ“À…Gh—˜'©Ff©Ô(Ñ9‚`v¡Z…
+Ó¨‚H¨!“ø0]C
+P¾à¤€ù…áËÀÆ `…GhÁ‚U3QÁz‡‰ÁKôN­Az…	Ô@ŒÃ6ŠˆÈÔhÚ‚Hf¨8P^¡<
+ã`€…1h˜@Ÿ„ï¨NìÂøh7v`;0ÑCÁ"uŸ1Ázrdú'P^¡9ô	àùA|wph^ñ@Üp …EhL'á>jÔh`ÞÂwiô/,ƒDÿ'Ð¼ÑAz˜L¼dÀ0b0ÌÃ&CEÓ€Ü0 …;h)Nñ@Ìp_fÔ#N8Nî$O™€µDH nÃ„éÌêPî'NÁPfaêˆÀ¡Ú„ð	 …;h)Nñ:Äã€ýäÈ ½C³ÓÆ ,€•:x(²„êàdŸ8À±|Àò
+“¨Q€­Bˆ`…Eh ƒ3ðg³õ wÊ¨´ÀAÁÈð'å:†€˜nœÁÜ	Ô(
+Ô\DÌ4ƒè¨>pU€…EhÁ¤Ì˜g	åƒ8)Q¢r(  p‘¸¨!QAJtð</A‚~Gspi1„téÄ…çEð …Ex	ïçè§¢œ
+p,ÀPÏÇEHJ ¨ (€p{w}P¦Ê§Qƒ‡…éÓè7Dž@¢
+LÁ“'0…Yˆ
+z}ü{Ê{È	8	˜
+Šyê{È	¥ v pv€—	¶?î}ãç“A<\À¸Ãû¿¼ñt@‚z4
+‰ùÔÔ$è€…xÉõ4]Ïó=84aP%¨gPcÑ8H ‡pÂº{j~‡>À ç1ß<ÍàIOùÆˆéÀÑÖ„ð…0h	 ¨©CµÀíBè39ƒ´çÊ  ¡8 ^7ƒØ:|ô‡A¼ç?<ÍÔ`TßB{Å8 uxO…:h	`'õC¸'v`ÔÃ4âDéÔr``8Ìn7Oéƒ¶0/Pð¼t8xù§N¡¢x %Ù…ð'Q
+M€…:h*‚þ¨ÌÀF£H˜;Qš‚õ@œHœ½=PfÐ'Ì¼(Ñ89‚‚5	àd_¤¨QzqÄÀ0€…5hÀŸE	Ì	`ÑB´ï¨Ò°</ú	Î /h Pî( €¾‰ç0vž‘ÀÝG	ÔA¢x 	 …Ih3/P¡ÚqÁ{(3NXØá:}
+ƒý ú
+*/PÅéÔ;0J`70OÄóÁš†#„éøN`_¢„ðà…+X‚	Àr
+ó™²ð0bÅàc0†—dú(/0JŸEéÌ¯0v¢˜Ö@ž
+ê00 …+h3ƒ3 Ò
+`<ióN8N`_r„éé0x¡~”fˆÑ¾‰ËÇéÆï0@Žæ	Ô'Â …6h=Q†jŽ´âHÁš„êc‰ <5@ôS0â€)—Îp3¨'ÇÏ£EÜôôIÎ¡¡fˆt{…Jh*NEj¨ÍFpR_šˆè¢h'P^ñAé„à  ’ ;Ý—¨N¢ê PJ¡Ú‡'c§x…Th)Ávf—‚»Äÿ¨ƒ53ÉôO j`^Ð Gˆ—˜'±Az“è^È¼'¦ý'P…¸h Æõé
+3Pr` ½Ú‡…ó(Ñ<i¦íƒÂŒËËËô/0ObˆRŸBöP@ äÁ<§€†?h ãxëQŠ`v¡:èžÀJ£8ó`Íô|P€	ÀÆ÷tôøt@Î¡¡>,ôô<;Ô»>p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4068 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                J       I   J   F   “   >   Ù   =     =  T   @  ‘   ?  Ñ   A     ?  Q   =     ;  Í   ;     ;  C   :  ~   <  ¸   ;  ô   <  /   @  k   C  «   ?  î   ?  -   =  l   <  ©   <  å   9  !   <  Z   <  –   A  Ò   H     O  [   P  ª   O  ú   J  I   J  “   J  Ý   G  	'   B  	n   ?  	°   <  	ï   :  
++   <  
+e   ;  
+¡   =  
+Ü   9     :  R   ;  Œ   ;  Ç   >     @  @   E  €   D  Å   @  	   >  I   <  ‡   >  Ã   <     <  =   =  y   =  ¶   =  ó   ;  0   ;  k   >  ¦…©XBÌ/B)À0BÓ b/’ã†*Z§âˆžeŠ&I>‚“âˆUŠ"xž<€&Hœîø ¦ À1pÖKæ‚KöÜ …­h ÍDpf F`žÉÄ…ô¨N^°À¼Ã5	Óè£C	Ýç’xtOP£IäòxåÞ¡PŽÊ$ð"0€Àð+¹MÏìäà…Õhý$ƒ4ú'/'±P^a!|¨NŸ1Æf'OwO3¡cOQQOQ;Q¡æL@À!~ qŽå€EÔ …·h¼Ná;µ'v ‰<10Ð¿ˆ ƒ5
+ôPñCÓO©UByYô@¿¢	P=è± è 6g Þ÷Sýè…£h¼Ná;Äú'xŸ¤éà&ƒ8˜˜fA€V83²ñz(TAêêƒDä
+Š(ÆþÁ¢p…™h˜F`7“A™‚¸'N`žpf£H'ôÀ€(`Æá\'Î@Ÿ%	àÑ>†àA1zu¨P…­h'0Hñ¹1{³àP7€Á<@ñ>fZ†@€p8qÞš~=ÞÔýgPñßäê3ÞOxwÎ¡£8…™x
+Á àwÖ`hO¯á>žŠzàTÑ£<´(h`gu§N£Dê É>iy‚ÈÔR8
+Ó˜Ašp…™ˆ€ˆPs>ŸÙÏ§Ï—§ÐÏ¼¨»¨˜Ï¼§¨§§¨Š¨¨¨geð'½A‚}Àé>piI„ÿ'v8/ƒE …ŸxÀh ¤pÿ´¿ŸEð3ÊPÏ£.z)À¦ ’¡N|_¢reê3PžÂÀüšð^¡EPi0g …³h xÀ*€nŸØÔ`œ¼qì(JŸ84ƒH&ƒ2ö&0v¢”ð'ÑBˆÁ™ƒ†æ	Ó¼/äÃ8 …½hÇ ƒØczLÀüÂì”ÇKÔ@ìÁ9ƒTï WK˜.Ž.\¹ÀÄ‚p`ºð´ _Æ \…©h˜z`í;4ƒx Oê9<azx:QœêsäÅù¨N¡:‚@üÂb÷…ü'ÐÁŒê.Qp…½h¨PK‰þO¤A¢xæÓ¼NÉC´ý(Ò¨½ä	àÑ91{Â÷IÔ(ÍBtü(/0¨n8/’æ …©h@ŸÓÆá²} ˜¿Esæ§xž¤ïÚ¡ÜTHÁš Òª'x:‹Ô'ƒÕ /0…Ñhú@u±ÀBŸ1Âù˜Ô(N;ÄÿAy”@ªQœ§±äThŸH4OÁxáA*}  Ž€†!háY‡°fŸäâDë“»‚(^â <Ê¨oTf_ àn`Æ ~"OšŒÌ¨o
+=PìÂôð(†èh 7²þ`ÎÌàt^ò`NaŠuz^ Âh3©NœÀ½C³*'Mêhžè@-'P–€Šlx  ¸ Kó“éÀ©=B’È 'À­ŸDªàFN|ž'Ò#ºrè˜@Ÿ5@ž¤éÔ˜fœŒ$ˆ  GÞ#ÈœùH	8	LûªzˆªyJ{êyJ{‹Êyª‰<ö:OœA¤‰õNñ:…ú#ÔÁ™†)Ý˜ ‰hx  Â¸ÞyOcMCÚƒ.ˆ%g¦ñç=LíÎõ4uÑíA½QœÌ4‰{È2Q¢têÌæ š'y ‡Éx 
+ç7x©éêóÔONÏŸG,õæ@F„øTÔBróæðT¡A}hœÁ:tä	à'P^œ¡F‰À†±h œÔJ^žõ@¥BtçIÞ´/Q„ê ¶ dã‚ð@—ŽêQÁ¢tê7N¡:u(^âp†%hÂ³IÓ§N£5`vaR„ê;Nð¿H˜¨x‹Ì§Ð¿è4‚ˆú(N¡b|Ô¨0N½Ff …éh÷†“§N¡>‰ò/²P^¡ ßCËÌ BŸE†…ð(w4‚ˆ¨x7'+Q¢ˆÀœ`7 …h4¦QA¡|p@ À½AzÄú(9ƒE§ÑBè`‚eÓ1˜˜‚p„Ì~ w‹©Â…Ëh v2„ð˜ÌÀ¡D	à+P$NÆ‰Ò'ÍCU³ábv0fœ&/Ð¼ÁFiï€ÁA2qŒ
+ …ËXL>5ýB0^1Ë—1A2èàÕAœÌ¨Ñ;h3N¡9‚y 0P
+ 3ŽL4€…·hæa~a(Ôn n`¡:uÔ'QL'AÈ¿ò<ê%g§¡Ìð3ÀxKPP =@À#‰)ôÝÀ…¼hôPÌÀ½Feæa¸’Ô70/€”ÁBˆàÂ	§Éäð	Œ(“Ê"•œ¢'ŠJ'p	£àj 1Àd Ç€—ŠO¾ïO…”x*gDP/¼1¨h€Î¡Ÿ=5
+z;ÀÑ „_Yà,(U;Éò|³(DñDÌGÅ<wBp<rh 0à€NOJÏ»äð…¨xý˜9ç€ñï<óçÏR†}™óŽÓàZ   `¦fŸë9>Š"x€"ˆ@‰á8ž<“áH¢"ž@¸ ±€ —Ã_k®ýÉà…”ˆ
+‰8	ÊzŠ‹ºŠºzŠ‰8
+zˆJˆï½<èp  ”0$±Jýõ™Dž€Ià‰DNO€E%.CÀ 8˜ +áÿsXô^ž…°xàhÌŸRÞ>è§ŸFzšà2h»D   yz/Ç Ê"p¤) ™Éç	ŒÉ'ªh /ä³†¼+êoOw…Äxú4AOdO€¡SC.™àh÷£‚Í`gP €(<I/÷Éøøk¼ò€DàÉ<î¡F§Ù$÷Æ@ ¢€ÓƒŽ-êlžO(…¦hAÕ(
+àP¡I†iÞ¨Qúw†°f p'ßï”@!Ð	Ü''ŠT(ò‰Ü=(€T%† ° `* .XË¬9ùä …ºhÁÕ
+‰Ó¨†c‡p@œá>fÁ Üpò	§Ô Œ)OžIçu
+<¢) „Éêá000P]Ú2ØÓìp …¦X™080,`nrÐ„4^HÄEÄ¦|%<<L>%>…=Þ„FQÐ€d8O¦`   …ºh N`¥>eÿ(0Pb£8)O„Åêª ƒTê½çŠ1çOÑ&ÇtLð4TF! @ài Ž7§Æž …œh¨LŸ8¨2ÒŸC)ÔÔ`ð¿X˜3(§âf§N`À¼Á>iÄ‰Ö€ÀH¢¢ð§š …œX.\±… ¬À±qÂù06/j	‚°NÊ	ï0wIàz…Ô;NˆÃAÀk	æ‚ …¾h Í;±Ã´çP(/ìÃ5Ì R¡<˜¨‘>j¨ N±:uÌêã‡p(N^`:‰h`…–h ÍCÄú'ª 	 v£Ñºˆ!Q3¬O¢vªåj'ö!z¨ €½F'‚'N±CÀ …´hæ ¼Ã3“àíFƒ€Õ;ÄêTgˆ4‚ñ¾†T	Ô7Pí?£„êÅð'xŸDýAš‚ñÃ¸8N€ …ÈXP¹ˆ'ƒê@Pº…ô`lÁ“	À©s
+A™@^Ÿ…§©D	ñ€Á>j4PÖÔ'O¤¨ …¥h˜AœéQÔ'Qê‡‰ÞÁƒñ$§Q{µ¨PŸäéÔb`î P¡À~¡C÷"0v …¥h¨ÙƒÂÿ“§0^¡:p‰;µ˜@Æeã$ð@Õ@í@b8C
+¹ƒH>‚øAŠ`Ð½Ž …¯h >‰ÞAò}ËÔTê É@4ƒ¸p-BuÑ‚æS0$]Bò‚ÑxA(_F˜©qÂà…¯h PÚ &é@œ"O¨  N#Ñ@Czž¨9ÒÜÈÁÜ'‚¨%P@õCÅ …®x gÙ<
+3è‹£ÞŒú*hAx x@ÀîŸßFw†%Oœ‡Aìú…‰Ó§úXâôÁ¡{( €…Âˆ
+zxH
+ˆ½
+zZ‰:Šz‰J{oÀaTøW»ÐõõwE8Á`pÊ¥ôý	yÔ3ÉPÏŸæuvìþÔ.ÀÐ`…šx
+óÄÐŸ£B~ˆsÔÑÌó´ ˜ @Y Þ7—Üóè€òt'è€ð¸8—ó§ÄCn…õú8Àöˆ …šh Ñ:Äã¹„ð"Qšx xžå  aH ^_Zu3
+ 
+8——À°¼Á?©ÞA(¦ó“¨€…•h8.‚ O¡©„	à€+'Ã
+KÀíEÉôNÚ(ÍAð €n#OšƒUÌ=/Pœ\_¢ Na™ƒÂð…½h¼/mx¨va,	Ô'0v^h IÅîÓò¡âvv£5ŒóOšr¥õ@ž˜3N.‚3C …³h¼N)08n8/láz…	Ó¬äÁtIÞ±‚s»e¼O¤Á˜àZ ½E*¨¨¿E€Ax…ŸhÔ6/P¡Ú…í“é	Ô'éEêªÀÉÔ@ …FfÓé0hž¥(¤n`‘†iÔà…h(ÁÌ(§@F‰ÄƒwTœIÉÄjè^`ž§Nñ;(áQ¢zT@ ô</…©hÄ‰Û@ž v²ŒàFiÞ'ÒIó0Ù>iÙ8 @ì?N¢§;Åè¢¸nLœÅEâH …Ÿh ÒIÔ@-@_,ŽàPŸH ‰†ŠÀìÁ³0   ¼?—¼O‡jÌ¨F©Ô'e‚þ ‚ …Ÿh Î¤ð@É<è àB /ƒè3Pø¼H^ôÇÁàoýÀ¨ïE<ê	ò^3è¥Ÿ>~P '¡@ …³XR„ ìþ˜0"a3€|Áˆ&]c	Áé˜„÷wz™îèŸB~…Ñ3è=á>Á/@…³hé°(€è½:vÅêRâv&	Ó¨âwÃ}H  /ˆÓúžê QÉÓ¨­:ˆÁ	èœ…©hÌ%ƒ8)‚ê õFj—‰è¡<
+‹Ä‰Þ€à@gÝøçÏA?â}Õ9è§¢
+p<'ü€                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4094 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       H   L   C   ”   @   ×   >     @  U   =  •   =  Ò   =     <  L   <  ˆ   =  Ä   <     >  =   :  {   <  µ   ;  ñ   >  ,   ?  j   B  ©   >  ë   >  )   >  g   =  ¥   =  â   =     =  \   <  ™   @  Õ   I     O  ^   P  ­   O  ý   I  L   L  •   J  á   D  	+   B  	o   =  	±   =  	î   >  
++   <  
+i   >  
+¥   <  
+ã   <     :  [   >  •   >  Ó   >     A  O   F     C  Ö   @     ?  Y   >  ˜   =  Ö   ;     >  N   <  Œ   >  È   >     >  D   ;  ‚   A  ½‡ihÓÄîà@•<
+*P#QA€C¸¨Ž>¨¢³”#¸'Š!IB‰âx<€"x¢‰à#¤5 pP?p'gkÝéçðè‡_h˜˜'¼ƒDêŒÔÁ àíFp'y…ú@.™<îO“Å ¹Dò'€@$ð	<¢Qx“£@`!`	¸*è½ÞïE‡KhAì(ÒÔ%0/Oô'ñ;ÈñÃÂþÌ4ƒè§“¨»¨“€”¨»€¨€Ï¨¨§€¨€¨ø -€ 4Àá¾KÀSÙ ‡Kh4PÆÀ^8Q±€ŽÝ¨`¡Ùxà½âyËÂÅ¾‡sÌê°=è€¡O=Hó˜3ü (`wÓÓô@‡‡h§cÄêêA™x½ÚÔgˆ4P¾ à"a¸~_ñy„èœÀ¼HŸH N`7Ì
+(4¯/:p‡_xôq€ _&@ÑžŒýìš9çPOÎ¡Nwˆ`f`Àœ¿âôð2/@žð'Q¤êÓ¯/A ‡_hÔ}àÐ½:‹à0¨Ñ?ƒ‚ø@î	Ó@à\ÀN7‚ýDEê Q@œH^ñ:„þÁ¢‰Ëô0/‡eh±Æð@¡Azu“æ£äâ3@7ŽÌœÀÁ‹(`€v`?ªAº}{6O¡|	Ëé0‚€‡=h3P§O‚u†âA¸¹;ÂòÂõ	þ‚ë”AÌ ˜¨Oêun¡ÚŠŒÀØnòó ¤¼Â ‡[h4ƒró PŽ./?Ð(Pý8‘;!¹„Á¤41Àìp_Ðgê3QJˆ 50/B„êˆÌ€‡[h4ƒxÌ¨vœú1‚Ô<'/0ê‡Ì^ñ<c‚ø)ƒH0O¢zT@`¶¹‚u
+á3à‡thæ8à¼qÁ¸t_œÁ'xžêouXÃEu¨€o¢‚(f&	àZœ,NFj)‚	À‡Lh ‚Õ	Ì—ƒAº(3‚˜˜	Ô	æ
+§~`^£æâq:ŒÔ'ÍGEù˜Sx§ÑD
+3PL_x ‡LhŠ†âBüàè ÌÂ¨¸‚øÓ¨NYu¬¡àÝÄ
+¼/x_2ÅÁøáAª‡j(Î`ÒÀ‡LX)—R
+@pÀ*ÀH>˜ ?B \Ø `¾™;µóA¡zäú@M	ÖŽj§yPi`‡9h ø	Á¢tê ‚ã f¡”(N£2úT'Q:phœ½ ÎàÌÃÔï)àQQzƒæ£á¾Š@_ l‡9h1P#P¡<rašKôPF1N`žtâDð4ô	ð‰>\¡:`P^¡;Å*3Qì@Ä‡MxÍOËôÓÞ3Ù€ÉžQ|Àïó:†~YýèÀï£BƒÞˆ§Qì¨äÃ4õ@8Nî ¤¼À¼ê@‡MxÀCÙFt™îÀ£ÞŒïº*gÀîñŸ;(Îê `'!ƒDì PŸB÷}A	ê‡„xâ@À c ìoô'üP»ž{Ùà<!ç÷¢S(N^áCÄð(˜-'/ùB‚òbõ	ÅÅù§0N`_ ‡px	ï ¼$b=2þx gÏ¢µ©ÿ4IÏá==™A|èžê%˜R9ƒ'ø¿E'€¼À‡fh PFáù|È˜Aµ'x_òs˜;0%h3Pg ½D(˜@¡Œ•¿ÊfÔ</€‡fhÇP'//0/P@70D¨%O¤Gx
+ v`JÐh¡Yƒ¸Á ÝEÅæ
+`ÿ(/¨wj38‡—hõDú'NàÝ’u	ÀÈ¾êÝ¨ôÁ:„*àPÐ@8[
+µ	Ó’'Ò&	Ì¨x^Êp,/Bp‡Gh §ÑBu¨õ:…˜§P_¢`Pže	àPÐÇ—˜Á¢rñÅcq$—˜@Ý@ŒÂ£‚8'€‡yhÁwŠéÄ‰É“éEæï—À.PÀl na›@ñ;a¸¾Ó’A™{$ïÔg(30X7PŸ@‡hàŒnñBuÇ§Î¨ó—˜|ŸH†ê ° Í=Éó0€½âqd v*O˜áwpU†j Q˜‡—hàÝ>‰ô0wuAT
+ bœÁ=IÄf@ ¾¦0vƒøÀœ /v8Í>\`î‰Þ'˜ €‡oh ú‡iô0Ð½8âÿL ‚”æ	Ù'Î¦æ<z^ 'èÏGÿ™þ;²(4¨Ì@	@;‡ý	÷@‡—hËð‚ê30¨N¡ˆ ¨©:…`‚Œ¨ö`¹E¡w¼Dóò‰DÂQ“Å$ð	=* ” È Ö ?à
+ˆ·âéó‡[hÌæ
+À Fatê>0N7“¨QL	àè¼À PW
+DðÌŸ Dð¤¡;ÏDONñäONð-A m@ @P7€K"?yü<‡GxôZŸ=åj`TÏOG½sè€3'çÐcÀ  P N¢‡ax¼[Çp EÂ’„c B‘<o Qœ€¸ [èÞ(Ÿ|ƒøúô‡[ˆ	Ot–}E<ô¦|n„?%=Û#öŸB»>žŸ2 1  ("dr6³óxñJ|Ê €^¤ó¸Ÿ“Ð*G€\ VPÞ
+O½ÏÛ@‡Gx`hv=t@ïF„üJ	ú$è¦Ÿ@À€ p» %îýÉØ{	H	h
+}
+8@* €¨`w€õ/óéñ@‡GxÚ '¨JO©¡wFˆÞ3§â£9YÞ¤æ RÛ wzU>O(¬Ô"p	õ>Ÿ ¬À%	eAp Ðƒ€0'â«ï§Éã ‡[hÀ…<ˆ;Â¼¨Í:Ã ­A„(C€ §c“Ãäó¸* €R$ð	=âO“Ð*8 øð¼yÂ:³Óéð ‡GX…‹—0`À‚‚—LÅ ¡s.F „5÷Ÿzy8Øú
+zŠˆ
+‹ºŒè T `;À9.zœþð@‡Ghô¡Bx Cõ
+Áš†ðf¡ä‹ËÌÆ‡Ä}AŸQŸQ_OQyO)OÑPðÀg;ÀÛ/Ø0ôøÀ‡GX‡K˜0‚ë˜0`Ff? (]Hèàu"Ô qÐžð¯£<
+š=çhÐð²x=î04g¼‡Bh¨DŸ30@`F£1Á,'''Oê‡‰çOrf0ÍAšw‰ô/yåábvIàPÌp ÀÙ;P#‡BhQÃ¸>D§Ô^$Ð ½C$ù¨@:†,ašrÄú'Î†‡ïŽÓ’(/0¨ÀÀA´â@‡$h ‰‚qÁ*„éç€,/õFiüNòU
+ ^ ¼Â–‚ù§P7~ž†ù¨ò…õ@î	Ôh‡thæÀ¡=JÔO†ª3ø8˜¨À0P ½‹@ž ¢iÌï?N`^É>Š+Ü‹ÞAÂu
+ €‡yh§ôPñ<	â0v`>‰Þ¨QÂý :ˆ4h3ƒ¤ðAôæ¨¨ªÇ ¬p#N¢ ¹:À€‡eh3PÝ;Åð'2ƒ8(v7tœp^òÌÓ¨ƒ6ƒ8:Pž /€¸n'¨¿EŠ¨Á™‡*  ‡=h‰øÚ v8Th`^¡:Sè¡Ù„èfž.¡‹A8@a3 ˆ †Œ1ˆ0¡táXÈ‡eh4O|¨v`ðoŒàP:Tƒp²ø:‡‰Ô2w‰×¼/:Ošˆ`‚
+“—Ž	àNœHœ,/D_šƒ‡nh3OJ‡iÌ 9º…	óQ¤€	áùx†‰óbóùÀ8/&/xœ¬pì¼˜Ào‰éP#Q
+u(‡Fh4PÅFŠàGIÓ§P£DïÇ P‰ÀåøÁšq#A‡p@^.ƒ4èÓé1xà¿ˆ‰éOš…)Ô@‡Zx t3ÀOÒ‚~}	ê=À& ó@¸3°§üO€ÉóPìp8Oòweò'xž¨4`Üüœ¼Áê¼‡Zx IÑ< MO£:„ÿ    £À #ƒ8(§’Ô4;½M4à,g¦ž—¢ž‹°Ô"høŸ':|åž¦v@‡ixôSÐŸ¢z™÷@ÑžëÇ¸ @€
+Ð Óßà1»üuéì‚@À)‡÷|í*óÓOxÑ==àhWFˆÀ‡ih3Pí:…ê4O1zŠ“ç†	À`h ^¯/x¡ÛÀ˜txËðÐT>gcPÏ£c½Mô(RÏBH‡Khx /0P FœŠŒ3P^`ò |œ¼?±>ƒs;NðÀ,P#/ÁqƒµËÌ7<Bý z` Áˆ‡7hÌ @ÜHœŠéÉ‹ôP_`ƒäðö£DéÙCÄù˜<N#DA ÝÙ‚„üæóÔ
+ ` ‡qh4¦ázsüƒH4O¢ŠÔ@^¡á€äÁÜ² )N8Nî˜@ž¨¨½FeäÐ;Pj` f‡Ih4P90v^ Î Îèžƒø(vaà˜oœ“§N$/ÒÆtì ÍG	óƒè4O)‚€@#‡Sh@¦
+˜'/ pì¿EÐ¢êæ8.€G¬¡8âaºtêfÒ‡p2/:Ãø‚€¥@X`€‡?hy‰z‡fAú†Šp0P`7PŸE	 wLœÀp…9zxèŸ$ï ª˜Áô3ÉÞA ‡lh P9‚`ÍEeêTÜ	ó0PŸ5	‹Ý¨&xÀ(5ñ½<‚¡,ôà@OF$ÿ™ï({wí¡AÞð‡Dh'M2/xŸÈ§†úAB‡eêÔ)0Í=. t0Z/»§¬ÀÎ¡éÝ‘>
+zT>;ÉP©žvŒú8€‡bh4/z8v¢•ê</Ì1€¾H39y†ªÔ1cÀ¡pÜF å9yrróËÔ(Da Rs9Q€‡bh˜=Nñ?ÉÌ³0v`Æ30Ð¾ Òtê±†`P¹8V¡Štð)QÀ¢Sðz¢û”'NL‡lhÀB¡B‚U0@fœHœZà’	ý0vd(ùà(	 : 0¯MÞ¢}\ê
+ª™å@÷¢NvDù*ôI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4094 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(80) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                L       H   L   C   ”   @   ×   >     @  U   =  •   =  Ò   =     <  L   <  ˆ   =  Ä   <     >  =   :  {   <  µ   ;  ñ   >  ,   ?  j   B  ©   >  ë   >  )   >  g   =  ¥   =  â   =     =  \   <  ™   @  Õ   I     O  ^   P  ­   O  ý   I  L   L  •   J  á   D  	+   B  	o   =  	±   =  	î   >  
++   <  
+i   >  
+¥   <  
+ã   <     :  [   >  •   >  Ó   >     A  O   F     C  Ö   @     ?  Y   >  ˜   =  Ö   ;     >  N   <  Œ   >  È   >     >  D   ;  ‚   A  ½‡ihÓÄîà@•<
+*P#QA€C¸¨Ž>¨¢³”#¸'Š!IB‰âx<€"x¢‰à#¤5 pP?p'gkÝéçðè‡_h˜˜'¼ƒDêŒÔÁ àíFp'y…ú@.™<îO“Å ¹Dò'€@$ð	<¢Qx“£@`!`	¸*è½ÞïE‡KhAì(ÒÔ%0/Oô'ñ;ÈñÃÂþÌ4ƒè§“¨»¨“€”¨»€¨€Ï¨¨§€¨€¨ø -€ 4Àá¾KÀSÙ ‡Kh4PÆÀ^8Q±€ŽÝ¨`¡Ùxà½âyËÂÅ¾‡sÌê°=è€¡O=Hó˜3ü (`wÓÓô@‡‡h§cÄêêA™x½ÚÔgˆ4P¾ à"a¸~_ñy„èœÀ¼HŸH N`7Ì
+(4¯/:p‡_xôq€ _&@ÑžŒýìš9çPOÎ¡Nwˆ`f`Àœ¿âôð2/@žð'Q¤êÓ¯/A ‡_hÔ}àÐ½:‹à0¨Ñ?ƒ‚ø@î	Ó@à\ÀN7‚ýDEê Q@œH^ñ:„þÁ¢‰Ëô0/‡eh±Æð@¡Azu“æ£äâ3@7ŽÌœÀÁ‹(`€v`?ªAº}{6O¡|	Ëé0‚€‡=h3P§O‚u†âA¸¹;ÂòÂõ	þ‚ë”AÌ ˜¨Oêun¡ÚŠŒÀØnòó ¤¼Â ‡[h4ƒró PŽ./?Ð(Pý8‘;!¹„Á¤41Àìp_Ðgê3QJˆ 50/B„êˆÌ€‡[h4ƒxÌ¨vœú1‚Ô<'/0ê‡Ì^ñ<c‚ø)ƒH0O¢zT@`¶¹‚u
+á3à‡thæ8à¼qÁ¸t_œÁ'xžêouXÃEu¨€o¢‚(f&	àZœ,NFj)‚	À‡Lh ‚Õ	Ì—ƒAº(3‚˜˜	Ô	æ
+§~`^£æâq:ŒÔ'ÍGEù˜Sx§ÑD
+3PL_x ‡LhŠ†âBüàè ÌÂ¨¸‚øÓ¨NYu¬¡àÝÄ
+¼/x_2ÅÁøáAª‡j(Î`ÒÀ‡LX)—R
+@pÀ*ÀH>˜ ?B \Ø `¾™;µóA¡zäú@M	ÖŽj§yPi`‡9h ø	Á¢tê ‚ã f¡”(N£2úT'Q:phœ½ ÎàÌÃÔï)àQQzƒæ£á¾Š@_ l‡9h1P#P¡<rašKôPF1N`žtâDð4ô	ð‰>\¡:`P^¡;Å*3Qì@Ä‡MxÍOËôÓÞ3Ù€ÉžQ|Àïó:†~YýèÀï£BƒÞˆ§Qì¨äÃ4õ@8Nî ¤¼À¼ê@‡MxÀCÙFt™îÀ£ÞŒïº*gÀîñŸ;(Îê `'!ƒDì PŸB÷}A	ê‡„xâ@À c ìoô'üP»ž{Ùà<!ç÷¢S(N^áCÄð(˜-'/ùB‚òbõ	ÅÅù§0N`_ ‡px	ï ¼$b=2þx gÏ¢µ©ÿ4IÏá==™A|èžê%˜R9ƒ'ø¿E'€¼À‡fh PFáù|È˜Aµ'x_òs˜;0%h3Pg ½D(˜@¡Œ•¿ÊfÔ</€‡fhÇP'//0/P@70D¨%O¤Gx
+ v`JÐh¡Yƒ¸Á ÝEÅæ
+`ÿ(/¨wj38‡—hõDú'NàÝ’u	ÀÈ¾êÝ¨ôÁ:„*àPÐ@8[
+µ	Ó’'Ò&	Ì¨x^Êp,/Bp‡Gh §ÑBu¨õ:…˜§P_¢`Pže	àPÐÇ—˜Á¢rñÅcq$—˜@Ý@ŒÂ£‚8'€‡yhÁwŠéÄ‰É“éEæï—À.PÀl na›@ñ;a¸¾Ó’A™{$ïÔg(30X7PŸ@‡hàŒnñBuÇ§Î¨ó—˜|ŸH†ê ° Í=Éó0€½âqd v*O˜áwpU†j Q˜‡—hàÝ>‰ô0wuAT
+ bœÁ=IÄf@ ¾¦0vƒøÀœ /v8Í>\`î‰Þ'˜ €‡oh ú‡iô0Ð½8âÿL ‚”æ	Ù'Î¦æ<z^ 'èÏGÿ™þ;²(4¨Ì@	@;‡ý	÷@‡—hËð‚ê30¨N¡ˆ ¨©:…`‚Œ¨ö`¹E¡w¼Dóò‰DÂQ“Å$ð	=* ” È Ö ?à
+ˆ·âéó‡[hÌæ
+À Fatê>0N7“¨QL	àè¼À PW
+DðÌŸ Dð¤¡;ÏDONñäONð-A m@ @P7€K"?yü<‡GxôZŸ=åj`TÏOG½sè€3'çÐcÀ  P N¢‡ax¼[Çp EÂ’„c B‘<o Qœ€¸ [èÞ(Ÿ|ƒøúô‡[ˆ	Ot–}E<ô¦|n„?%=Û#öŸB»>žŸ2 1  ("dr6³óxñJ|Ê €^¤ó¸Ÿ“Ð*G€\ VPÞ
+O½ÏÛ@‡Gx`hv=t@ïF„üJ	ú$è¦Ÿ@À€ p» %îýÉØ{	H	h
+}
+8@* €¨`w€õ/óéñ@‡GxÚ '¨JO©¡wFˆÞ3§â£9YÞ¤æ RÛ wzU>O(¬Ô"p	õ>Ÿ ¬À%	eAp Ðƒ€0'â«ï§Éã ‡[hÀ…<ˆ;Â¼¨Í:Ã ­A„(C€ §c“Ãäó¸* €R$ð	=âO“Ð*8 øð¼yÂ:³Óéð ‡GX…‹—0`À‚‚—LÅ ¡s.F „5÷Ÿzy8Øú
+zŠˆ
+‹ºŒè T `;À9.zœþð@‡Ghô¡Bx Cõ
+Áš†ðf¡ä‹ËÌÆ‡Ä}AŸQŸQ_OQyO)OÑPðÀg;ÀÛ/Ø0ôøÀ‡GX‡K˜0‚ë˜0`Ff? (]Hèàu"Ô qÐžð¯£<
+š=çhÐð²x=î04g¼‡Bh¨DŸ30@`F£1Á,'''Oê‡‰çOrf0ÍAšw‰ô/yåábvIàPÌp ÀÙ;P#‡BhQÃ¸>D§Ô^$Ð ½C$ù¨@:†,ašrÄú'Î†‡ïŽÓ’(/0¨ÀÀA´â@‡$h ‰‚qÁ*„éç€,/õFiüNòU
+ ^ ¼Â–‚ù§P7~ž†ù¨ò…õ@î	Ôh‡thæÀ¡=JÔO†ª3ø8˜¨À0P ½‹@ž ¢iÌï?N`^É>Š+Ü‹ÞAÂu
+ €‡yh§ôPñ<	â0v`>‰Þ¨QÂý :ˆ4h3ƒ¤ðAôæ¨¨ªÇ ¬p#N¢ ¹:À€‡eh3PÝ;Åð'2ƒ8(v7tœp^òÌÓ¨ƒ6ƒ8:Pž /€¸n'¨¿EŠ¨Á™‡*  ‡=h‰øÚ v8Th`^¡:Sè¡Ù„èfž.¡‹A8@a3 ˆ †Œ1ˆ0¡táXÈ‡eh4O|¨v`ðoŒàP:Tƒp²ø:‡‰Ô2w‰×¼/:Ošˆ`‚
+“—Ž	àNœHœ,/D_šƒ‡nh3OJ‡iÌ 9º…	óQ¤€	áùx†‰óbóùÀ8/&/xœ¬pì¼˜Ào‰éP#Q
+u(‡Fh4PÅFŠàGIÓ§P£DïÇ P‰ÀåøÁšq#A‡p@^.ƒ4èÓé1xà¿ˆ‰éOš…)Ô@‡Zx t3ÀOÒ‚~}	ê=À& ó@¸3°§üO€ÉóPìp8Oòweò'xž¨4`Üüœ¼Áê¼‡Zx IÑ< MO£:„ÿ    £À #ƒ8(§’Ô4;½M4à,g¦ž—¢ž‹°Ô"høŸ':|åž¦v@‡ixôSÐŸ¢z™÷@ÑžëÇ¸ @€
+Ð Óßà1»üuéì‚@À)‡÷|í*óÓOxÑ==àhWFˆÀ‡ih3Pí:…ê4O1zŠ“ç†	À`h ^¯/x¡ÛÀ˜txËðÐT>gcPÏ£c½Mô(RÏBH‡Khx /0P FœŠŒ3P^`ò |œ¼?±>ƒs;NðÀ,P#/ÁqƒµËÌ7<Bý z` Áˆ‡7hÌ @ÜHœŠéÉ‹ôP_`ƒäðö£DéÙCÄù˜<N#DA ÝÙ‚„üæóÔ
+ ` ‡qh4¦ázsüƒH4O¢ŠÔ@^¡á€äÁÜ² )N8Nî˜@ž¨¨½FeäÐ;Pj` f‡Ih4P90v^ Î Îèžƒø(vaà˜oœ“§N$/ÒÆtì ÍG	óƒè4O)‚€@#‡Sh@¦
+˜'/ pì¿EÐ¢êæ8.€G¬¡8âaºtêfÒ‡p2/:Ãø‚€¥@X`€‡?hy‰z‡fAú†Šp0P`7PŸE	 wLœÀp…9zxèŸ$ï ª˜Áô3ÉÞA ‡lh P9‚`ÍEeêTÜ	ó0PŸ5	‹Ý¨&xÀ(5ñ½<‚¡,ôà@OF$ÿ™ï({wí¡AÞð‡Dh'M2/xŸÈ§†úAB‡eêÔ)0Í=. t0Z/»§¬ÀÎ¡éÝ‘>
+zT>;ÉP©žvŒú8€‡bh4/z8v¢•ê</Ì1€¾H39y†ªÔ1cÀ¡pÜF å9yrróËÔ(Da Rs9Q€‡bh˜=Nñ?ÉÌ³0v`Æ30Ð¾ Òtê±†`P¹8V¡Štð)QÀ¢Sðz¢û”'NL‡lhÀB¡B‚U0@fœHœZà’	ý0vd(ùà(	 : 0¯MÞ¢}\ê
+ª™å@÷¢NvDù*ôI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                    8 / width of table in bytes                        NAXIS2  =                   64 / number of rows in table                        PCOUNT  =                 4152 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    1 / number of fields in each row                   TTYPE1  = 'COMPRESSED_DATA'    / label for field   1                            TFORM1  = '1PB(82) '           / data format of field: variable length array    ZIMAGE  =                    T / extension contains compressed image            ZSIMPLE =                    T / file does conform to FITS standard             ZBITPIX =                   16 / data type of original image                    ZNAXIS  =                    2 / dimension of original image                    ZNAXIS1 =                   64 / length of original image axis                  ZNAXIS2 =                   64 / length of original image axis                  ZTILE1  =                   64 / size of tiles to be compressed                 ZTILE2  =                    1 / size of tiles to be compressed                 ZCMPTYPE= 'RICE_1  '           / compression algorithm                          ZNAME1  = 'BLOCKSIZE'          / compression block size                         ZVAL1   =                   32 / pixels per block                               ZNAME2  = 'BYTEPIX '           / bytes per pixel (1, 2, 4, or 8)                ZVAL2   =                    2 / bytes per pixel (1, 2, 4, or 8)                BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                M       H   M   E   •   ?   Ú   A     @  Z   =  š   >  ×   >     <  S   >     >  Í   =     <  H   <  „   =  À   <  ý   <  9   A  u   B  ¶   @  ø   >  8   >  v   <  ´   <  ð   =  ,   >  i   >  §   B  å   J  '   O  q   R  À   Q     K  c   M  ®   J  û   F  	E   B  	‹   A  	Í   >  
+   <  
+L   >  
+ˆ   =  
+Æ   >     =  A   =  ~   =  »   @  ø   A  8   D  y   F  ½   D     A  G   ?  ˆ   ?  Ç   >     >  D   ?  ‚   =  Á   ?  þ   >  =   =  {   =  ¸   C  õˆñhæ,O¤‹Þ'‚`€N`£Dõ(P^V`¢
+Œe
+.PŒ©øò'–¥	>' ¢ ‚¢xîPŒv‡€  sV@‡^½ß?ç  ˆÉh@œÑ;Äâ5@à¼H_ˆ ø½D	Ì4‚ø˜L*Ÿ“Â 
+|*Q;€Fe:„Æ”Dù À ¼r ðwÍÝÀˆÉhÇƒwj4Q™†æ8Ì ¦ @ì½¹†`‚'`uPú¿yûÔü™û:u•@ †@p¹ïwPˆÉhŽ ?D(‚¢‡cw'OTAœ
+ F@áågcÑ*~‰J½^ g»By‚ ò ÁŸÚ~|àˆÉxÔ,@OPøîñOCÅBú††Õÿj1çxÚîÆïuA=âRÍ9Ô3¢ÀPžƒÃ$â=BûÃ¸ˆìxôg‰¢¢{v„õxôSÑñ=}BžtdýÉ™ÂÀ 0={´áZ|Ì>ƒ5Ášˆ‰â»ÈAœ—‚ üˆÄhÖ(Ð¼\70|
+æ£BðÀ¿DÿAwƒƒ`
+Ôj4‚“c'PŸEÓæ`ìgÀˆìh¨	à'ùA|ÂÂñ!{È
+àP^Ê…ïh8bPüH70/0OêŒÓ¾ƒDïèÁ{Âý3Pr`ž ‰ xê;ÀOx“ŸB†ôÿ	f55ójy2½3µPf8/€½EJ¨s ‘8FŠ7á{È3QL	Ì ‰ hœ¼NÉ:s©àPÉ;Á½Ê30L4ŠØ™C³jw2‚1NœÂ¨4O€Ü,B|Ô1Pî ˆØhp'Ñ?ªà2N¡C$ù¨¨w"÷†ï f*4/d7Á¨€¼è¼H7'Ò
+¨¥@V ˆìh¼€þT@ –
+¥ád ƒBò`ü,/j v£ÑÆeÿA¢€¥CÄäÉÔ‡þ†Aœ‹ôNˆØhh_ÄAI„	Ò¨/À8¢ƒBö0	 98ÓÔT7“;OŠ‡j>˜@®$	àÎSŠ ˆÝh@Úƒù¨/˜Óè`#PžþŽ /F‰Û84P ¾ÉÆãŒSÁ‰ô‚ÕAêëP# ˆÝh¨P#Pœpí9‚ˆ‹óQœ¨P^¡Gªæ	è³€Hžãƒ•Á²x Ñ>fCtæª4‚´ú@ˆÓh¼O ã4ê vôôNòñÁz‚Tï¸PžÌp^ŸDï£‚ø'v8˜gè°Aò}°âp‰hˆÇê3P_Á¸]ÂüÓéu	ÔTÚ‡
+ ž'/Pí8‘A*s¨Í>gf¨v¢ˆ4€ˆûh˜'”éÓÁx‡*¨N£H¨Ðná>f-0Ò;Nò©ÞAà7ÑFf'LŸDàˆçx < O /Ü¾`wÎ¥A>NvMïpÉ‚8±ŸÜª Îƒ} 0* Nœ,Oº|Ôiz„Êj ˆ¿ˆ`éŽç>~|<EDìÇ½B-‘ÛŸñWOyžÌŒàxŸEÀî ‚Ä‰÷0Ñ>Šê“§ ˆçx
+ rÎ÷tø	ùÔ gÐŠž¡ŸFŠ™å('À×¢¢{EæfŸDù˜h^&//0Îƒ}Á´âDð'…D	ÀˆóhŽ N^sµ	Ìó0/0Í>‰óâ{Ô±0Ýâsð'ÑC4ï¨‚äIàZ…	õƒ5 ˆßh(0ˆÀ?/90ÑDéà0Ð½Axnñ>…ú(á@Ü1ÈàF ½Bx=Qš†iÞ(‚ j ÂÓÀ£SÓ€ˆéh¼€È¿2òb÷N`^8x¼/P¡:‚õÔH¡Ú†%ÇÁ°h£õsÞAÒx Ò	õN`^ˆéhilþ/yó‰Þ@<…wj$N$NÞ§x8˜ÁT'¡Ay„;‚Õ
+Ä'O’ˆÀ‰%hù—”(O *wj =*'Í8XœG ànØ¿C©<—æ¡Ü
+!Nž‹Þ(j`î˜'ýC±À‰%h»/@D©ÄŠ˜§“¨¼O¢}Ç	îÙƒz8€?&/(w‚øS¨‚“ÓŠ 
+ÌŽ§`ŸE ‰%h§P+0/NL^ò©Ì1Qšˆ»0/N8/l8
+Ô7ªÔRB‚õÀìÀìq2u	ÄÐ¡Axˆýh—Žà€pÀìD7P¡Šq"xç á<r£4ïË<íÙóçÑ¡>eZ…è48¼g t à_ Þúð ˆòhÀÞ °nñAz‹ /PœpìÂòôæ':S;§Å$ðN ”Iïz|ROF”@.õ¨0À ã ˆ<` 3 û:xˆòh¨‚òý‰ÀŸ˜'€q™ƒrõ(§ˆÀ 8¨O?ŽçyBO„à¢'Š"yâO˜âˆ&(Š"x*P™@î àØ'‚(t‡'€ˆüˆ„þ¥=DDž„Í<¥F}D¤D§ÅF|Ÿ½ó À À¦fZû=ßÅ|QDðïFDó$ŸE|O7E¡ š ^=9¾uOc€ˆÔˆ„ü’žžòžïB;ÞRŸB¡ðMÔ]²=ô.éù™  v ,$	XË¶éýÞO “Ê$õ	<RO<€B¤ð	DÆðª	 P ,à9å-EîàˆíxØÔ"@¦`EÏSGxóè ¾P€LwùžA`  <HÆ»ôþ>VQ(§Å%ø&Q¨Q®ð¢ B ò °IÌŽ~Q'‰xì‰ê‰ôà]x¨î€žÉŸ< SÑïD^ $‰Sù<ž;'¨@1wŠ}Bc(À#×{ÄQð€  c ð,&äg?'” ˆíhÓ˜70Q©ôƒ…Ôh7x¡xXž'J8 àq;ÜýŽE¼XîöHN“Ê$ñé<îñxP ´  øh œ	ø·•TþQw‰hñÄ˜æ'vazæ¡Ú‰3O¨‰8áDbÀ^hbûÊSÝèqèXÔ@SãS£)à€À àÎ
+rüF»à)ÀˆÌh3/P`#‚¨3_…ÿA—‰Ô¡Ú„ª QµOz¿}
+zŠzŒõ½<¦}F†À PO —4þÍ==@ˆôhô0N^ðÃØj/0ô˜A ôÃDì“æ¢!¸á;òÐÈ#äÑ>Þàg¨¡=	@ xà¦Ÿ'B~pˆôh¨Ú‚ñÃð°¾AÃ¸Á¡‚ÑºƒX4‚(3NÁ´1Ãò÷p¼ƒ8¨/N$0\^8:tô—¨NˆÌh˜Çê)0˜,Nò0;0•<2Ü	`x¾0¨Þf	Ôh^ò˜'x^†àQð~`œˆÇh;˜g»Äë‚¹|°	R^`_ŒBö‚˜'N8/v£è4P^¢ò( /:ƒB÷f€ˆïhæ¢˜Ž3O"…(Ô@¶1Axš bò÷Š&‚ÀÞ ßè3Q ÜqXÁ)ƒ¸30N (ˆÛh Ð¼ÁBuð(¨Ð<
+¢O¤TfŸcì¡@Ü
+&ú…æ
+*/‚fœ} Ž
+”'‚ `ˆÛh Ò'P^`:Äï ‚•'äÉôP!0Í;Ì®‚æåê@ ¼,/ÑB3‚¤éÌ˜;€ˆÛhÌ)N8‹ƒñ"pÈ¾)‚ë¼€¼p#‚h30¶ 0Ou	öÉÓ˜g
+À$²‚þ €À‰hæ_òu
+)/'êó“ôãÄï N#/6âv¨¼À½B„éÌ 
+Á*Áœ(X^ñ;(ÁÁzƒ ˆÑx*@½ž04gVÎð_“£â{ây€pÎ#’Ó÷'¨gbdéÌŽ§çÕ	Ì§P ¬ÀF ™:qÃpüq ˆÑxi÷ž3À¼ž¡ž6ûÚ*@Ç H9,¿>‡nÎï¦Šzp6»¼(gÏB¢{#¹YÞtõ ˆåˆ
+‹ÏzŠyM
+zˆ	
+~J|]öFúƒ@L#Ã¬—É§÷Ðz	bBz‡Èp3èŠŸSFŒç7‹ô"§üO|ÐÆð‰ˆ
+~:ŠŠy8
+zˆŠyJx¨
+Šˆý €1€ï³ƒOž rZ‡½   æžžï‰CÞxþhŸ¢žyP)§¾g©œˆÛx=¼gÏSDú WS=Ø1¨ ˜83çêïRÀO§ À ð1§ð"§ÓP§„üðÛ³Ô€¨ž¡ ˆ³x
+3çÑSF|ðð=è”Ÿ<È ðÁ\+ç›£Ú{èR€42'†µú~$öHàh=ßF„lôÓÕ3ÀˆëhÄwu'Ñ:e	Ô;N q™xp' V^'N¡³P^að xœ?N¢Ô;OTà*/N`Èn`^u‚€ˆ×h ÐÀW
+	Thœ¸n8NíB„ïÂÅ§Ð¿Ôð'a"„æ&Dãu@¨Ñ=F—Œ‹ÔÔ¡DÀ ˆ×h—¯D§0NšðfœÁA|ŽÁ¢”'/zo	ùÈIêÔï3§ÞPÏŸ
+‰òžï´ã8ˆÃhf`?æS—Žƒó4NBx4QÇŽøA¹‚‚X 0˜'Qzˆ>‚`ÒTŽ)P	ÀˆÿxÌ“éÀ÷œÀ#3¨'ÝPOPÐŸRH„uöP¡DSˆÁ ÝBqÀW‚v*4€„Á:ŒÔg
+30ˆÿh v`[hžÿ§00ô¼À¾Þ@a ¹8Ü½Œ „o™y‚u	ô:zSèaÌ	óQ¡|
+ ˆÃhÌT'0Ñ>p'v¢”ê¼PìÁÙ†iþO¢w€  °B¿²ûÂ}83ç*Þ.u	ð*hC8ˆëh €¼É:ˆƒ|ÌÔhŸáº…§ó0Ñ?ÉôPùÔ eê'çR=	ê‹ú4mxÏŸ:‡¼ð3èˆúh Î“'ƒDì»P¡<	Ê N8Ô(‚¤éÓ²À eá\”Ì<OÀF…âBüÔfœèn`œ‰hô/øÀn¡<¨'f¡@ÝB„Eåê˜@JœÁ;(P8‡úAPÝÜ(0/úã‡eúA¢w‰ýN`œ‰h 7O ´Ã84‚	Á :ˆ@¶ÌêÄþ—¨éè ` \¸Är®tõp>'ñÐðîÈŸR55Éõ3€                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
