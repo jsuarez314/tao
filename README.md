@@ -4,12 +4,12 @@ We compile a total of 3772 transient objects (AGN,BZ,CV,SN and OTHER) and 14225 
 
 | Class | Total Objects |
 |:-----:|:-------------:|
-|  AGN  |      604      |
-|   BZ  |      234      |
-|   CV  |      765      |
-|   SN  |      1359     |
-| OTHER |      810      |
-|  NON  |     14225     |
+|  AGN  |      606      |
+|   BZ  |      239      |
+|   CV  |      772      |
+|   SN  |      1372     |
+| OTHER |      818      |
+|  NON  |     14000     |
 
 
 ## Transients Objects
